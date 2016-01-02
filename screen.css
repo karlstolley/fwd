@@ -188,6 +188,8 @@ ul > li {
   margin-bottom: 0.625em; }
 #calendar .agenda {
   margin-bottom: 0; }
+#calendar .agenda > li {
+  padding-bottom: 1em; }
 #calendar h3 {
   margin-bottom: 0; }
   #calendar h3 small {
