@@ -188,7 +188,7 @@ ul > li {
   .agenda {
   }
   .agenda > li {
-    padding-bottom: 1em;
+    padding-bottom: .625em;
   }
   h3 {
     margin-bottom: 0;
@@ -276,5 +276,19 @@ ul > li {
   }
 }
 /* Big */
+@media screen and (min-width: 48em) {
+  .agenda > li {
+    box-sizing: border-box;
+    margin: 0;
+    width: 50%;
+    float: left;
+  }
+  .agenda + * {
+    clear: both;
+  }
+  h4 {
+    max-width: 75%;
+  }
+}
 
 /* Massive */

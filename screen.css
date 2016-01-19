@@ -203,7 +203,7 @@ ul > li {
     padding: .625em 0;
     margin-bottom: .625em; }
   #calendar .agenda > li {
-    padding-bottom: 1em; }
+    padding-bottom: .625em; }
   #calendar h3 {
     margin-bottom: 0; }
     #calendar h3 small {
@@ -273,6 +273,18 @@ ul > li {
   .hasjs .week {
     clear: both; } }
 /* Big */
+@media screen and (min-width: 48em) {
+  .agenda > li {
+    box-sizing: border-box;
+    margin: 0;
+    width: 50%;
+    float: left; }
+
+  .agenda + * {
+    clear: both; }
+
+  h4 {
+    max-width: 75%; } }
 /* Massive */
 
 /*# sourceMappingURL=screen.css.map */
