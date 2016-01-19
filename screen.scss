@@ -11,8 +11,8 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 /* Modular Scale http://www.modularscale.com/?19&px&1.25&web&text */
 
-$lineheight: 1.25em;
-$fontsize: 1.188em; /* 18px */
+$lineheight: 1.25em; /* 22.5px */
+$fontsize: 1.188em; /* 19px */
 
 /* Color Inspiration from http://www.colourlovers.com/palette/2991458/Bedroom */
 $forecolor: #333;
@@ -66,13 +66,13 @@ a {
   }
 }
 h1 {
-  font-size: $fontsize * 1.25;
-  line-height: ($lineheight * 1.5) / ($fontsize * 1.25);
+  font-size: $fontsize * 1.25; // 23.75px
+  line-height: ($lineheight * 1.5) / ($fontsize * 1.25); // 33.75px
   small {
     display: block;
-    font-size: $fontsize / 1.25 * .64;
+    font-size: $fontsize / 1.25 * .64;  // 15.2px
     color: $neutgray;
-    padding-bottom: $fontsize / 1.25;
+    padding-bottom: $fontsize / 1.25; // 15.2px
   }
 }
 h2,h3,h4,h5,h6 {
@@ -109,8 +109,8 @@ ul > li {
 .tagline,
 .fineprint {
   color: $acctgray;
-  font-size: $fontsize * 0.8;
-  padding-top: ($lineheight/0.8)/2 /* 1.25 / .8 = 1.5625 */
+  font-size: $fontsize * 0.8; // 15.2px
+  padding-top: ($lineheight/0.8)/2 /* 1.25 / .8 = 1.5625 */  // 9px
 }
 
 .label {
