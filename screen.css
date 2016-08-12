@@ -244,7 +244,7 @@ ul > li {
   cursor: pointer; }
 .hasjs .extended {
   display: none; }
-.hasjs .content.is-visible .is-next, .hasjs .content.is-visible .extended {
+.hasjs .primary.is-visible .is-next, .hasjs .primary.is-visible .extended {
   display: block; }
 .hasjs #show-calendar {
   margin-bottom: 1.25em; }
