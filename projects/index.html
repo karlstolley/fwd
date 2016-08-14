@@ -28,43 +28,130 @@
   <section class="primary">
     <h2 class="label">Projects</h2>
     <article>
-      <h3 id="project-two">Project Two: Media-Rich Single-Page Site <small>Due March 21, 11:59pm CT</small></h3>
+      <h3 id="project-one">Project One: Valid, Responsive-Ready HTML <small>Due Wednesday, September 21, 11:59pm CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          Single-page sites have seen a resurgent interest in recent years, particularly for
-          showcasing products, services, or an entire company. See <a
-          href="https://onepagelove.com/">One Page Love</a> for a gallery of examples. This project
-          requires you to engage in well-crafted, mobile-first responsive web design with careful,
-          bandwidth-friendly treatment of rich media elements as well as responsive images for
-          traditional and high-DPI/“retina” screens. You will use the site to tell the story of a
-          particular company, product, or organization, and implement elements of your onboarding
-          project (Project One). Alternatively, you may use this project to build a one-page site for
-          that tells your own professional story, perhaps a <a href="https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages">GitHub user page</a>
-          at &lt;username&gt;.github.io.
-        </p>
-        <p>
-          By engaging in storytelling, you should think both about how the text content of a site
-          tells a story, but also how image, audio, and video also helps to tell a story. As we will
-          see in the remaining projects in class, good HCI is also good story-telling. It’s a story
-          that users/readers can insert themselves into. This project invites you to get even stronger
-          in your HTML, CSS, and JavaScript skills, while also thinking about techniques and
-          strategies to get a specific group of people to want to read all the way through a page.
+          For this project, you will create at least three richly structured HTML pages that will
+          form the foundations of a professional web presence for yourself. One of the pages must
+          be your professional resume.
         </p>
       </section>
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
-          <li>Design and execute a progressively enhanced page focused on system users and tasks</li>
-          <li>Write valid HTML5 and CSS, and error-free JavaScript</li>
-          <li>Apply design principles including color/material, typography, accessible media, and grid-based design</li>
-          <li>Use Modernizr or another lightweight feature-detection script for implementing edge CSS technologies (with appropriate fallbacks for lesser browsers)</li>
-          <li>Write compelling text content; capture images, audio, and video and prepare them for the web</li>
-          <li>Prepare a touch-friendly, mobile-first responsive web design</li>
           <li>
-            Engage in agile, iterative Web design and development, supported by version control
+            Produce modern standards-compliant HTML pages
           </li>
-          <li>Experiment with design and interaction patterns for pleasing user experience</li>
+          <li>
+            Write valid, well-formed semantic HTML
+          </li>
+          <li>
+            Effectively comment on and format source code for maximum readability
+          </li>
+          <li>
+            Track the development of a project over time and collaborate with others using version
+            control
+          </li>
+        </ul>
+      </section>
+      <section class="deliverables">
+        <h4>Deliverables &amp; Milestones</h4>
+        <ol>
+          <li>
+            A Basecamp post describing your work in progress. Your post should include the URL to
+            your GitHub repository. Include in the text of your post one or two things you would
+            like feedback on from the instructor and other students in the class (due no later than
+            September 7).
+          </li>
+          <li>
+            Substantive comments critiquing at least three other student projects. (by September 14,
+            11:59pm CT)
+          </li>
+          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+            <ol>
+              <li>
+                A 4-5 sentence self-critique memo of your project and your progress in class to this
+                point
+              </li>
+              <li>
+                The https:// link to your project’s GitHub repository
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </section>
+      <section class="requirements">
+       <h4>Requirements</h4>
+        <ul>
+          <li>
+            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF),
+            entabbed with spaces (two spaces per tab)
+          </li>
+          <li>
+            Valid, well-formed semantic HTML5. Projects whose HTML does not validate with the
+            <a href="https://validator.w3.org/">W3C HTML validator</a> will receive a zero-point,
+            failing grade. In the unlikely event that you discover a validation error or warning
+            that is a genuine bug in the validator, you must acknowledge that bug in the memo that
+            accompanies your project, and point to the relevant documentation, such as
+            specifications or an existing reputable bug report, that your source is in fact correct.
+            Get in the habit early of validating your HTML before you commit to Git.
+          </li>
+          <li>
+            Only structural, semantic uses of HTML elements and attributes. <b>Absolutely no</b>
+            table markup, break tags, or any other use of HTML to achieve a particular page layout.
+            (All layout and design will be handled via CSS in the next project. For this project, I
+            urge you not to spend much time at all looking at your pages in a browser. Stick close
+            to your source code and the HTML validator.)
+          </li>
+          <li>
+            A semantically structured navigation area for accessing each of your project’s pages
+            from any other page
+          </li>
+          <li>
+            Include at least two different forms of media (image, audio, video) in your project
+          </li>
+          <li>
+            Semantically structured text-based content to accompany all media elements (image,
+            audio, video)
+          </li>
+          <li>
+            Organized, readable source that is hand-written and original (no WYSIWYGs or
+            code-generators, no Bootstrap or other off-the-shelf frameworks)
+          </li>
+          <li>
+            Directory-based URLs with use of the default-served <code>index.html</code> file, so
+            that you can point to, for example, <code>example.com/resume/</code>
+          </li>
+          <li>
+            A Git repository with frequent commits and meaningful commit messages that accurately
+            reflect each set of changes that you make
+          </li>
+          <li>
+            Git repository must contain <b>only</b> the files and commits from this project</li>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <article>
+      <h3 id="project-two">Project Two: Responsive, Relative-Unit CSS <small>Due Wednesday, October 12, 11:59pm CT</small></h3>
+      <section class="description">
+        <h4>Project Description</h4>
+        <p>
+          This project builds on Project One, which you will fully style with CSS to provide a basic
+          typographic treatment and responsive design that makes judicious use of media queries and
+          relative units (em/rem, vw, %). You will deploy your pages to a server pointed at by your
+          personal domain name, or a subdomain if you have an existing professional web presence.
+        </p>
+      </section>
+      <!--
+      <section class="goals">
+        <h4>Project Goals</h4>
+        <ul>
+          <li>
+            Deploy web pages to a public server (GitHub pages, set up with your own domain name or
+            subdomain)
+          </li>
         </ul>
       </section>
       <section class="deliverables">
@@ -72,26 +159,25 @@
         <ol>
           <li>
             A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
-            similar service and posted to Basecamp. It should include a world-viewable URL of your
+            similar service and posted to Basecamp. Your Basecamp post should include a world-viewable URL of your
             project, plus the URL to your GitHub repository. Include in the text of your post one or
-            two things you would like feedback on from the instructor and other students in the class
-            (due no later than March 4).
+            two things you would like feedback on from the instructor and other students in the
+            class (due no later than September 7).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects. (by March 7,
+            Substantive comments critiquing at least three other student projects. (by September 14,
             11:59pm CT)
           </li>
-          <li>An email to the instructor containing the projects two final deliverables:
-            <ul>
+          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+            <ol>
               <li>
-                The https:// link to your project’s GitHub repository (email URL to instructor by
-                March 21, 11:59pm CT)
+                A 4-5 sentence self-critique memo of your project and your progress in class to this
+                point
               </li>
               <li>
-                A 4-5 sentence self-critique of your project and your progress in class to this point
-                (include in email to instructor by March 21, 11:59pm CT)
+                The https:// link to your project’s GitHub repository
               </li>
-            </ul>
+            </ol>
           </li>
         </ol>
       </section>
@@ -113,6 +199,137 @@
           <li>GitHub repository must contain <b>only</b> the files and commits from this project</li>
         </ul>
       </section>
+      -->
+    </article>
+    <article>
+      <h3 id="project-three">Project Three: Progressively Enhanced JavaScript <small>Due Wednesday, November 16, 11:59pm CT</small></h3>
+      <section class="description">
+        <h4>Project Description</h4>
+        <p>
+          For this project, you will work in teams of two or three students to develop a multi-page
+          site that is progressively enhanced with JavaScript and that pulls in data from an open
+          JSON API that does not require authorization.
+        </p>
+      </section>
+      <!--
+      <section class="goals">
+        <h4>Project Goals</h4>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+      <section class="deliverables">
+        <h4>Deliverables &amp; Milestones</h4>
+        <ol>
+          <li>
+            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
+            similar service and posted to Basecamp. Your Basecamp post should include a world-viewable URL of your
+            project, plus the URL to your GitHub repository. Include in the text of your post one or
+            two things you would like feedback on from the instructor and other students in the
+            class (due no later than September 7).
+          </li>
+          <li>
+            Substantive comments critiquing at least three other student projects. (by September 14,
+            11:59pm CT)
+          </li>
+          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+            <ol>
+              <li>
+                A 4-5 sentence self-critique memo of your project and your progress in class to this
+                point
+              </li>
+              <li>
+                The https:// link to your project’s GitHub repository
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </section>
+      <section class="requirements">
+       <h4>Requirements</h4>
+        <ul>
+          <li>Valid, well-formed HTML5 and CSS</li>
+          <li>One single HTML file, and one single CSS file</li>
+          <li>JavaScript that is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words) and throws no errors</li>
+          <li>HTML-based fallbacks for any media elements (image, audio, video) that you include</li>
+          <li>
+            Organized, readable source that is hand-written and original (no WYSIWYGs or
+            code-generators, no Bootstrap or other off-the-shelf frameworks)
+          </li>
+          <li>
+            A Git repository with frequent commits and meaningful commit messages that accurately
+            reflect each set of changes that you make
+          </li>
+          <li>GitHub repository must contain <b>only</b> the files and commits from this project</li>
+        </ul>
+      </section>
+      -->
+    </article>
+    <article>
+      <h3 id="project-four">Project Four: Automated Deployment with Git Hooks <small>Due Wednesday, September 21, 11:59pm CT</small></h3>
+      <section class="description">
+        <h4>Project Description</h4>
+        <p>
+          This semester, you have gotten used to the magic of GitHub's <code>gh-pages</code> branch
+          for deploying pages publicly to the Web. For this final assignment, you will set up a
+          server of your choosing to accept Git pushes and use Git's post-hooks functionality to
+          move your site files from Project 3 from a bare repo into the site root of a public-facing
+          server.
+        </p>
+      </section>
+      <!--
+      <section class="goals">
+        <h4>Project Goals</h4>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+      <section class="deliverables">
+        <h4>Deliverables &amp; Milestones</h4>
+        <ol>
+          <li>
+            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
+            similar service and posted to Basecamp. Your Basecamp post should include a world-viewable URL of your
+            project, plus the URL to your GitHub repository. Include in the text of your post one or
+            two things you would like feedback on from the instructor and other students in the
+            class (due no later than September 7).
+          </li>
+          <li>
+            Substantive comments critiquing at least three other student projects. (by September 14,
+            11:59pm CT)
+          </li>
+          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+            <ol>
+              <li>
+                A 4-5 sentence self-critique memo of your project and your progress in class to this
+                point
+              </li>
+              <li>
+                The https:// link to your project’s GitHub repository
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </section>
+      <section class="requirements">
+       <h4>Requirements</h4>
+        <ul>
+          <li>Valid, well-formed HTML5 and CSS</li>
+          <li>One single HTML file, and one single CSS file</li>
+          <li>JavaScript that is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words) and throws no errors</li>
+          <li>HTML-based fallbacks for any media elements (image, audio, video) that you include</li>
+          <li>
+            Organized, readable source that is hand-written and original (no WYSIWYGs or
+            code-generators, no Bootstrap or other off-the-shelf frameworks)
+          </li>
+          <li>
+            A Git repository with frequent commits and meaningful commit messages that accurately
+            reflect each set of changes that you make
+          </li>
+          <li>GitHub repository must contain <b>only</b> the files and commits from this project</li>
+        </ul>
+      </section>
+      -->
     </article>
   </section>
 </main>
