@@ -54,7 +54,7 @@ html {
 }
 
 body {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
 }
 p {
@@ -75,21 +75,23 @@ ol > li {
   list-style-type: decimal;
 }
 h1 {
-  font-size: 42.635px;
-  line-height: 48px
+  font-size: 33.761px;
+  line-height: 36px;
+  padding-bottom: 12px;
 }
 h2 {
-  font-size: 31.984px;
-  line-height: 36px;
+  font-size: 25.537px;
+  line-height: 24px;
   padding-bottom: 12px;
 }
 h3,
 h4 {
-  font-size: 23.994px;
-  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 12px;
   padding-bottom: 12px;
 }
 h4 {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
