@@ -48,6 +48,8 @@ summary {
   display: block;
 }
 
+/* ========== Base Styles ========== */
+
 html {
   font-family:'Depot New W00', Helvetica, Arial, sans-serif;
   padding: 24px;
@@ -74,6 +76,10 @@ ul > li {
 ol > li {
   list-style-type: decimal;
 }
+/* Avoid over-padding nested lists */
+li li:last-child {
+  padding-bottom: 0;
+}
 h1 {
   font-size: 33.761px;
   line-height: 36px;
@@ -95,3 +101,23 @@ h4 {
   text-transform: none;
 }
 
+/* ========== Layout ========== */
+
+/* ========== Modules ========== */
+
+/* Calendar */
+.calendar-weeks {
+  margin-left: 0;
+  padding-bottom: 0;
+}
+.assigned {
+  background-color: #EEF; /* Temporary color, obvs */
+}
+.week,
+.agenda > ol:first-child > li,
+.assigned > ul > li {
+  list-style-type: none;
+}
+.assigned h3 {
+  margin-left: 24px;
+}
