@@ -138,14 +138,21 @@ h4 {
   padding-top: 0;
   padding-bottom: 24px;
 }
-.assigned .meeting {
-  color: red;
-  font-weight: bold;
-}
 
 .assigned {
   background-color: #EEF; /* Temporary color, obvs */
   margin-top: 12px;
   margin-bottom: 36px;
   padding-top: 12px;
+  padding-right: 24px;
+}
+.assigned h3 {
+  padding-left: 24px;
+  padding-bottom: 12px;
+}
+.assigned h4 {
+  padding-bottom: 0;
+}
+.assigned ol {
+  padding-bottom: 12px;
 }
