@@ -68,7 +68,7 @@ li {
 ol,
 ul {
   margin-left: 24px;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
 }
 ul > li {
   list-style-type: square;
@@ -76,8 +76,14 @@ ul > li {
 ol > li {
   list-style-type: decimal;
 }
+li ul,
+li ol {
+  padding-top: 12px;
+}
 /* Avoid over-padding nested lists */
-li li:last-child {
+li ol,
+li ul,
+li:last-child {
   padding-bottom: 0;
 }
 h1 {
@@ -88,17 +94,17 @@ h1 {
 h2 {
   font-size: 25.537px;
   line-height: 24px;
-  padding-bottom: 12px;
+  padding-bottom: 48px;
 }
 h3,
 h4 {
   text-transform: uppercase;
   font-weight: bold;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
 }
 h4 {
   text-transform: none;
+  padding-bottom: 12px;
 }
 
 /* ========== Layout ========== */
@@ -112,6 +118,9 @@ h4 {
 }
 .assigned {
   background-color: #EEF; /* Temporary color, obvs */
+  margin-top: 12px;
+  margin-bottom: 36px;
+  padding-top: 12px;
 }
 .week,
 .agenda > ol:first-child > li,
