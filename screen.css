@@ -101,7 +101,7 @@ h1 {
 h2 {
   font-size: 25.537px;
   line-height: 24px;
-  padding-bottom: 48px;
+  padding-bottom: 12px;
 }
 h3,
 h4 {
@@ -175,4 +175,26 @@ footer {
 }
 .assigned ol {
   padding-bottom: 12px;
+}
+
+.preview {
+  background-color: yellow;
+  padding-top: 24px;
+  margin-right: -12px;
+  padding-right: 12px;
+  margin-left: -12px;
+  padding-left: 12px;
+  margin-bottom: 24px;
+}
+#calendar .preview {
+  margin-bottom: 0;
+}
+
+/* ========== State ========== */
+
+.hasjs .extended {
+  display: none;
+}
+.is-visible .extended {
+  display: block;
 }
