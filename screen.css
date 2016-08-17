@@ -67,8 +67,8 @@ li {
 }
 ol,
 ul {
-  margin-left: 24px;
   padding-bottom: 24px;
+  margin-left: 24px;
 }
 ul > li {
   list-style-type: square;
@@ -116,17 +116,36 @@ h4 {
   margin-left: 0;
   padding-bottom: 0;
 }
+.week {
+  margin-left: 0;
+}
+.week,
+.meeting,
+.assigned > ul > li {
+  list-style-type: none;
+}
+.meeting {
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.meeting ol {
+  padding-top: 0;
+}
+.agenda .meeting {
+  padding-left: 0;
+}
+.agenda > ol:first-child {
+  padding-top: 0;
+  padding-bottom: 24px;
+}
+.assigned .meeting {
+  color: red;
+  font-weight: bold;
+}
+
 .assigned {
   background-color: #EEF; /* Temporary color, obvs */
   margin-top: 12px;
   margin-bottom: 36px;
   padding-top: 12px;
-}
-.week,
-.agenda > ol:first-child > li,
-.assigned > ul > li {
-  list-style-type: none;
-}
-.assigned h3 {
-  margin-left: 24px;
 }
