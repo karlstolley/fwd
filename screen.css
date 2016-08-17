@@ -30,7 +30,9 @@ em,
 i {
   font-style: italic;
 }
-
+del {
+  color: #CCC;
+}
 /* HTML5 Elements as Blocks; Cribbed from HTML5 Boilerplate */
 article,
 aside,
@@ -49,6 +51,11 @@ summary {
 }
 
 /* ========== Base Styles ========== */
+
+/*
+  Using 19px/1.333 modular scale
+  http://www.modularscale.com/?19&px&1.333&web&text
+*/
 
 html {
   font-family:'Depot New W00', Helvetica, Arial, sans-serif;
@@ -110,6 +117,16 @@ h4 {
 /* ========== Layout ========== */
 
 /* ========== Modules ========== */
+
+/* Header & Footer */
+footer {
+  padding-top: 72px;
+}
+.fineprint {
+  font-size: 15px;
+  line-height: 18px;
+  padding-bottom: 24px;
+}
 
 /* Calendar */
 .calendar-weeks {
