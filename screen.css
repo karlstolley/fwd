@@ -36,6 +36,11 @@ del {
 /* Links */
 a {
   text-decoration: none;
+  color: #a7c3c9;
+  border-bottom: 1px dotted;
+}
+.preview a {
+  color: #BA370B;
 }
 a:hover,
 a:active {
@@ -72,6 +77,8 @@ summary {
 html {
   font-family:'Depot New W00', Helvetica, Arial, sans-serif;
   padding: 12px;
+  background-color: #594e51;
+  color: #dedede;
 }
 
 body {
@@ -113,7 +120,7 @@ h1 {
 h2 {
   font-size: 25.537px;
   line-height: 24px;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
 }
 h3,
 h4 {
@@ -132,7 +139,8 @@ h4 {
 
 /* Header & Footer */
 header {
-  padding-top: 48px;
+  padding-top: 60px;
+  padding-bottom: 24px;
 }
 footer {
   padding-top: 72px;
@@ -141,7 +149,7 @@ small,
 .tagline,
 .fineprint {
   font-weight: 200;
-  color: #666;
+  color: #998f8b;
   display: block;
   /*
   font-size: 15px;
@@ -149,7 +157,9 @@ small,
   padding-bottom: 24px;
   */
 }
-
+.preview small {
+  color: #594E51;
+}
 /* Navigation */
 nav {
 
@@ -158,7 +168,6 @@ nav {
   position: absolute;
   width: 100%;
   top: 0;
-  background-color: black;
   padding-bottom: 0;
   margin-left: -12px;
   margin-right: -12px;
@@ -170,14 +179,17 @@ nav {
   padding-bottom: 0;
 }
 .nav > li:first-child a {
-  background-color: yellow;
+  color: #142736;
+  background-color: #A7C3C9;
 }
 .nav a {
   display: block;
   text-align: center;
   line-height: 1;
   padding: 12px;
-  background: red;
+  background-color: #142736;
+  color: #dedede;
+  border-bottom: 0;
 }
 
 /* Calendar */
@@ -212,11 +224,14 @@ nav {
 }
 
 .assigned {
-  background-color: #EEF; /* Temporary color, obvs */
+  background-color: #746b6e;
   margin-top: 12px;
   margin-bottom: 36px;
   padding-top: 12px;
   padding-right: 24px;
+}
+.preview .assigned {
+  background-color: #ced6d8;
 }
 .assigned h3 {
   padding-left: 24px;
@@ -230,7 +245,8 @@ nav {
 }
 
 .preview {
-  background-color: yellow;
+  background-color: #A7C3C9;
+  color: #142736;
   padding-top: 24px;
   margin-right: -12px;
   padding-right: 12px;
