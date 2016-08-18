@@ -21,35 +21,6 @@ html {
   text-size-adjust: 100%;
 }
 
-b,
-strong {
-  font-weight: bold;
-}
-cite,
-em,
-i {
-  font-style: italic;
-}
-del {
-  color: #CCC;
-}
-/* Links */
-a {
-  text-decoration: none;
-  color: #a7c3c9;
-  border-bottom: 1px dotted;
-}
-.preview a {
-  color: #BA370B;
-}
-a:hover,
-a:active {
-
-}
-a:visited {
-
-}
-
 /* HTML5 Elements as Blocks; Cribbed from HTML5 Boilerplate */
 article,
 aside,
@@ -80,10 +51,37 @@ html {
   background-color: #594e51;
   color: #dedede;
 }
-
 body {
   font-size: 19px;
   line-height: 24px;
+}
+b,
+strong {
+  font-weight: bold;
+}
+cite,
+em,
+i {
+  font-style: italic;
+}
+del {
+  color: #CCC;
+}
+/* Links */
+a {
+  text-decoration: none;
+  color: #a7c3c9;
+  border-bottom: 1px dotted;
+}
+.preview a {
+  color: #BA370B;
+}
+a:hover,
+a:active {
+
+}
+a:visited {
+
 }
 p {
   padding-bottom: 24px;
