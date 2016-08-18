@@ -179,8 +179,7 @@ nav {
   padding-bottom: 0;
 }
 .nav > li:first-child a {
-  color: #142736;
-  background-color: #A7C3C9;
+
 }
 .nav a {
   display: block;
@@ -190,6 +189,13 @@ nav {
   background-color: #142736;
   color: #dedede;
   border-bottom: 0;
+}
+
+#calendar #nav-cal a,
+#projects #nav-pro a,
+#policies #nav-pol a {
+  color: #142736;
+  background-color: #A7C3C9;
 }
 
 /* Calendar */
