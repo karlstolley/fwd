@@ -55,14 +55,15 @@
 
   // Toggles for showing full calendar
   // Append a show link (.button)
-  $('#calendar .primary').append('<a class="button" href="#current-week"><span>Show all</span> calendar weeks</a>');
+  $('.label').append(' <small class="button"><span class="showing">Current</span> Weeks <a class="toggle" href="#current-week">Show All</a></small>');
 
   }
 
   // Toggle to actually show/hide content
   $('.button').on('click', function(e) {
     $(this).toggleClass('is-active');
-    $(this).find('span').toggleLabel('Show all','Close extended view of');
+    $(this).find('.showing').toggleLabel('All','Current');
+    $(this).find('.toggle').toggleLabel('Show All', 'Show Only Current');
     $(this).closest('.primary').toggleClass('is-visible');
   });
 

@@ -147,7 +147,8 @@ footer {
 }
 small,
 .tagline,
-.fineprint {
+.fineprint,
+.button {
   font-weight: 200;
   color: #998f8b;
   display: block;
@@ -159,6 +160,10 @@ small,
 }
 .preview small {
   color: #594E51;
+}
+.label .button {
+  font-size: 19px;
+  text-transform: uppercase;
 }
 /* Navigation */
 nav {
