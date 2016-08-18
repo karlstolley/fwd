@@ -190,7 +190,7 @@ nav {
   display: block;
   text-align: center;
   line-height: 1;
-  padding: 0.6315789474em;
+  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
   background-color: #142736;
   color: #dedede;
   border-bottom: 0;
@@ -284,5 +284,8 @@ nav {
 @media screen and (min-width: 21.5625em) {
   nav {
     font-weight: normal;
+  }
+  .nav a {
+    padding: 0.6315789474em;
   }
 }
