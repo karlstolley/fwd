@@ -400,3 +400,51 @@ nav {
     width: 35%;
   }
 }
+/* @1030px */
+@media screen and (min-width: 64.375em) {
+  .tagline,
+  .fineprint {
+    width: 50%;
+  }
+  #links,
+  #instructor,
+  footer {
+    padding-left: 10%;
+  }
+  .link-group {
+    left: 10%;
+    width: 26.66666667%
+    width: 274.66666667px;
+    background: yellow;
+  }
+  #essential-references {
+    position: relative;
+    padding-left: 33.33333333%;
+    width: 66.66666667%;
+  }
+  #mdn,
+  #webplatform {
+    width: 50%;
+    width: 274.66666667px;
+    background: red;
+  }
+  #technical-specifications {
+    position: absolute;
+    right: 0;
+    width: 33.33333333%;
+    top: 36px;
+    width: 274.66666667px;
+    background: blue;
+  }
+  #instructor {
+    position: relative;
+  }
+  #office-hours {
+    position: absolute;
+    width: 33.33333333%;
+    top: 48px;
+    width: 274.66666667px;
+    left:  274.66666667px;
+    background: red;
+  }
+}
