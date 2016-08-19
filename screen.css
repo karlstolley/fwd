@@ -272,6 +272,9 @@ nav {
 #calendar .preview {
   margin-bottom: 0;
 }
+#calendar .is-next {
+  margin-bottom: 1.2631578947em;
+}
 
 
 /* ========== State ========== */
