@@ -1,0 +1,10 @@
+{
+    // names of npm modules to load into htmllint
+    "plugins": [],
+
+    // TODO: export htmllint's default cfg
+    "indent-width": 2,
+    "attr-name-style": "dash", // e.g., for data- attributes
+    "id-class-style": "dash", // e.g., week-one
+    "tag-bans": ["style"] // more permissive than the default
+}
