@@ -2,9 +2,15 @@
     // names of npm modules to load into htmllint
     "plugins": [],
 
-    // TODO: export htmllint's default cfg
+    // TODO: export htmllint"s default cfg
+    "indent-style": "spaces",
     "indent-width": 2,
     "attr-name-style": "dash", // e.g., for data- attributes
-    "id-class-style": "dash", // e.g., week-one
-    "tag-bans": ["style"] // more permissive than the default
+    "id-class-style": "dash", // e.g., week-one,
+    "attr-bans": ["align", "background", "bgcolor", "border", "frameborder", "longdesc", "marginwidth", "marginheight", "scrolling", "style", "width", "onload", "onclick"],
+    "tag-name-lowercase": true,
+    "tag-name-match": true,
+    "tag-close": true,
+    "tag-self-close": true,
+    "tag-bans": ["style", "iframe"] // more permissive than the default
 }
