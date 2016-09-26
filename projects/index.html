@@ -28,7 +28,7 @@
 <main id="content">
   <section class="primary">
     <h2 class="label">Major Projects</h2>
-    <article class="preview">
+    <article>
       <h3 id="project-one">Project One: Valid, Responsive-Ready HTML <small>Due Wednesday, September 21, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
@@ -134,8 +134,8 @@
         </ul>
       </section>
     </article>
-    <article>
-      <h3 id="project-two">Project Two: Responsive, Relative-Unit CSS <small>Due Wednesday, October 19, 11:59pm&nbsp;CT</small></h3>
+    <article id="current" class="preview">
+      <h3 id="project-two">Project Two: Responsive, Relative-Unit CSS <small>Due Wednesday, October 26, 11:59pm&nbsp;CT</small></h3>
       <section class="description">
         <h4>Project Description</h4>
         <p>
@@ -146,13 +146,31 @@
           if you have an existing professional web presence.
         </p>
       </section>
-      <!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
           <li>
-            Deploy web pages to a public server (GitHub pages, set up with your own domain name or
-            subdomain)
+            Produce modern standards-compliant, mobile-first CSS
+          </li>
+          <li>
+            Organize site typography with a modular scale, and set type on a baseline grid
+          </li>
+          <li>
+            Execute responsive design with flexible media and fluid grids, expressed as percentages
+          </li>
+          <li>
+            Continue to write and revise valid, well-formed semantic HTML
+          </li>
+          <li>
+            Effectively comment on and format source code for maximum readability
+          </li>
+          <li>
+            Track the development of a project over time and collaborate with others using version
+            control
+          </li>
+          <li>
+            Deploy web pages to a public server (can be GitHub pages, set up with your own domain
+            name or subdomain)
           </li>
         </ul>
       </section>
@@ -161,20 +179,26 @@
         <ol>
           <li>
             A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
-            similar service and posted to Basecamp. Your Basecamp post should include a world-viewable URL of your
-            project, plus the URL to your GitHub repository. Include in the text of your post one or
-            two things you would like feedback on from the instructor and other students in the
-            class (due no later than September 7).
+            similar service and posted to Basecamp. Your Basecamp post should include the URL to
+            your GitHub repository, and the live URL to your project if you’ve established one by
+            then. Include in the text of your post one or two <b>specific</b> things you would like
+            feedback or help on from the instructor and other students in the class (due no later
+            than October 12).
           </li>
           <li>
-            Substantive comments critiquing at least three other student projects. (by September 14,
+            Substantive comments critiquing at least three other student projects. (by October 19,
             11:59pm CT)
           </li>
-          <li>An email to the instructor containing the projects two final deliverables (by September 21, 11:59pm CT):
+          <li>
+            An email to the instructor containing the projects final deliverables (by October
+            26, 11:59pm CT):
             <ol>
               <li>
                 A 4-5 sentence self-critique memo of your project and your progress in class to this
-                point
+                point (write in the body of the email)
+              </li>
+              <li>
+                The public http:// or https:// link pointing to your live project
               </li>
               <li>
                 The https:// link to your project’s GitHub repository
@@ -186,22 +210,45 @@
       <section class="requirements">
        <h4>Requirements</h4>
         <ul>
-          <li>Valid, well-formed HTML5 and CSS</li>
-          <li>One single HTML file, and one single CSS file</li>
-          <li>JavaScript that is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words) and throws no errors</li>
-          <li>HTML-based fallbacks for any media elements (image, audio, video) that you include</li>
+          <li>Multiple linked valid, well-formed semantic HTML files (Project 1, essentially)</li>
+          <li>
+            HTML-based fallbacks for any media elements (image, audio, video) that you include
+          </li>
+          <li>
+            One single valid, error-free CSS file. <b>Do not</b> create more than one single
+            <code>screen.css</code> file for your project
+          </li>
+          <li>
+            Your HTML and CSS files should both be indented with 2 spaces per level of indent;
+            indent all CSS style rules inside the declaring block, and further indent all rules and
+            blocks inside your media queries
+          </li>
+          <li>
+            Open your CSS file with a set of reset styles (such as the minified Eric Meyer resets
+            from class demos)
+          </li>
+          <li>
+            Use of only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
+            units allowed
+          </li>
+          <li>
+            Use at least two min-width media queries to enhance your mobile-first styles for larger
+            screens
+          </li>
           <li>
             Organized, readable source that is hand-written and original (no WYSIWYGs or
-            code-generators, no Bootstrap or other off-the-shelf frameworks)
+            code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
           </li>
           <li>
             A Git repository with frequent commits and meaningful commit messages that accurately
             reflect each set of changes that you make
           </li>
-          <li>GitHub repository must contain <b>only</b> the files and commits from this project</li>
+          <li>
+            GitHub repository must contain <b>only</b> the files and commits from this project; you
+            are encouraged to use and further improve your HTML files from Project 1
+          </li>
         </ul>
       </section>
-      -->
     </article>
     <article>
       <h3 id="project-three">Project Three: Progressively Enhanced JavaScript <small>Due Wednesday, November 16, 11:59pm&nbsp;CT</small></h3>
