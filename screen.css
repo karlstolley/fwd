@@ -48,12 +48,25 @@ summary {
   http://www.modularscale.com/?19&px&1.333&web&text
 */
 
+/*
+  Fall color palette, taken from
+  http://duoparadigms.com/2013/10/11/10-color-palettes-perfect-autumnfall-season/
+
+  Cream: #F7EFD4
+  Taupe: #D4C2B2
+  Butter: #FADDAF
+  Pumpkin: #EB712F
+  Chili: #91371B
+  Coffee: #472C25
+
+*/
+
 html {
   font-family: "ff-karbid-slab-web-pro", "Times New Roman", serif;
   padding: 0.75em 9.2308%; /* 12px @ 16px/em; 60px / 650px*/
   padding-top: 0;
-  color: #296c94; /* blue */
-  background: #e1fdff;
+  color: #472C25; /* Coffee */
+  background: #F7EFD4; /* Cream */
 }
 header,
 footer,
@@ -84,12 +97,12 @@ ins {
 }
 /* Links */
 a {
-  color: #a63140; /* red */
+  color: #91371B; /* Chili */
   text-decoration: none;
   border-bottom: 0.05263157895em dotted;
 }
 .assigned a {
-  color: #ffd58e;
+  color: #FADDAF; /* Butter */
 }
 p {
   padding-bottom: 1.2631578947em;
@@ -123,9 +136,12 @@ h1 {
   line-height: 1.0663191256em; /* ~ 36px @ 33.761px/em */
   padding-bottom: 0.3554397085em; /* ~ 12px @ 33.761px/em */
   font-weight: bold;
-  color: #a63140; /* red */
+  color: #91371B; /* Chili */
 }
-h1 small { font-weight: normal; }
+h1 small {
+  font-weight: normal;
+  color: #C2BC74; /* Tea Leaf */
+}
 h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
   line-height: 0.9398128206em; /* ~ 24px @ 25.537px/em */
@@ -146,7 +162,8 @@ h4 {
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #ffd58e; /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.6875em solid #472C25; /* Coffee */
+  /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
   position: absolute;
@@ -160,9 +177,9 @@ nav {
 }
 
 /* ========== Modules ========== */
-/* Highlight differences on policy statement for 513 */
+/* Highlight differences on policy statement for 5xx */
 .itmd513 {
-  background: #ffd58e;
+  background: #FADDAF; /* Butter */
   padding-bottom: 0;
   margin-bottom: 0.6315789474em; /* ~ 12px @ 19px/em */
 }
@@ -186,7 +203,7 @@ small,
   display: block;
 }
 small {
-  color: #296c94; /* blue */
+  color: #EB712F; /* Pumpkin */
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
@@ -215,16 +232,16 @@ nav {
   padding-left: 3px;
   padding-top: 13px;
   padding-bottom: 11px;
-  color: #333;
-  background-color: #ffd58e;
+  background-color: #472C25; /* Coffee */
+  color: #EB712F; /* Pumpkin */
   border-bottom: 0;
 }
 
 #calendar #nav-cal a,
 #projects #nav-pro a,
 #policies #nav-pol a {
-  background: #a63140;
-  color: #ffd58e;
+  background-color: #EB712F; /* Pumpkin */
+  color: #472C25; /* Coffee */
 }
 
 /* Calendar */
@@ -269,9 +286,9 @@ nav {
 }
 
 .preview {
-  background-color: #ffd58e;
-  color: #222;
-  padding-top: 1.2631578947em;
+  background-color: #472C25; /* Coffee */
+  color: #FADDAF; /* Butter */
+  padding-top: 1.8947368421em;
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
   padding-right: 11.3208%;
   margin-left: -11.3208%;
@@ -280,33 +297,30 @@ nav {
 }
 .assigned {
   background-color: rgba(41,108,148,.2); /* dark blue shade */
+  background-color: #FADDAF; /* Butter */
   color: #222;
   padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
   margin-left: -11.3208%;
 }
-.week h3 {
-  color: #222;
+.week small {
+  color: #472C25; /* Coffee */
 }
-.week small,
 .preview small {
-  color: #296c94; /* dark blue */
+  color: #EB712F; /* Pumpkin */
 }
 .preview .assigned {
-  background-color: #a63140; /* red */
+  background-color: #91371B; /* Chili */
 }
 .assigned small,
 .preview .assigned,
 .preview .assigned h3,
 .preview .assigned small {
-  color: #e1fdff; /* light blue */
+  color: #FADDAF; /* Butter */
 }
-.assigned a {
-  color: #a63140; /* red */
-}
-.preview .assigned a {
-  color: #ffd58e;
+.preview a {
+  color: #C2BC74; /* Tea Leaf */
 }
 .assigned h3 {
   padding-bottom: 0.6315789474em;
@@ -335,6 +349,14 @@ nav {
 }
 .is-visible .extended {
   display: block;
+}
+
+.is-visible .is-current + li {
+  padding-top: 2.5263157894em; /* Add space before first extended week on full-calendar preview */
+}
+
+#projects article {
+  padding-top: 1.2631578947em;
 }
 
 /* Media Queries */
