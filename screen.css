@@ -101,9 +101,6 @@ a {
   text-decoration: none;
   border-bottom: 0.05263157895em dotted;
 }
-.assigned a {
-  color: #FADDAF; /* Butter */
-}
 p {
   padding-bottom: 1.2631578947em;
 }
@@ -140,7 +137,6 @@ h1 {
 }
 h1 small {
   font-weight: normal;
-  color: #C2BC74; /* Tea Leaf */
 }
 h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
@@ -162,7 +158,7 @@ h4 {
 
 html {
   /* Border for the nav to sit on */
-  border-top: 2.6875em solid #472C25; /* Coffee */
+  border-top: 2.6875em solid #C2BC74; /* Tea Leaf */
   /* ~ 43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
 }
 nav {
@@ -203,7 +199,7 @@ small,
   display: block;
 }
 small {
-  color: #EB712F; /* Pumpkin */
+  color: #C2BC74; /* Tea Leaf */
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
@@ -232,8 +228,8 @@ nav {
   padding-left: 3px;
   padding-top: 13px;
   padding-bottom: 11px;
-  background-color: #472C25; /* Coffee */
-  color: #EB712F; /* Pumpkin */
+  background-color: #C2BC74; /* Tea Leaf */
+  color: #472C25; /* Coffee */
   border-bottom: 0;
 }
 
@@ -298,18 +294,14 @@ nav {
 .assigned {
   background-color: rgba(41,108,148,.2); /* dark blue shade */
   background-color: #FADDAF; /* Butter */
+  background-color: #D4C2B2; /* Taupe */
   color: #222;
   padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
   margin-left: -11.3208%;
 }
-.week small {
-  color: #472C25; /* Coffee */
-}
-.preview small {
-  color: #EB712F; /* Pumpkin */
-}
+
 .preview .assigned {
   background-color: #91371B; /* Chili */
 }
@@ -319,7 +311,11 @@ nav {
 .preview .assigned small {
   color: #FADDAF; /* Butter */
 }
+
 .preview a {
+  color: #EB712F; /* Pumpkin */
+}
+.preview .assigned a {
   color: #C2BC74; /* Tea Leaf */
 }
 .assigned h3 {
