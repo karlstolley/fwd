@@ -200,6 +200,8 @@ small,
 }
 small {
   color: #C2BC74; /* Tea Leaf */
+  color: #EB712F; /* Pumpkin */
+  text-shadow: 1px 1px 4px #D4C2B2; /* Coffee */
 }
 .label .button {
   font-size: 0.744018483em; /* ~ 19px @ 25.537px/em */
@@ -292,9 +294,7 @@ nav {
   margin-bottom: 1.2631578947em;
 }
 .assigned {
-  background-color: rgba(41,108,148,.2); /* dark blue shade */
-  background-color: #FADDAF; /* Butter */
-  background-color: #D4C2B2; /* Taupe */
+  background-color: #C2BC74; /* Tea Leaf */
   color: #222;
   padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
   margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
@@ -310,6 +310,10 @@ nav {
 .preview .assigned h3,
 .preview .assigned small {
   color: #FADDAF; /* Butter */
+}
+
+.preview small {
+  text-shadow: unset;
 }
 
 .preview a {
