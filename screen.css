@@ -72,7 +72,7 @@ header,
 footer,
 h2,
 h2 + p,
-.agenda,
+.assigned ul,
 #links,
 #instructor,
 .deliverables,
@@ -292,8 +292,17 @@ nav {
   margin-left: -11.3208%;
   padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
+  padding-bottom: 0.6315789474em;
 }
-.assigned {
+.preview + .preview {
+  padding-top: 0;
+}
+.is-next + .week {
+  padding-top: 1.2631578947em;
+}
+.assigned,
+.deliverables,
+.requirements {
   background-color: #C2BC74; /* Tea Leaf */
   color: #222;
   padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
@@ -301,7 +310,15 @@ nav {
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
   margin-left: -11.3208%;
 }
+.preview .deliverables,
+.preview .requirements {
+  background-color: #FADDAF; /* Butter */
+}
 
+.deliverables {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 .preview .assigned {
   background-color: #91371B; /* Chili */
 }
