@@ -220,11 +220,7 @@ nav {
   display: block;
   text-align: center;
   line-height: 1;
-  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
-  padding-right: 3px;
-  padding-left: 3px;
-  padding-top: 13px;
-  padding-bottom: 11px;
+  padding: 0.6842105263em 0.1578947368em 0.5789473684em 0.1578947368em; /* 13px 3px 11px 3px */
   background-color: #C2BC74; /* Tea Leaf */
   color: #472C25; /* Coffee */
   border-bottom: 0;
