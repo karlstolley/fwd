@@ -95,21 +95,32 @@ i {
 ins {
   text-decoration: none;
 }
+
 /* Links */
 a {
   color: #91371B; /* Chili */
   text-decoration: none;
   border-bottom: 0.05263157895em dotted;
 }
+
+/* Paragraphs and Lists */
 p {
   padding-bottom: 1.2631578947em;
 }
+ol,
+ul,
 li {
   padding-bottom: 0.6315789474em; /* ~ 12px @ 19px/em */
 }
-ol,
-ul {
-  padding-bottom: 1.2631578947em;
+li ul,
+li ol {
+  padding-top: 0.6315789474em; /* ~ 12px @ 19px/em */
+  margin-left: 1.2631578947em;
+}
+/* Avoid over-padding nested lists */
+li ol,
+li ul {
+  padding-bottom: 0;
 }
 ul > li {
   list-style-type: square;
@@ -117,17 +128,9 @@ ul > li {
 ol > li {
   list-style-type: decimal;
 }
-li ul,
-li ol {
-  padding-top: 0.6315789474em;
-  margin-left: 1.2631578947em;
-}
-/* Avoid over-padding nested lists */
-li ol,
-li ul,
-li:last-child {
-  padding-bottom: 0;
-}
+
+/* Headings */
+
 h1 {
   font-size: 1.7768947368em; /* ~ 33.761px @ 19px/em */
   line-height: 1.0663191256em; /* ~ 36px @ 33.761px/em */
