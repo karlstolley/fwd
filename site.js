@@ -55,9 +55,9 @@
     // Show the current week
     futureWeeks[0].addClass('preview is-current').removeClass('extended').attr('id','current-week');
 
-    // If there is another week beyond the current one, show it as well
     if (futureWeeks[1]!==undefined) {
-      futureWeeks[1].addClass('preview is-next').removeClass('extended');
+      // If there is another week beyond the current one, show it as well
+      //  futureWeeks[1].addClass('preview is-next').removeClass('extended');
       var dueDate = new Date(futureWeeks[0].attr('data-expires'));
       $('#current-week .assigned h3').html('Assigned Work <small>Due ' + namedDays[dueDate.getDay()] + ' ' + namedMonths[dueDate.getMonth()] + ' ' + dueDate.getDate() +'</small>');
     }
