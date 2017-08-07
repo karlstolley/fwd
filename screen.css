@@ -173,15 +173,7 @@ nav {
 }
 
 /* ========== Modules ========== */
-/* Highlight differences on policy statement for 5xx */
-.itmd513 {
-  background: #FADDAF; /* Butter */
-  padding-bottom: 0;
-  margin-bottom: 0.6315789474em; /* ~ 12px @ 19px/em */
-}
-.itmd513:last-child {
-  margin-bottom: 0;
-}
+
 /* Header & Footer */
 header {
   padding-top: 2.5263157895em; /* ~ 48px @ 19px/em */
