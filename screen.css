@@ -389,6 +389,11 @@ li .assigned h4 {
     margin-left: -1.8947368421em;
     margin-right: -1.8947368421em;
   }
+  #instructor.assigned {
+    padding-left: 11.3208%;
+    padding-right: 11.3208%;
+    margin: 0 -11.3208%; /* 60px / 530px (650-120) */
+  }
   .flexbox .link-group {
     display: flex;
     flex-wrap: wrap;
@@ -412,10 +417,13 @@ li .assigned h4 {
   header,
   footer,
   .primary,
-  #instructor,
+  #instructor.assigned,
   #links {
     padding-left: 14.28571429%; /* 93/651 */
     padding-right: 28.57142857%; /* 186/651 */
+  }
+  #instructor.assigned {
+    margin: 0;
   }
   .tagline,
   .fineprint {
