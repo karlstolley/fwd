@@ -380,9 +380,8 @@ li .assigned h4 {
     display: flex;
     justify-content: space-between;
   }
-  .flexbox .agenda > ol > li {
+  .flexbox .meeting {
     flex: 0 1 43.5484%;
-    padding: 0;
   }
   .assigned {
     padding: 1.2631578947em 1.8947368421em 0.6315789474em 1.8947368421em;
@@ -393,6 +392,9 @@ li .assigned h4 {
     padding-left: 11.3208%;
     padding-right: 11.3208%;
     margin: 0 -11.3208%; /* 60px / 530px (650-120) */
+  }
+  .meeting {
+    padding-bottom: 1.2631578947em; /* ~ 24px @ 19px/em */
   }
   .flexbox .link-group {
     display: flex;
@@ -438,7 +440,7 @@ li .assigned h4 {
     margin-right: -50%; /* 186/372 */
     padding-right: 50%;
   }
-  .agenda > ol {
+  .flexbox .agenda > ol {
     display: block;
   }
 }
