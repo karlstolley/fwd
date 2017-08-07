@@ -65,13 +65,13 @@
     // Watch for hashes pointing to #current-week or #week-XX
     if (window.location.hash.indexOf('week') === -1) {
 
-      toggledLabel = ' <small class="button"><span class="showing">Current</span> Weeks <a class="toggle" href="#current-week">Show All</a></small>';
+      toggledLabel = ' <small class="button"><span class="showing">Current Week</span> <a class="toggle" href="#current-week">Show All</a></small>';
 
     }
     else {
 
       $('.primary').addClass('is-visible');
-      toggledLabel = ' <small class="button"><span class="showing">All</span> Weeks <a class="toggle" href="#current-week">Show Current</a></small>';
+      toggledLabel = ' <small class="button"><span class="showing">All Weeks</span> <a class="toggle" href="#current-week">Show Current</a></small>';
 
     }
 
@@ -84,8 +84,8 @@
   // Toggle to actually show/hide content
   $('.button').on('click', function(e) {
     $(this).toggleClass('is-active');
-    $(this).find('.showing').toggleLabel('All','Current');
-    $(this).find('.toggle').toggleLabel('Show All', 'Show Only Current');
+    $(this).find('.showing').toggleLabel('All Weeks','Current Week');
+    $(this).find('.toggle').toggleLabel('Show All', 'Show Current');
     $(this).closest('.primary').toggleClass('is-visible');
   });
 
