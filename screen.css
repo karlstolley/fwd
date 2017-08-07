@@ -445,8 +445,29 @@ li .assigned h4 {
   }
 }
 
-@media screen and (min-width: 804px) {
+@media screen and (min-width: 830px) {
   .flexbox .agenda > ol {
     display: flex; /* My life for element/container queries...*/
+  }
+  .week,
+  .preview,
+  #projects article,
+  #grading {
+    padding-top: 2.5263157895em; /* ~ 48px @ 16px/em */
+  }
+  .preview .agenda {
+    padding-top: 1.2631578947em;
+  }
+  #instructor.assigned,
+  .assigned,
+  .deliverables {
+    padding-top: 1.8947368421em;
+  }
+  .assigned + .assigned {
+    padding-top: 0;
+  }
+  .preview,
+  .preview .meeting {
+    padding-bottom: 2.5263157895em; /* ~ 48px @ 16px/em */
   }
 }
