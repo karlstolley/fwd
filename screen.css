@@ -55,6 +55,7 @@ summary {
   Cream: #F7EFD4
   Taupe: #D4C2B2
   Butter: #FADDAF
+  Tea Leaf: #C2BC74
   Pumpkin: #EB712F
   Chili: #91371B
   Coffee: #472C25
@@ -72,12 +73,15 @@ header,
 footer,
 h2,
 h2 + p,
-.assigned ul,
 #links,
 #instructor,
+.assigned,
 .deliverables,
 .requirements {
   font-family: "ff-dax-web-pro", Helvetica, Arial, sans-serif;
+}
+.assigned h3 {
+  font-family: "ff-karbid-slab-web-pro", "Times New Roman", serif;
 }
 body {
   font-size: 1.1875em;         /* ~ 19px base font size */
@@ -140,6 +144,7 @@ h1 {
 }
 h1 small {
   font-weight: normal;
+  color: #C2BC74;
 }
 h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
@@ -170,11 +175,12 @@ nav {
   top: 0;
   left: 0;
 }
-#links,
 #instructor {
-  margin-top: 2.5263157895em;
+  padding-top: 1.2631578947em;
 }
-
+#links {
+  padding-top: 2.5263157895em;
+}
 /* ========== Modules ========== */
 
 /* Header & Footer */
@@ -243,12 +249,11 @@ nav {
 }
 .week,
 .meeting,
-.assigned > ul > li {
+.calendar-weeks .assigned > ul > li {
   list-style-type: none;
 }
 .meeting {
   padding-left: 1.2631578947em;
-  padding-bottom: 1.2631578947em;
 }
 .meeting ol {
   padding-top: 0;
@@ -262,94 +267,91 @@ nav {
 .agenda ol {
   margin-left: 0;
   padding-left: 0;
-  padding-bottom: 1.2631578947em;
 }
-.assigned ol,
-.assigned ul {
-  padding-bottom: 0.6315789474em;
+.calendar-weeks .assigned ol,
+.calendar-weeks .assigned ul {
   margin-left: 0;
 }
 .agenda > ol:first-child {
   padding-top: 0;
-  padding-bottom: 1.2631578947em;
 }
 
-.preview {
-  background-color: #472C25; /* Coffee */
-  color: #FADDAF; /* Butter */
-  padding-top: 1.8947368421em;
-  margin-right: -11.3208%; /* 60px / 530px (650-120) */
-  padding-right: 11.3208%;
-  margin-left: -11.3208%;
-  padding-left: 11.3208%;
-  margin-bottom: 1.2631578947em;
-  padding-bottom: 0.6315789474em;
-}
-.preview + .preview {
-  padding-top: 0;
-}
-.is-next + .week {
+.assigned,
+.week,
+.preview,
+#projects article,
+#grading,
+.deliverables {
   padding-top: 1.2631578947em;
 }
+.preview {
+  padding-bottom: 1.2631578947em;
+}
+.preview,
+.assigned,
+.deliverables,
+.requirements {
+  padding-left: 11.3208%;
+  padding-right: 11.3208%;
+  margin: 0 -11.3208%; /* 60px / 530px (650-120) */
+}
+.assigned h3 {
+  padding-bottom: 0.6315789474em;
+}
+li .assigned h4 {
+  padding-bottom: 0;
+}
+
+
 .assigned,
 .deliverables,
 .requirements {
   background-color: #C2BC74; /* Tea Leaf */
   color: #222;
-  padding: 1.2631578947em 11.3208% 0.6315789474em 11.3208%;
-  margin-bottom: 1.8947368421em; /* ~ 36px @ 19px/em */
-  margin-right: -11.3208%; /* 60px / 530px (650-120) */
-  margin-left: -11.3208%;
+}
+.preview {
+  background-color: #472C25; /* Coffee */
+  color: #FADDAF; /* Butter */
+  box-shadow: 0px 0px 6px 3px #666;
 }
 .preview .deliverables,
 .preview .requirements {
   background-color: #FADDAF; /* Butter */
 }
-
-.deliverables {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.preview .assigned {
+.preview .assigned,
+.preview .deliverables,
+.preview .requirements {
   background-color: #91371B; /* Chili */
 }
 .assigned small,
+.preview .deliverables,
+.preview .requirements,
 .preview .assigned,
 .preview .assigned h3,
 .preview .assigned small {
   color: #FADDAF; /* Butter */
 }
-
 .preview small {
   color: #C2BC74; /* Tea Leaf */
   text-shadow: unset;
 }
-
 .preview a {
   color: #EB712F; /* Pumpkin */
 }
-.preview .assigned a {
+.preview .assigned a,
+.preview .deliverables a,
+.preview .requirements a {
   color: #C2BC74; /* Tea Leaf */
-}
-.assigned h3 {
-  padding-bottom: 0.6315789474em;
-}
-.assigned h4 {
-  padding-bottom: 0;
 }
 
 /* Fix for the very last week; corrects spacing after .assigned */
+/* Still needs to be tweaked against margin-bottom on .assigned */
+/* May no longer be necessary after major top/bottom padding refactor */
+/*
 .week:last-child {
-  padding-bottom: 0.6315789474em; /* Still needs to be tweaked against margin-bottom on .assigned */
+  padding-bottom: 0.6315789474em;
 }
-
-#calendar .preview {
-  margin-bottom: 0;
-}
-#calendar .is-next {
-  margin-bottom: 1.2631578947em;
-}
-
+*/
 
 /* ========== State ========== */
 
@@ -358,14 +360,6 @@ nav {
 }
 .is-visible .extended {
   display: block;
-}
-
-.is-visible .is-current + li {
-  padding-top: 2.5263157894em; /* Add space before first extended week on full-calendar preview */
-}
-
-#projects article {
-  padding-top: 1.2631578947em;
 }
 
 /* Media Queries */
