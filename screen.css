@@ -375,7 +375,7 @@ li .assigned h4 {
 
 /* @560px */
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 35em) {
   .flexbox .agenda > ol {
     display: flex;
     justify-content: space-between;
@@ -445,7 +445,9 @@ li .assigned h4 {
   }
 }
 
-@media screen and (min-width: 830px) {
+/* 830px */
+
+@media screen and (min-width: 51.875em) {
   .flexbox .agenda > ol {
     display: flex; /* My life for element/container queries...*/
   }
