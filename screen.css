@@ -74,13 +74,13 @@ footer,
 h2,
 h2 + p,
 #links,
-#instructor,
 .assigned,
 .deliverables,
 .requirements {
   font-family: "ff-dax-web-pro", Helvetica, Arial, sans-serif;
 }
-.assigned h3 {
+.assigned h3,
+aside h3 {
   font-family: "ff-karbid-slab-web-pro", "Times New Roman", serif;
 }
 body {
@@ -370,11 +370,6 @@ li .assigned h4 {
   /* Let the nav breathe a bit more */
   nav {
     font-family: inherit;
-  }
-  .nav a {
-    padding: 0.6315789474em;
-    padding-top: 13px;
-    padding-bottom: 11px;
   }
 }
 
