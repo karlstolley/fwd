@@ -37,7 +37,7 @@
 <main id="content">
   <section class="primary">
     <h2 class="label">Major Projects</h2>
-    <article class="preview">
+    <article>
       <h3 id="project-one">
         Project One: Valid, Responsive-Ready HTML
         <small>Due Thursday, September 21, 11:59pm&nbsp;CT</small>
@@ -154,7 +154,7 @@
         </ul>
       </section>
     </article>
-    <article>
+    <article class="preview">
       <h3 id="project-two">
         Project Two: Responsive, Relative-Unit CSS
         <small>Due Thursday, October 26, 11:59pm&nbsp;CT</small>
@@ -162,14 +162,13 @@
       <section class="description">
         <h4>Project Description</h4>
         <p>
-          This project builds on Project One, which you will fully style with CSS to provide a basic
-          typographic treatment and responsive design that makes judicious use of media queries and
-          relative units (<code>em</code>/<code>rem</code>, <code>vw</code>, <code>%</code>). You
-          will deploy your pages to a server pointed at by your personal domain name, or a subdomain
-          if you have an existing professional web presence.
+          This project builds on Project One, which you will further revise and fully style with CSS
+          to provide a basic typographic treatment and responsive design that makes judicious use of
+          media queries and relative units (<code>em</code>/<code>rem</code>, <code>vw</code>,
+          <code>%</code>). You will deploy your pages to a server pointed at by a domain name under
+          your control.
         </p>
       </section>
-<!--
       <section class="goals">
         <h4>Project Goals</h4>
         <ul>
@@ -177,7 +176,8 @@
             Produce modern standards-compliant, mobile-first CSS
           </li>
           <li>
-            Organize site typography with a modular scale, and set type on a baseline grid
+            Establish site typography with a modular scale, and set type on a consistent baseline
+            grid
           </li>
           <li>
             Execute responsive design with flexible media and fluid grids, expressed as percentages
@@ -189,12 +189,11 @@
             Effectively comment on and format source code for maximum readability
           </li>
           <li>
-            Track the development of a project over time and collaborate with others using version
-            control
+            Track the development of a project over time using version control
           </li>
           <li>
-            Deploy web pages to a public server (can be GitHub pages, set up with your own domain
-            name or subdomain)
+            Deploy web pages to a public server (can be GitHub pages, configured with your own
+            domain name or subdomain)
           </li>
         </ul>
       </section>
@@ -202,10 +201,21 @@
         <h4>Deliverables &amp; Milestones</h4>
         <ol>
           <li>
-            A video presentation of your work in progress, hosted on YouTube, Vimeo, or another
-            similar service and posted to Basecamp. Your Basecamp post should include the URL to
-            your GitHub repository, and the live URL to your project if you’ve established one by
-            then. Include in the text of your post one or two <b>specific</b> things you would like
+            A three-minute video screen-capture presentation of your work in progress, hosted on
+            YouTube, Vimeo, or another similar service.
+          </li>
+          <li>
+            A Basecamp post showcasing your work in progress. Your Basecamp post should include:
+            <ol>
+              <li>
+                <b>Your name in the subject of the post</b> so it's easier to track discussions;
+                e.g., <code>Karl Stolley: Project Two Draft</code>
+              </li>
+              <li>the URL to the video of your work in progress</li>
+              <li>the URL to your Project Two GitHub repository</li>
+              <li>and the live URL to your project if you’ve established one by then.</li>
+            </ol>
+            Include in the text of your post one or two <b>specific</b> things you would like
             feedback or help on from the instructor and other students in the class (due no later
             than October 12).
           </li>
@@ -236,24 +246,50 @@
         <ul>
           <li>Multiple linked valid, well-formed semantic HTML files (Project 1, essentially)</li>
           <li>
-            HTML-based fallbacks for any media elements (image, audio, video) that you include
+            All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF),
+            entabbed with spaces (two spaces per tab)
           </li>
           <li>
-            One single valid, error-free CSS file. <b>Do not</b> create more than one single
-            <code>screen.css</code> file for your project
-          </li>
-          <li>
-            Your HTML and CSS files should both be indented with 2 spaces per level of indent;
+            Your HTML and CSS files should all be indented with 2 spaces per level of indent;
             indent all CSS style rules inside the declaring block, and further indent all rules and
             blocks inside your media queries
           </li>
           <li>
-            Open your CSS file with a set of reset styles (such as the minified Eric Meyer resets
-            from class demos)
+            Make use of both the validators and linters to ensure the quality of both your HTML and
+            CSS
           </li>
           <li>
-            Use of only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute
-            units allowed
+            Semantically structured text-based content to accompany all media elements (image,
+            audio, video). Make use of the <code>&lt;figure&gt;</code> and
+            <code>&lt;figcaption&gt;</code> tags
+          </li>
+          <li>
+            One single valid, linted, error-free CSS file called <code>screen.css</code>. <b>Do
+            not</b> create more than one CSS file for your project; all styles should be in the same
+            file. Use an <code>id</code> value on <code>&lt;html&gt;</code> or
+            <code>&lt;body&gt;</code> and leverage that in a CSS descendant selector if you need a
+            special style on a particular page.
+          </li>
+          <li>
+            Organized, readable source that is hand-written and original (no WYSIWYGs or
+            code-generators, no Bootstrap or other off-the-shelf frameworks)
+          </li>
+          <li>
+            Directory-based URLs with use of the default-served <code>index.html</code> file, so
+            that you can point to, for example, <code>example.com/resume/</code>
+          </li>
+          <li>
+            A Git repository with frequent commits and meaningful commit messages that accurately
+            reflect each set of changes that you make
+          </li>
+          <li>
+            The opening lines of your <code>screen.css</code> file should be the Eric Meyer reset
+            CSS styles
+          </li>
+          <li>
+            Use of only relative units (<code>em</code>, <code>rem</code>, <code>vm</code>,
+            <code>%</code>) in your CSS; no <code>px</code>, <code>pt</code>, or other absolute
+            units are permitted in your CSS
           </li>
           <li>
             Use at least two min-width media queries to enhance your mobile-first styles for larger
@@ -268,12 +304,12 @@
             reflect each set of changes that you make
           </li>
           <li>
-            GitHub repository must contain <b>only</b> the files and commits from this project; you
-            are encouraged to use and further improve your HTML files from Project 1
+            Your GitHub repository must contain <b>only</b> the files and commits from this project;
+            you are encouraged to use and further improve your HTML files from Project 1, but create
+            a brand-new repository on your computer and on GitHub
           </li>
         </ul>
       </section>
--->
     </article>
     <article>
       <h3 id="project-three">
