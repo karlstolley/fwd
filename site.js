@@ -100,13 +100,13 @@
   // Toggle to actually show/hide content
   $('.toggle').on('click', function(e) {
     var hash = $(this).attr('href');
-    window.location.href = hash; // set the hash to the current href value
+    $(this).closest('.primary').toggleClass('is-visible');
+    window.location.assign(hash); // set the page-location hash to the current href value
     $('.toggle').toggleLabel(
       {status: 'All Weeks', action: 'Show Current Week Only', href: '#current-week'},
       {status: 'Current Week', action: 'Show Future Weeks', href: '#next-week'}
     );
-    $(this).closest('.primary').toggleClass('is-visible');
-    e.preventDefault(); // default behavior handled above, with window.location.hash
+    e.preventDefault(); // default behavior handled above, with window.location.assign
   });
 
   $.get(github_url, function(data) {
