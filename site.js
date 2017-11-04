@@ -34,7 +34,7 @@
   var dueDate;
 
   // GitHub URL
-  var github_url = 'https://api.github.com/repos/karlstolley/fwd/commits?per_page=1'
+  var github_url = 'https://api.github.com/repos/karlstolley/fwd/commits?per_page=1';
 
   // Create a variable to hold HTML for the toggle label
   var toggledLabel;
@@ -116,7 +116,7 @@
     data = data[0]; // only need most recent commit
     // Lowercase commit message's first word to run in `...to XYZ` copy:
     commit.message = data.commit.message.charAt(0).toLowerCase() + data.commit.message.slice(1);
-    commit.url = data.html_url
+    commit.url = data.html_url;
     commit.stamp = data.commit.author.date;
     commit.date = new Date(commit.stamp);
     // Put the date in Day, Month 31 at <Local Time String> format
