@@ -74,7 +74,7 @@
 
     if (typeof(futureWeeks[1])!=="undefined") {
       // If there is another week beyond the current one, show it as well
-      //  futureWeeks[1].addClass('preview is-next').removeClass('extended');
+      futureWeeks[1].attr('id', 'next-week');
       dueDate = new Date(futureWeeks[0].attr('data-expires'));
       $('#current-week .assigned h3').html('Assigned Work <small>Due ' + namedDays[dueDate.getDay()] + ' ' + namedMonths[dueDate.getMonth()] + ' ' + dueDate.getDate() +'</small>');
     }
@@ -82,7 +82,7 @@
     // Watch for hashes pointing to #week-XX
     if (window.location.hash.indexOf('week-') === -1) {
 
-      toggledLabel = ' <small class="button"><span class="showing">Current Week</span> <a class="toggle" href="">Show All Weeks</a></small>';
+      toggledLabel = ' <small class="button"><span class="showing">Current Week</span> <a class="toggle" href="#next-week">Show Future Weeks</a></small>';
 
     }
     else {
@@ -98,11 +98,15 @@
   // Append a show link (.button)
   $('.label, .is-current').append(toggledLabel);
   // Toggle to actually show/hide content
-  $('.toggle').on('click', function() {
-    $('.toggle').toggleLabel(
-      {status: 'All Weeks', action: 'Show Current Week Only', href: '#current-week'},
-      {status: 'Current Week', action: 'Show All Weeks', href: ''}
-    );
+  $('.toggle').on('click', function(e) {
+    var delayedLabel = function() {
+      $('.toggle').toggleLabel(
+        {status: 'All Weeks', action: 'Show Current Week Only', href: '#current-week'},
+        {status: 'Current Week', action: 'Show Future Weeks', href: '#next-week'}
+      );
+      console.log("Delayed event fired");
+    };
+    setTimeout(delayedLabel, 100);
     $(this).closest('.primary').toggleClass('is-visible');
   });
 
