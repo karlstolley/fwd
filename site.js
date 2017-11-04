@@ -126,8 +126,8 @@
 
     // Append to footer on calendar
     $('#footer p:first-child').append(
-      ' Course last updated on <time datetime="'+commit.stamp+'">' + commit.time_string +
-      '</time> to <a href="'+ commit.url +'">' + commit.message + '</a>.'
+      ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
+      '</time> to <a href="' + commit.url + '">' + commit.message + '</a>.'
     );
 
   });
