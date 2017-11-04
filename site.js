@@ -99,15 +99,14 @@
   $('.label, .is-current').append(toggledLabel);
   // Toggle to actually show/hide content
   $('.toggle').on('click', function(e) {
-    var delayedLabel = function() {
-      $('.toggle').toggleLabel(
-        {status: 'All Weeks', action: 'Show Current Week Only', href: '#current-week'},
-        {status: 'Current Week', action: 'Show Future Weeks', href: '#next-week'}
-      );
-      console.log("Delayed event fired");
-    };
-    setTimeout(delayedLabel, 100);
+    var hash = $(this).attr('href');
+    window.location.href = hash; // set the hash to the current href value
+    $('.toggle').toggleLabel(
+      {status: 'All Weeks', action: 'Show Current Week Only', href: '#current-week'},
+      {status: 'Current Week', action: 'Show Future Weeks', href: '#next-week'}
+    );
     $(this).closest('.primary').toggleClass('is-visible');
+    e.preventDefault(); // default behavior handled above, with window.location.hash
   });
 
   $.get(github_url, function(data) {
