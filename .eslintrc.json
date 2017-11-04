@@ -1,6 +1,6 @@
 {
   "settings": {
-    "_version": "Stolley House Config, v. 1.0.0, 20171024",
+    "_version": "Stolley House Config, v. 1.0.1, 20171025",
     "_eslint_version": "4.9.0",
     "_rules_url": "https://eslint.org/docs/rules/"
   },
@@ -28,6 +28,7 @@
     "linebreak-style": ["error", "unix"],
     "multiline-comment-style": ["warn", "separate-lines"],
     "spaced-comment": ["warn", "always"],
+    "semi": ["warn", "always"],
     "semi-spacing": ["error", {"before": false, "after": true}]
   }
 }
