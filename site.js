@@ -110,22 +110,22 @@
   });
 
   $.get(github_url, function(data) {
-    var commit_message, commit_url, commit_stamp, commit_time;
-    commit_message = data[0]['commit']['message'];
-    // Lowercase commit message's first word to run in `...to XYZ` copy
-    commit_message = commit_message.charAt(0).toLowerCase() + commit_message.slice(1);
-    commit_url = data[0]['html_url'];
-    commit_stamp = data[0]['commit']['author']['date'];
-    commit_time = new Date(commit_stamp);
+    var commit = {};
+    data = data[0]; // only need most recent commit
+    // Lowercase commit message's first word to run in `...to XYZ` copy:
+    commit.message = data.commit.message.charAt(0).toLowerCase() + data.commit.message.slice(1);
+    commit.url = data.html_url
+    commit.stamp = data.commit.author.date;
+    commit.date = new Date(commit.stamp);
     // Put the date in Day, Month 31 at <Local Time String> format
-    commit_time = namedDays[commit_time.getDay()] + ', ' +
-      namedMonths[commit_time.getMonth()] + ' ' +
-      commit_time.getDate() + ' at ' + commit_time.toLocaleTimeString();
+    commit.time_string = namedDays[commit.date.getDay()] + ', ' +
+      namedMonths[commit.date.getMonth()] + ' ' +
+      commit.date.getDate() + ' at ' + commit.date.toLocaleTimeString();
 
     // Append to footer on calendar
     $('#footer p:first-child').append(
-      ' Course last updated on <time datetime="'+commit_stamp+'">' + commit_time +
-      '</time> to <a href="'+ commit_url +'">' + commit_message + '</a>.'
+      ' Course last updated on <time datetime="'+commit.stamp+'">' + commit.time_string +
+      '</time> to <a href="'+ commit.url +'">' + commit.message + '</a>.'
     );
 
   });
