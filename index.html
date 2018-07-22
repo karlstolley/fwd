@@ -16,949 +16,959 @@
   <meta property="og:type" content="website" />
 </head>
 <body>
-<div id="page">
   <header id="header">
-    <h1><small>ITMD 361</small> Fundamentals&nbsp;of Web Development</h1>
+    <a href="https://courses.karlstolley.com/fwd/" rel="home">
+      <small>ITMD 361</small>
+      <h1>
+        Fundamentals&nbsp;of Web Development
+      </h1>
+    </a>
     <p class="tagline">
       Foundational, research-based principles and practices of web development and client-server
       architecture according to current open standards. Taught by
-      <a href="#instructor">Professor Karl Stolley</a>, Fall 2017.
+      <a href="#instructor">Professor Karl Stolley</a>, Fall 2018.
     </p>
     <nav id="navigation">
       <ul class="nav">
         <li id="nav-cal"><a href="#content">Calendar</a></li>
+        <li id="nav-bcp"><a href="https://3.basecamp.com/3058761/projects/7580688">Basecamp</a></li>
+        <li id="nav-dem"><a href="https://github.com/2018-summer-apis">GitHub</a></li>
+        <li id="nav-lnk"><a href="#links">Links</a></li>
         <li id="nav-pro"><a href="projects/#current">Projects</a></li>
         <li id="nav-pol"><a href="policies/">Policies</a></li>
-        <li id="nav-lnk"><a href="#links">Links</a></li>
       </ul>
     </nav>
   </header>
 
 <main id="content">
-  <article class="primary">
-    <h2 class="label">Course Calendar</h2>
-    <p><a href="https://github.com/itmd-361-2017">All code written in class</a> available on GitHub.</p>
-    <ol class="calendar-weeks">
-      <li class="week" data-expires="2017-08-28T12:00:00-05:00">
-        <article id="week-01">
-          <h3>Git; HTML History, Syntax &amp; Fundamentals <small>Week&nbsp;One</small></h3>
-          <section class="agenda">
-            <ol>
-              <li class="meeting">
-                <h4>Monday, August 21 <a href="https://youtu.be/AEaeYl5SejU">Video</a></h4>
-                <ol>
-                  <li>Welcome &amp; introductions</li>
-                  <li>Course policies &amp; calendar</li>
-                  <li>Course technologies</li>
-                </ol>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, August 23 <a href="https://youtu.be/FuVahdOYKp0">Video</a></h4>
-                <ol>
-                  <li>File systems and basics of version control/Git</li>
-                  <li>A walk through HTML history, with a Git assist</li>
-                  <li>
-                    Major historical HTML specs:
-                    <a href="https://tools.ietf.org/html/rfc1866">HTML 2.0</a> (1995, RFC 1866);
-                    <a href="http://www.w3.org/TR/REC-html32">HTML 3.2</a> (1997);
-                    <a href="http://www.w3.org/TR/html401/">HTML 4.01</a> (1999);
-                    <a href="http://www.w3.org/TR/xhtml1/">XHTML 1.0</a> (2000/2002);
-                    <a href="http://www.w3.org/TR/html5/">HTML5</a> (2014)
-                  </li>
-                  <li>
-                    Current HTML specs:
-                    <a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (2016);
-                    <a href="https://developers.whatwg.org">HTML: The Living Standard</a>
-                  </li>
-                  <li><a href="http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML Tags: Past, Present, Proposed</a></li>
-                </ol>
-              </li>
-            </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li>Course policies, calendar, and projects [Online students]</li>
-                  <li><i>HTML5 for Web Designers, 2nd ed.</i>, Introduction; Chapters 1-2</li>
-                  <li><i>Pragmatic Version Control Using Git</i>, Preface; Chapters 1-3 (Part I)</li>
-                  <li>
-                    Get familiar with the contents and organization of
-                    <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a>’s
-                    <a href="https://developer.mozilla.org/en-US/docs/Web">Web technology for developers</a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    As soon as possible: Submit ITMD361 Contract and Survey (link in your
-                    @hawk.iit.edu inbox; email instructor at karl.stolley@gmail.com if you did not
-                    receive it)
-                  </li>
-                  <li>
-                    As soon as possible: Create Basecamp account (invite will arrive after you
-                    submit the Contract and Survey)
-                  </li>
-                  <li>
-                    Technology setup; follow
-                    <a href="https://gist.github.com/karlstolley/810e9cb69727ff20c3cf56ac33734b79">these instructions</a>
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-09-06T12:00:00-05:00">
-        <article id="week-02">
-          <h3>Well Formed, Valid Semantic HTML; Global Attributes <small>Week&nbsp;Two</small></h3>
-          <section class="agenda">
-            <ol>
-              <li class="meeting">
-                <h4>Monday, August 28 <a href="https://youtu.be/0NlCaaUP11g">Video</a></h4>
-                <ol>
-                  <li>Introduce <a href="projects/#project-one">first project</a></li>
-                  <li>
-                    Remaining major historical HTML specs:
-                    <a href="http://www.w3.org/TR/html401/">HTML 4.01</a> (1999);
-                    <a href="http://www.w3.org/TR/xhtml1/">XHTML 1.0</a> (2000/2002);
-                    <a href="http://www.w3.org/TR/html5/">HTML5</a> (2014)
-                  </li>
-                  <li>
-                    Current HTML specs:
-                    <a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (2016);
-                    <a href="https://developers.whatwg.org">HTML: The Living Standard</a>
-                  </li>
-                  <li>HTML syntax &amp; fundamentals</li>
-                  <li>Working with the HTML validator</li>
-                </ol>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, August 30 <a href="https://youtu.be/9GUT38EpsXc">Video</a></h4>
-                <ol>
-                  <li>Academic Resource Center (Raiven J)</li>
-                  <li>
-                    Introduce <a href="https://github.com/itmd-361-2017/itmd-361-pp-2017">first Production
-                    Problem</a> &amp; turn-in procedure
-                  </li>
-                  <li>Deeper into Git: remotes (set up course demos remote)</li>
-                  <li>Foundational well formed, valid, semantic HTML page</li>
-                  <li>HTML semantics and global attributes</li>
-                  <li>Developing reusable semantic patterns</li>
-                  <li>
-                    <a href="https://github.com/htmllint/htmllint-cli">htmllint (CLI)</a>;
-                    <code>.htmllintrc</code> <a href="https://github.com/htmllint/htmllint/wiki/Options">configuration</a>
-                  </li>
-                  <li>ITMD 361 house-style <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc">.htmllintrc</a></li>
-                </ol>
-              </li>
-            </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Pragmatic Version Control Using Git</i>, Chapters 4-9 (Part II)</li>
-                  <li>
-                    Beams, <a href="https://chris.beams.io/posts/git-commit/">How to Write a Git
-                    Commit Message</a>
-                  </li>
-                  <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapters 5-6</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Production Problem 01: Cloning and Committing to a Git Repository
-                  </li>
-                  <li>
-                    Post to <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/653900157">Week One/Two Questions thread on Basecamp</a>
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-09-11T12:00:00-05:00">
-        <article id="week-03">
-          <h3>Responsive Web Design Overview + HTML Foundations <small>Week&nbsp;Three</small></h3>
-          <section class="agenda">
-            <ol>
-              <li class="meeting">
-                <h4>Monday, September 4: Labor Day, NO CLASS</h4>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, September 6 <a href="https://youtu.be/mibKbrhWLxk">Video</a></h4>
-                <ol>
-                  <li>
-                    Portable, offline documentation: <a href="https://devdocs.io/">Devdocs.io</a>
-                  </li>
-                  <li>Walk through a web project setup</li>
-                  <li>Renaming/moving files with Git</li>
-                  <li>Deeper into Git: granular commits; branches; merging</li>
-                  <li>CSS preview: handling responsive images</li>
-                  <li>Developing reusable semantic HTML patterns</li>
-                  <li>
-                    Global structural attributes: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class">class</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id">id</a>
-                  </li>
+  <section class="primary">
+    <header>
+      <h2>Calendar</h2>
+    </header>
 
-                </ol>
-              </li>
-            </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li>
-                    Marcotte, “<a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</a>”
-                  </li>
-                  <li><i>Responsive Web Design, 2nd ed.</i>, Chapters 1, 4</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Production Problem 01: <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/667875908">Basecamp Discussion</a>
-                  </li>
-                  <li>
-                    <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/667872816">Week Three Basecamp Q&amp;A</a>
-                  </li>
-                  <li>
-                    Post Project 1 draft to Basecamp by Thursday, September 7
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-09-18T12:00:00-05:00">
-        <article id="week-04">
-          <h3>Course Refresher; Work Day <small>Week&nbsp;Four</small></h3>
-          <section class="agenda">
+    <article id="upcoming-deadlines">
+      <header>
+        <h3>Upcoming Project Deadlines</h3>
+      </header>
+      <ul>
+        <li>
+          Project One draft posted to Basecamp
+        </li>
+      </ul>
+    </article>
+
+    <article id="week-01" class="week" data-expires="2018-08-27T12:00:00-05:00">
+      <header>
+        <h3>
+          Git; HTML History, Syntax &amp; Fundamentals
+        </h3>
+        <small>Week&nbsp;One</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, August 20</h4>
+          <ol>
+            <li>Welcome &amp; introductions</li>
+            <li>Course policies &amp; calendar</li>
+            <li>Course technologies</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, August 22</h4>
+          <ol>
+            <li>File systems and basics of version control/Git</li>
+            <li>A walk through HTML history, with a Git assist</li>
+            <li>
+              Major historical HTML specs:
+              <a href="https://tools.ietf.org/html/rfc1866">HTML 2.0</a> (1995, RFC 1866);
+              <a href="http://www.w3.org/TR/REC-html32">HTML 3.2</a> (1997);
+              <a href="http://www.w3.org/TR/html401/">HTML 4.01</a> (1999);
+              <a href="http://www.w3.org/TR/xhtml1/">XHTML 1.0</a> (2000/2002);
+              <a href="http://www.w3.org/TR/html5/">HTML5</a> (2014)
+            </li>
+            <li>
+              Current HTML specs:
+              <a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (2016);
+              <a href="https://developers.whatwg.org">HTML: The Living Standard</a>
+            </li>
+            <li><a href="http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">HTML Tags: Past, Present, Proposed</a></li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, September 11 <a href="https://youtu.be/77bQR4xMRGY">Video</a></h4>
-                <ol>
-                  <li>Open Q&amp;A and refresher</li>
-                  <li>
-                    De-borking
-                    <a href="https://github.com/itmd-361-2017/borkfest">a borked Git repo</a>
-                  </li>
-                  <li>HTML anti-patterns and their remedies</li>
-                  <li>Resume markup</li>
-                  <li>
-                    <a href="http://microformats.org/">Microformats</a>:
-                    <a href="http://microformats.org/wiki/h-card">h-card</a>
-                  </li>
-                </ol>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, September 13</h4>
-                <ol>
-                  <li>
-                    No class; work day. Put in a solid hour-plus on your project, commenting on peer
-                    projects.
-                  </li>
-                  <li>
-                    Stolley available in
-                    <a href="https://3.basecamp.com/3058761/buckets/4525325/chats/626161207">our chatroom</a>
-                  </li>
-                </ol>
+              <li>Course policies, calendar, and projects [Online students]</li>
+              <li><i>HTML5 for Web Designers, 2nd ed.</i>, Introduction; Chapters 1-2</li>
+              <li><i>Pragmatic Version Control Using Git</i>, Preface; Chapters 1-3 (Part I)</li>
+              <li>
+                Get familiar with the contents and organization of
+                <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a>’s
+                <a href="https://developer.mozilla.org/en-US/docs/Web">Web technology for developers</a>
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Responsive Web Design, 2nd ed.</i>, Chapter 3</li>
-                  <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 3</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Review <a href="/fwd/projects/#project-one">Project One</a> description,
-                    requirements, and deliverables
-                  </li>
-                  <li>
-                    Respond to at least three other draft student projects on Basecamp
-                  </li>
-                  <li>
-                    Project One due by 11:59pm CT, Thursday September 21
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-09-25T12:00:00-05:00">
-        <article id="week-05">
-          <h3>CSS Syntax &amp; Fundamentals; Units of Measure <small>Week&nbsp;Five</small></h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, September 18 <a href="https://youtu.be/LZc_l9BHXM8">Video</a></h4>
-                <ol>
-                  <li>Refresher on Responsive Web Design</li>
-                  <li>
-                    Setting <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW26">the viewport</a>,
-                    including for <a href="https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_0.html#//apple_ref/doc/uid/TP40014305-CH9-SW36">Safari 9.0 and later</a> on iOS
-                  </li>
-                  <li>
-                    Foundations: working with
-                    <a href="http://meyerweb.com/eric/tools/css/reset/reset.css">reset styles</a>
-                  </li>
-                  <li>CSS syntax</li>
-                  <li>CSS style</li>
-                </ol>
+              <li>
+                As soon as possible: Submit ITMD361 Contract and Survey (link in your
+                @hawk.iit.edu inbox; email instructor at karl.stolley@gmail.com if you did not
+                receive it)
               </li>
-              <li class="meeting">
-                <h4>Wednesday, September 20 <a href="https://youtu.be/UUaLXfSF68A">Video</a></h4>
-                <ol>
-                  <li><a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8">Linter file updates</a> (FYI)</li>
-                  <li>Using a single stylesheet across an entire site</li>
-                </ol>
+              <li>
+                As soon as possible: Create Basecamp account (invite will arrive after you
+                submit the Contract and Survey)
+              </li>
+              <li>
+                Technology setup; follow
+                <a href="https://gist.github.com/karlstolley/810e9cb69727ff20c3cf56ac33734b79">these instructions</a>
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li>
-                    MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">CSS
-                    syntax</a>
-                  </li>
-                  <li>
-                    MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors">CSS
-                    selectors</a>
-                  </li>
-                  <li>
-                    MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">CSS units
-                    of measure (&lt;length&gt;)</a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li><b>Project One Due</b> 11:59pm on Thursday, September 21</li>
-                  <li>
-                    Production Problem 02: HTML Antipatterns
-                    (be sure to pull from the <code>instructor</code> remote you created in PP 01)
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-10-02T12:00:00-05:00">
-        <article id="week-06">
-          <h3>CSS: Typography <small>Week&nbsp;Six</small></h3>
-          <section class="agenda">
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-02" class="week" data-expires="2018-09-05T12:00:00-05:00">
+      <header>
+        <h3>
+          Well Formed, Valid Semantic HTML; Global Attributes
+        </h3>
+        <small>Week&nbsp;Two</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, August 27</h4>
+          <ol>
+            <li>Introduce <a href="projects/#project-one">first project</a></li>
+            <li>
+              Remaining major historical HTML specs:
+              <a href="http://www.w3.org/TR/html401/">HTML 4.01</a> (1999);
+              <a href="http://www.w3.org/TR/xhtml1/">XHTML 1.0</a> (2000/2002);
+              <a href="http://www.w3.org/TR/html5/">HTML5</a> (2014)
+            </li>
+            <li>
+              Current HTML specs:
+              <a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (2016);
+              <a href="https://developers.whatwg.org">HTML: The Living Standard</a>
+            </li>
+            <li>HTML syntax &amp; fundamentals</li>
+            <li>Working with the HTML validator</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, August 29</h4>
+          <ol>
+            <li>Academic Resource Center (Raiven J)</li>
+            <li>
+              Introduce <a href="https://github.com/itmd-361-2017/itmd-361-pp-2017">first Production
+              Problem</a> &amp; turn-in procedure
+            </li>
+            <li>Deeper into Git: remotes (set up course demos remote)</li>
+            <li>Foundational well formed, valid, semantic HTML page</li>
+            <li>HTML semantics and global attributes</li>
+            <li>Developing reusable semantic patterns</li>
+            <li>
+              <a href="https://github.com/htmllint/htmllint-cli">htmllint (CLI)</a>;
+              <code>.htmllintrc</code> <a href="https://github.com/htmllint/htmllint/wiki/Options">configuration</a>
+            </li>
+            <li>ITMD 361 house-style <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc">.htmllintrc</a></li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, September 25 <a href="https://youtu.be/WMfW5VW-CuY">Video</a></h4>
-                <ol>
-                  <li>New repo location at <a href="https://github.com/itmd-361-2017/">github.com/itmd-361-2017</a></li>
-                  <li>Introduce <a href="projects/#project-two">Project 2</a></li>
-                  <li>Organizing stylesheets</li>
-                  <li>Mobile-first styles and media queries</li>
-                  <li>Foundational typographic styles</li>
-                  <li>Typographic/modular scales</li>
-                  <li>Setting text on a baseline grid</li>
-                </ol>
+              <li><i>Pragmatic Version Control Using Git</i>, Chapters 4-9 (Part II)</li>
+              <li>
+                Beams, <a href="https://chris.beams.io/posts/git-commit/">How to Write a Git
+                Commit Message</a>
               </li>
-              <li class="meeting">
-                <h4>Wednesday, September 27 <a href="https://youtu.be/SG__U-vnGHI">Video</a></h4>
-                <ol>
-                  <li>
-                    CSS style &amp; <a href="https://github.com/stylelint/stylelint/blob/master/docs/user-guide/cli.md">linting</a>;
-                    <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc">ITMD 361 style</a>
-                  </li>
-                  <li>Mobile-scale page layout adjustments</li>
-                  <li>Setting text and colors in CSS</li>
-                  <li>Choosing &amp; working with typefaces</li>
-                </ol>
-              </li>
+              <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapters 5-6</li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li>
-                    Read through <a href="http://smacss.com">SMACSS chapters</a>:
-                    <a href="http://smacss.com/book/categorizing">Categorizing CSS Rules</a>,
-                    <a href="http://smacss.com/book/type-base">Base</a>,
-                    <a href="http://smacss.com/book/type-layout">Layout</a>,
-                    <a href="http://smacss.com/book/type-module">Module</a>
-                  </li>
-                  <li>
-                    Sitepoint: <a href="https://www.sitepoint.com/taking-css-linting-next-level-stylelint/">Take CSS Linting to the Next Level with Stylelint</a>
-                  </li>
-                  <li><i>On Web Typography</i>, Introduction; Chapters 1-3</li>
-                  <li><a href="http://www.fonts.com/content/learning/fontology/level-1/type-anatomy">Type anatomy and classifications</a></li>
-                  <li><a href="http://www.modularscale.com">ModularScale.com</a></li>
-                  <li>
-                    Rutter, “<a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Compose to a Vertical Rhythm</a>”
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Production Problem 02:
-                    <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/700684894">Basecamp discussion</a>
-                  </li>
-                  <li>
-                    <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/700691165">Week Six Questions &amp; Discussion Thread</a>
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-10-11T12:00:00-05:00">
-        <article id="week-07">
-          <h3>CSS: Page Layout (Fluid Grids), Feature Detection <small>Week&nbsp;Seven</small></h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, October 2 <a href="https://youtu.be/YiCZ5JI2-a4">Video</a></h4>
-                <ol>
-                  <li>Sizing type and baseline grid adjustments</li>
-                  <li>Introduction to media queries and layout grid terminology</li>
-                </ol>
+              <li>
+                Production Problem 01: Cloning and Committing to a Git Repository
               </li>
-              <li class="meeting">
-                <h4>Wednesday, October 4 <a href="https://youtu.be/9d2gZ0ZFVT8">Video</a></h4>
-                <ol>
-                  <li>Building responsive fluid grids at media-query breakpoints</li>
-                  <li>Old-school page layout with <code>position</code> and <code>float</code></li>
-                  <li>
-                    Feature detection with <a href="https://modernizr.com/">Modernizr</a>
-                  </li>
-                  <li>
-                    New-school page layout with <code>display: flex</code> (Flexbox) and
-                    <code>display: grid</code> (CSS Grid)
-                  </li>
-                </ol>
+              <li>
+                Post to <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/653900157">Week One/Two Questions thread on Basecamp</a>
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Responsive Web Design 2nd ed.</i>, Chapters 2, 5</li>
-                  <li>Rachel Andrew, <a href="https://rachelandrew.co.uk/archives/2017/05/24/a-very-good-time-to-understand-css-layout/">A Very Good Time to Understand CSS Layout</a></li>
-                  <li>Chris Coyier, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
-                  <li>MDN, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> (browse property list in the subnav)</li>
-                  <li>MDN, <a href="https://mozilladevelopers.github.io/playground/">Introduction to CSS Grid Layout</a></li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Production Problem 03: CSS Flexbox</li>
-                  <li>Post video and draft of Project Two to Basecamp by Thursday, October 12</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-10-16T12:00:00-05:00">
-        <article id="week-08">
-          <h3>Responsive Images, Accessibile Media <small>Week&nbsp;Eight</small></h3>
-          <section class="agenda">
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-03" class="week" data-expires="2018-09-10T12:00:00-05:00">
+      <header>
+        <h3>Responsive Web Design Overview + HTML Foundations</h3>
+        <small>Week&nbsp;Three</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, September 3: Labor Day, NO CLASS</h4>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, September 5</h4>
+          <ol>
+            <li>
+              Portable, offline documentation: <a href="https://devdocs.io/">Devdocs.io</a>
+            </li>
+            <li>Walk through a web project setup</li>
+            <li>Renaming/moving files with Git</li>
+            <li>Deeper into Git: granular commits; branches; merging</li>
+            <li>CSS preview: handling responsive images</li>
+            <li>Developing reusable semantic HTML patterns</li>
+            <li>
+              Global structural attributes: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class">class</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id">id</a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, October 9: Fall Break, NO CLASS</h4>
+              <li>
+                Marcotte, “<a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</a>”
               </li>
-              <li class="meeting">
-                <h4>Wednesday, October 11 <a href="https://youtu.be/e1PUrUAWC68">Video</a></h4>
-                <ol>
-                  <li>
-                    Where we left off: feature detection with
-                    <a href="https://modernizr.com/">Modernizr</a>
-                  </li>
-                  <li>
-                    Resetting old-school layout styles with feature-detection selectors
-                  </li>
-                  <li>
-                    New-school page layout with <code>display: flex</code> (Flexbox) and
-                    <code>display: grid</code> (CSS Grid)
-                  </li>
-                </ol>
-              </li>
+              <li><i>Responsive Web Design, 2nd ed.</i>, Chapters 1, 4</li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Eloquent JavaScript 2nd ed.</i>, Introduction; Chapters 1-2</li>
-                  <li>
-                    Stolley, Image Accessibility: <a href="http://www.digitalrhetoriccollaborative.org/2016/06/15/image-accessibility-part-i-beyond-alt-attributes/">Part I: Beyond alt Attributes</a>, <a href="http://www.digitalrhetoriccollaborative.org/2016/06/21/image-accessibility-part-ii-beyond-src-attributes/">Part II: Beyond src Attributes</a>
-                  </li>
-                  <li>Ward, <a href="http://www.sitepoint.com/versioning-large-files-with-git-lfs/">Versioning Large Files with Git LFS</a></li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Production Problem 03: <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/726144473">Basecamp discussion</a></li>
-                  <li>Week Eight/Nine <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/726142645">question &amp; discussion thread</a></li>
-                  <li>Respond to at least three other student project drafts by October 19</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-10-23T12:00:00-05:00">
-        <article id="week-09">
-          <h3>Responsive Images; JavaScript: Syntax, Fundamentals, Data Structures <small>Week&nbsp;Nine</small></h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, October 16 <a href="https://youtu.be/wRz7Mfxx_NA">Video</a></h4>
-                <ol>
-                  <li>Refresher: working with accessible image media in HTML5:
-                    <ul>
-                      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>img</code></a> and web-friendly image formats</li>
-                      <li>
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure"><code>figure</code></a>
-                        and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption"><code>figcaption</code></a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Responsive images:
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">srcset</a>
-                    and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture">&lt;picture&gt;</a>
-                  </li>
-                </ol>
+              <li>
+                Production Problem 01: <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/667875908">Basecamp Discussion</a>
               </li>
-              <li class="meeting">
-                <h4>Wednesday, October 18</h4>
-                <ol>
-                  <li>No class; project work/response day</li>
-                </ol>
+              <li>
+                <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/667872816">Week Three Basecamp Q&amp;A</a>
+              </li>
+              <li>
+                Post Project 1 draft to Basecamp by Thursday, September 7
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 3-4</li>
-                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN JavaScript Reference</a></li>
-                  <li>Brown, <a href="https://www.sitepoint.com/why-use-javascript-style-guide/">Why I Use a JavaScript Style Guide and Why You Should Too</a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Play <a href="http://flexboxfroggy.com">Flexbox Froggy</a></li>
-                  <li>
-                    Continue work on Project Two
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-10-30T12:00:00-05:00">
-        <article id="week-10">
-          <h3>JavaScript: Syntax and Fundamentals; Functional Programming Style <small>Week&nbsp;Ten</small></h3>
-          <section class="agenda">
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-04" class="week" data-expires="2018-09-17T12:00:00-05:00">
+      <header>
+        <h3>Course Refresher; Work Day</h3>
+        <small>Week&nbsp;Four</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, September 10</h4>
+          <ol>
+            <li>Open Q&amp;A and refresher</li>
+            <li>
+              De-borking
+              <a href="https://github.com/itmd-361-2017/borkfest">a borked Git repo</a>
+            </li>
+            <li>HTML anti-patterns and their remedies</li>
+            <li>Resume markup</li>
+            <li>
+              <a href="http://microformats.org/">Microformats</a>:
+              <a href="http://microformats.org/wiki/h-card">h-card</a>
+            </li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, September 12</h4>
+          <ol>
+            <li>
+              No class; work day. Put in a solid hour-plus on your project, commenting on peer
+              projects.
+            </li>
+            <li>
+              Stolley available in
+              <a href="https://3.basecamp.com/3058761/buckets/4525325/chats/626161207">our chatroom</a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, October 23 <a href="https://youtu.be/meOiDMS9Px8">Video</a></h4>
-                <ol>
-                  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN JavaScript Reference</a></li>
-                  <li>Working with the JavaScript console (node, browser)</li>
-                  <li>JavaScript fundamentals: syntax, data types, structures, style</li>
-                  <li>Collections: Arrays and object literals</li>
-                </ol>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, October 25 <a href="https://youtu.be/uq5CtkwQMD8">Video</a></h4>
-                <ol>
-                  <li>Using functions to control variable scope</li>
-                  <li>
-                    Single-responsibility principle and pure functions in functional
-                    programming
-                  </li>
-                  <li>Self-invoking functions to protect the global namespace</li>
-                  <li>Functional programming style in JavaScript</li>
-                  <li><a href="http://jshint.com">JSHint (Web)</a></li>
-                  <li>
-                    <a href="http://eslint.org/docs/user-guide/command-line-interface">ESLint
-                    (CLI)</a>
-                  </li>
-                </ol>
-              </li>
+              <li><i>Responsive Web Design, 2nd ed.</i>, Chapter 3</li>
+              <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 3</li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 5-6, 8-10</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Finish Project Two by Thursday, November 2
-                  </li>
-                  <li>Production Problem 04: JavaScript Variable Scope</li>
-                  <li><b>Project Two Due</b> 11:59pm CT on Thursday, November 2</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-11-06T12:00:00-06:00">
-        <article id="week-11">
-          <h3>
-            DOM Scripting: JavaScript + the Document Object Model; jQuery and Alternatives
-            <small>Week&nbsp;Eleven</small>
-          </h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, October 30 <a href="https://youtu.be/hMDu_eE2Trc">Video</a></h4>
-                <ol>
-                  <li>
-                    Introduce <a href="projects/#project-three">Project Three</a>
-                  </li>
-                  <li>
-                    Essential Web APIs:
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window"><code>window</code></a>,
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/API/document"><code>document</code></a>
-                    objects
-                  </li>
-                  <li>JavaScript DOM libraries:
-                    <ul>
-                      <li><a href="https://jquery.org">jQuery</a></li>
-                      <li><a href="https://github.com/filamentgroup/shoestring">Shoestring</a></li>
-                      <li><a href="https://github.com/franciscop/umbrella">Umbrella JS</a></li>
-                    </ul>
-                  </li>
-                </ol>
+              <li>
+                Review <a href="/fwd/projects/#project-one">Project One</a> description,
+                requirements, and deliverables
               </li>
-              <li class="meeting">
-                <h4>Wednesday, November 1 <a href="https://youtu.be/6irPUJD2iu8">Video</a></h4>
-                <ol>
-                  <li>No class; Stolley will <a href="https://youtu.be/6irPUJD2iu8">post course video</a> here</li>
-                  <li>Overview of progressive enhancement and event listeners</li>
-                  <li>Working with accessible audio &amp; video in HTML5:
-                    <ul>
-                      <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video">Audio and Video</a></li>
-                      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">browser media-format support</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement">Audio</a>
-                    &amp; <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement">Video</a>
-                    HTML <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement">media-element APIS</a>
-                  </li>
-                </ol>
+              <li>
+                Respond to at least three other draft student projects on Basecamp
+              </li>
+              <li>
+                Project One due by 11:59pm CT, Thursday September 21
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 12-14, 17-18</li>
-                  <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 4</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>
-                    Production Problem 04: Basecamp discussion
-                  </li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-11-13T12:00:00-06:00">
-        <article id="week-12">
-          <h3>Unobtrusive JavaScript &amp; Progressive Enhancement <small>Week&nbsp;Twelve</small></h3>
-          <section class="agenda">
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-05" class="week" data-expires="2018-09-24T12:00:00-05:00">
+      <header>
+        <h3>CSS Syntax &amp; Fundamentals; Units of Measure</h3>
+        <small>Week&nbsp;Five</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, September 17</h4>
+          <ol>
+            <li>Refresher on Responsive Web Design</li>
+            <li>
+              Setting <a href="https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW26">the viewport</a>,
+              including for <a href="https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_0.html#//apple_ref/doc/uid/TP40014305-CH9-SW36">Safari 9.0 and later</a> on iOS
+            </li>
+            <li>
+              Foundations: working with
+              <a href="http://meyerweb.com/eric/tools/css/reset/reset.css">reset styles</a>
+            </li>
+            <li>CSS syntax</li>
+            <li>CSS style</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, September 19</h4>
+          <ol>
+            <li><a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8">Linter file updates</a> (FYI)</li>
+            <li>Using a single stylesheet across an entire site</li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, November 6 <a href="https://youtu.be/1HNhmMvv7hc">Video</a></h4>
-                <ol>
-                  <li>Refresher: Modernizr and feature detection</li>
-                  <li>Inserting JavaScript-dependent HTML into the DOM</li>
-                  <li>Unobtrusive JavaScript with event listeners</li>
-                </ol>
+              <li>
+                MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">CSS
+                syntax</a>
               </li>
-              <li class="meeting">
-                <h4>
-                  Wednesday, November 8 <a href="https://youtu.be/J1zZ5QlJeWI">Video</a>,
-                  <a href="https://youtu.be/2h5PojpDptk">Supplemental Video</a>
-                </h4>
-                <ol>
-                  <li>Media-query-dependent collapsing navigation</li>
-                </ol>
+              <li>
+                MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors">CSS
+                selectors</a>
+              </li>
+              <li>
+                MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">CSS units
+                of measure (&lt;length&gt;)</a>
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li>
-                    Gustafson, <a href="http://alistapart.com/article/understandingprogressiveenhancement">Understanding Progressive Enhancement</a>
-                  </li>
-                  <li>
-                    Six Revisions, <a href="http://sixrevisions.com/web-development/progressive-enhancement/">Progressive Enhancement 101</a>
-                  </li>
-                  <li>
-                    W3C, <a href="https://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript">The Principles of Unobtrusive JavaScript</a>
-                  </li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Production Problem 05: Unobtrusive JavaScript</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-11-20T12:00:00-06:00">
-        <article id="week-13">
-          <h3>JavaScript: Non-Blocking Asynchronous Patterns, Page Performance <small>Week&nbsp;Thirteen</small></h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, November 13 <a href="https://youtu.be/yIYcgHVSBm8">Video</a></h4>
-                <ol>
-                  <li>HTML forms and form elements</li>
-                  <li>Loading external assets and data asynchronously</li>
-                </ol>
-              </li>
-              <li class="meeting">
-                <h4>Wednesday, November 15 <a href="https://youtu.be/ei0RSt_ideM">Video</a></h4>
-                <ol>
-                  <li>Progressive enhancement with HTML structure and data- attributes</li>
-                  <li><a href="http://jshint.com/install/">JSHint (CLI)</a></li>
-                  <li>JavaScript review and Q&amp;A</li>
-                </ol>
+              <li><b>Project One Due</b> 11:59pm on Thursday, September 21</li>
+              <li>
+                Production Problem 02: HTML Antipatterns
+                (be sure to pull from the <code>instructor</code> remote you created in PP 01)
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Read</h4>
-                <ol>
-                  <li><i>Eloquent JavaScript 2nd ed.</i>, Chapter 22</li>
-                </ol>
-              </li>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Production Problem 05: Basecamp discussion</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-11-27T12:00:00-06:00">
-        <article id="week-14">
-          <h3>
-            HTTP 1.1, HTTP/2, and REST Architecture; Server-Side Web Development
-            <small>Week&nbsp;Fourteen</small>
-          </h3>
-          <section class="agenda">
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-06" class="week" data-expires="2018-10-01T12:00:00-05:00">
+      <header>
+        <h3>CSS: Typography</h3>
+        <small>Week&nbsp;Six</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, September 24</h4>
+          <ol>
+            <li>New repo location at <a href="https://github.com/itmd-361-2017/">github.com/itmd-361-2017</a></li>
+            <li>Introduce <a href="projects/#project-two">Project 2</a></li>
+            <li>Organizing stylesheets</li>
+            <li>Mobile-first styles and media queries</li>
+            <li>Foundational typographic styles</li>
+            <li>Typographic/modular scales</li>
+            <li>Setting text on a baseline grid</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, September 26</h4>
+          <ol>
+            <li>
+              CSS style &amp; <a href="https://github.com/stylelint/stylelint/blob/master/docs/user-guide/cli.md">linting</a>;
+              <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc">ITMD 361 style</a>
+            </li>
+            <li>Mobile-scale page layout adjustments</li>
+            <li>Setting text and colors in CSS</li>
+            <li>Choosing &amp; working with typefaces</li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, November 20 <a href="https://youtu.be/JJeTHYQbt54">Video</a></h4>
-                <ol>
-                  <li>HTTP 1.1, HTTP/2, and REST Architecture</li>
-                  <li>
-                    Assessing server-side libraries/frameworks, using
-                    <a href="http://rubyonrails.org/">Ruby on Rails</a> as an example
-                  </li>
-                </ol>
+              <li>
+                Read through <a href="http://smacss.com">SMACSS chapters</a>:
+                <a href="http://smacss.com/book/categorizing">Categorizing CSS Rules</a>,
+                <a href="http://smacss.com/book/type-base">Base</a>,
+                <a href="http://smacss.com/book/type-layout">Layout</a>,
+                <a href="http://smacss.com/book/type-module">Module</a>
               </li>
-              <li class="meeting">
-                <h4>Wednesday, November 22: Thanksgiving Break, NO CLASS</h4>
+              <li>
+                Sitepoint: <a href="https://www.sitepoint.com/taking-css-linting-next-level-stylelint/">Take CSS Linting to the Next Level with Stylelint</a>
+              </li>
+              <li><i>On Web Typography</i>, Introduction; Chapters 1-3</li>
+              <li><a href="http://www.fonts.com/content/learning/fontology/level-1/type-anatomy">Type anatomy and classifications</a></li>
+              <li><a href="http://www.modularscale.com">ModularScale.com</a></li>
+              <li>
+                Rutter, “<a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Compose to a Vertical Rhythm</a>”
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
-              <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li>Work on final project</li>
-                </ol>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-      <li class="week" data-expires="2017-12-13T12:00:00-06:00">
-        <article id="week-15">
-          <h3>Parting Material: Preprocessors <small>Week&nbsp;Fifteen</small></h3>
-          <section class="agenda">
+          </li>
+          <li>
+            <h4>To Do</h4>
             <ol>
-              <li class="meeting">
-                <h4>Monday, November 27 <a href="https://youtu.be/mSGxyj-0IWA">Video</a></h4>
-                <ol>
-                  <li>
-                    HTML preprocessing: Haml
-                  </li>
-                  <li>
-                    CSS preprocessing: LESS, SCSS
-                  </li>
-                  <li>
-                    JavaScript preprocessing: CoffeeScript
-                  </li>
-                </ol>
+              <li>
+                Production Problem 02:
+                <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/700684894">Basecamp discussion</a>
               </li>
-              <li class="meeting">
-                <h4>Wednesday, November 29</h4>
-                <ol>
-                  <li>
-                    <b>NO CLASS MEETING.</b> Stolley available electronically to provide help on
-                    final projects.
-                  </li>
-                </ol>
+              <li>
+                <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/700691165">Week Six Questions &amp; Discussion Thread</a>
               </li>
             </ol>
-          </section>
-          <section class="assigned">
-            <h3>Assigned Work</h3>
-            <ul>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-07" class="week" data-expires="2018-10-10T12:00:00-05:00">
+      <header>
+        <h3>CSS: Page Layout (Fluid Grids), Feature Detection</h3>
+        <small>Week&nbsp;Seven</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, October 1</h4>
+          <ol>
+            <li>Sizing type and baseline grid adjustments</li>
+            <li>Introduction to media queries and layout grid terminology</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, October 3</h4>
+          <ol>
+            <li>Building responsive fluid grids at media-query breakpoints</li>
+            <li>Old-school page layout with <code>position</code> and <code>float</code></li>
+            <li>
+              Feature detection with <a href="https://modernizr.com/">Modernizr</a>
+            </li>
+            <li>
+              New-school page layout with <code>display: flex</code> (Flexbox) and
+              <code>display: grid</code> (CSS Grid)
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Responsive Web Design 2nd ed.</i>, Chapters 2, 5</li>
+              <li>Rachel Andrew, <a href="https://rachelandrew.co.uk/archives/2017/05/24/a-very-good-time-to-understand-css-layout/">A Very Good Time to Understand CSS Layout</a></li>
+              <li>Chris Coyier, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+              <li>MDN, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> (browse property list in the subnav)</li>
+              <li>MDN, <a href="https://mozilladevelopers.github.io/playground/">Introduction to CSS Grid Layout</a></li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Production Problem 03: CSS Flexbox</li>
+              <li>Post video and draft of Project Two to Basecamp by Thursday, October 12</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-08" class="week" data-expires="2018-10-15T12:00:00-05:00">
+      <header>
+        <h3>Responsive Images, Accessibile Media</h3>
+        <small>Week&nbsp;Eight</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, October 8: Fall Break, NO CLASS</h4>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, October 10</h4>
+          <ol>
+            <li>
+              Where we left off: feature detection with
+              <a href="https://modernizr.com/">Modernizr</a>
+            </li>
+            <li>
+              Resetting old-school layout styles with feature-detection selectors
+            </li>
+            <li>
+              New-school page layout with <code>display: flex</code> (Flexbox) and
+              <code>display: grid</code> (CSS Grid)
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Eloquent JavaScript 2nd ed.</i>, Introduction; Chapters 1-2</li>
               <li>
-                <h4>To Do</h4>
-                <ol>
-                  <li><b>Project Three Due</b> 11:59pm CT on Thursday, December 7</li>
-                </ol>
+                Stolley, Image Accessibility: <a href="http://www.digitalrhetoriccollaborative.org/2016/06/15/image-accessibility-part-i-beyond-alt-attributes/">Part I: Beyond alt Attributes</a>, <a href="http://www.digitalrhetoriccollaborative.org/2016/06/21/image-accessibility-part-ii-beyond-src-attributes/">Part II: Beyond src Attributes</a>
               </li>
-            </ul>
-          </section>
-        </article>
-      </li>
-    </ol>
-  </article>
+              <li>Ward, <a href="http://www.sitepoint.com/versioning-large-files-with-git-lfs/">Versioning Large Files with Git LFS</a></li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Production Problem 03: <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/726144473">Basecamp discussion</a></li>
+              <li>Week Eight/Nine <a href="https://3.basecamp.com/3058761/buckets/4525325/messages/726142645">question &amp; discussion thread</a></li>
+              <li>Respond to at least three other student project drafts by October 19</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-09" class="week" data-expires="2018-10-22T12:00:00-05:00">
+      <header>
+        <h3>Responsive Images; JavaScript: Syntax, Fundamentals, Data Structures</h3>
+        <small>Week&nbsp;Nine</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, October 15</h4>
+          <ol>
+            <li>Refresher: working with accessible image media in HTML5:
+              <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>img</code></a> and web-friendly image formats</li>
+                <li>
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure"><code>figure</code></a>
+                  and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption"><code>figcaption</code></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              Responsive images:
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">srcset</a>
+              and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture">&lt;picture&gt;</a>
+            </li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, October 17</h4>
+          <ol>
+            <li>No class; project work/response day</li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 3-4</li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN JavaScript Reference</a></li>
+              <li>Brown, <a href="https://www.sitepoint.com/why-use-javascript-style-guide/">Why I Use a JavaScript Style Guide and Why You Should Too</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Play <a href="http://flexboxfroggy.com">Flexbox Froggy</a></li>
+              <li>
+                Continue work on Project Two
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-10" class="week" data-expires="2018-10-29T12:00:00-05:00">
+      <header>
+        <h3>JavaScript: Syntax and Fundamentals; Functional Programming Style</h3>
+        <small>Week&nbsp;Ten</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, October 22</h4>
+          <ol>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">MDN JavaScript Reference</a></li>
+            <li>Working with the JavaScript console (node, browser)</li>
+            <li>JavaScript fundamentals: syntax, data types, structures, style</li>
+            <li>Collections: Arrays and object literals</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, October 24</h4>
+          <ol>
+            <li>Using functions to control variable scope</li>
+            <li>
+              Single-responsibility principle and pure functions in functional
+              programming
+            </li>
+            <li>Self-invoking functions to protect the global namespace</li>
+            <li>Functional programming style in JavaScript</li>
+            <li><a href="http://jshint.com">JSHint (Web)</a></li>
+            <li>
+              <a href="http://eslint.org/docs/user-guide/command-line-interface">ESLint
+              (CLI)</a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 5-6, 8-10</li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>
+                Finish Project Two by Thursday, November 2
+              </li>
+              <li>Production Problem 04: JavaScript Variable Scope</li>
+              <li><b>Project Two Due</b> 11:59pm CT on Thursday, November 2</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-11" class="week" data-expires="2018-11-05T12:00:00-06:00">
+      <header>
+        <h3>
+          DOM Scripting: JavaScript + the Document Object Model; jQuery and Alternatives
+        </h3>
+        <small>Week&nbsp;Eleven</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, October 29</h4>
+          <ol>
+            <li>
+              Introduce <a href="projects/#project-three">Project Three</a>
+            </li>
+            <li>
+              Essential Web APIs:
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window"><code>window</code></a>,
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/document"><code>document</code></a>
+              objects
+            </li>
+            <li>JavaScript DOM libraries:
+              <ul>
+                <li><a href="https://jquery.org">jQuery</a></li>
+                <li><a href="https://github.com/filamentgroup/shoestring">Shoestring</a></li>
+                <li><a href="https://github.com/franciscop/umbrella">Umbrella JS</a></li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, October 31</h4>
+          <ol>
+            <li>No class; Stolley will <a href="https://youtu.be/6irPUJD2iu8">post course video</a> here</li>
+            <li>Overview of progressive enhancement and event listeners</li>
+            <li>Working with accessible audio &amp; video in HTML5:
+              <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video">Audio and Video</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats">browser media-format support</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement">Audio</a>
+              &amp; <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement">Video</a>
+              HTML <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement">media-element APIS</a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Eloquent JavaScript 2nd ed.</i>, Chapters 12-14, 17-18</li>
+              <li><i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 4</li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>
+                Production Problem 04: Basecamp discussion
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-12" class="week" data-expires="2018-11-12T12:00:00-06:00">
+      <header>
+        <h3>Unobtrusive JavaScript &amp; Progressive Enhancement</h3>
+        <small>Week&nbsp;Twelve</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, November 5</h4>
+          <ol>
+            <li>Refresher: Modernizr and feature detection</li>
+            <li>Inserting JavaScript-dependent HTML into the DOM</li>
+            <li>Unobtrusive JavaScript with event listeners</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, November 7</h4>
+          <ol>
+            <li>Media-query-dependent collapsing navigation</li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li>
+                Gustafson, <a href="http://alistapart.com/article/understandingprogressiveenhancement">Understanding Progressive Enhancement</a>
+              </li>
+              <li>
+                Six Revisions, <a href="http://sixrevisions.com/web-development/progressive-enhancement/">Progressive Enhancement 101</a>
+              </li>
+              <li>
+                W3C, <a href="https://www.w3.org/wiki/The_principles_of_unobtrusive_JavaScript">The Principles of Unobtrusive JavaScript</a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Production Problem 05: Unobtrusive JavaScript</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-13" class="week" data-expires="2018-11-19T12:00:00-06:00">
+      <header>
+        <h3>JavaScript: Non-Blocking Asynchronous Patterns, Page Performance</h3>
+        <small>Week&nbsp;Thirteen</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, November 12</h4>
+          <ol>
+            <li>HTML forms and form elements</li>
+            <li>Loading external assets and data asynchronously</li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, November 14</h4>
+          <ol>
+            <li>Progressive enhancement with HTML structure and data- attributes</li>
+            <li><a href="http://jshint.com/install/">JSHint (CLI)</a></li>
+            <li>JavaScript review and Q&amp;A</li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Read</h4>
+            <ol>
+              <li><i>Eloquent JavaScript 2nd ed.</i>, Chapter 22</li>
+            </ol>
+          </li>
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Production Problem 05: Basecamp discussion</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-14"class="week" data-expires="2018-11-26T12:00:00-06:00">
+      <header>
+        <h3>
+          HTTP 1.1, HTTP/2, and REST Architecture; Server-Side Web Development
+        </h3>
+        <small>Week&nbsp;Fourteen</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, November 19</h4>
+          <ol>
+            <li>HTTP 1.1, HTTP/2, and REST Architecture</li>
+            <li>
+              Assessing server-side libraries/frameworks, using
+              <a href="http://rubyonrails.org/">Ruby on Rails</a> as an example
+            </li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, November 21: Thanksgiving Break, NO CLASS</h4>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li>Work on final project</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+    <article id="week-15" class="week" data-expires="2018-12-12T12:00:00-06:00">
+      <header>
+        <h3>Parting Material: Preprocessors</h3>
+        <small>Week&nbsp;Fifteen</small>
+      </header>
+      <ol class="agenda">
+        <li class="meeting">
+          <h4>Monday, November 27</h4>
+          <ol>
+            <li>
+              HTML preprocessing: Haml
+            </li>
+            <li>
+              CSS preprocessing: LESS, SCSS
+            </li>
+            <li>
+              JavaScript preprocessing: CoffeeScript
+            </li>
+          </ol>
+        </li>
+        <li class="meeting">
+          <h4>Wednesday, November 29</h4>
+          <ol>
+            <li>
+              <b>NO CLASS MEETING.</b> Stolley available electronically to provide help on
+              final projects.
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <aside class="assigned">
+        <h3>Assigned Work</h3>
+        <ul class="assignments">
+          <li>
+            <h4>To Do</h4>
+            <ol>
+              <li><b>Project Three Due</b> 11:59pm CT on Thursday, December 7</li>
+            </ol>
+          </li>
+        </ul>
+      </aside>
+    </article>
+
+  </section>
 </main>
 
   <aside id="links">
     <h3>Important Links</h3>
-    <div class="link-group">
-      <section id="course-resources">
-        <h4>Course Resources</h4>
-        <ul>
-          <li><a href="https://3.basecamp.com/3058761/projects/4525325">Basecamp</a> (<a href="https://basecamp.com/help/3/guides/apps">apps</a>)</li>
-          <li><a href="https://github.com/itmd-361-2017">All Course Repos</a></li>
-          <li><a href="https://github.com/itmd-361-2017/itmd-361-pp-2017">Production-Problem Repo</a> (be sure to fork)</li>
-        </ul>
-      </section>
-      <section id="essential-tools">
-        <h4>Essential Tools</h4>
-        <ul>
-          <li><a href="https://validator.w3.org/">HTML Validator</a> (W3.org)</li>
-          <li><a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a> (W3.org)</li>
-          <li><a href="http://jshint.com/">JSHint</a> (Web)</li>
-          <li><a href="http://eslint.org/">ESLint</a> (CLI); <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json">ITMD 361-style .eslintrc.json</a></li>
-          <li><a href="https://github.com/htmllint/htmllint-cli">htmllint</a>; <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8">ITMD 361-style .htmllintrc</a></li>
-          <li>CSS <a href="https://github.com/stylelint/stylelint/blob/master/docs/user-guide/cli.md">stylelint</a>; <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc">ITMD 361-style .stylelintrc</a></li>
-          <li><a href="http://meyerweb.com/eric/tools/css/reset/reset.css">Eric Meyer Reset CSS</a>; <a href="https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-_reset-min-css">Modified, Minified 361 Reset</a></li>
-        </ul>
-      </section>
-      <section id="essential-references">
-      <h4>Essential References</h4>
-        <ul>
-          <li id="mdn"><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a> (MDN)
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML Reference</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript Reference</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/Reference/API">Web APIs/DOM</a></li>
-            </ul>
-          </li>
-          <li id="technical-specifications">Technical Specifications
-            <ul>
-              <li><a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (W3C)</li>
-              <li><a href="http://www.w3.org/TR/html5/">HTML5</a> (W3C)</li>
-              <li><a href="https://developers.whatwg.org">HTML: The Living Standard</a> (WHATWG)</li>
-              <li><a href="http://www.w3.org/Style/CSS/Overview.en.html">CSS</a> (W3C)</li>
-              <li><a href="http://www.ecma-international.org/ecma-262/7.0/index.html">ECMAScript 2016</a> (Ecma)</li>
-              <li><a href="https://tools.ietf.org/html/rfc2616">RFF 2616: HTTP 1.1</a>, 1999 (IETF)</li>
-              <li><a href="http://httpwg.org">RFC 723x Series: HTTP 1.1</a>, 2014 (IETF/HTTPWG)</li>
-              <li><a href="https://tools.ietf.org/html/rfc7540">RFC 7540: HTTP/2</a> (IETF)</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-    </div>
+    <section id="course-resources">
+      <h4>Course Resources</h4>
+      <ul>
+        <li><a href="https://3.basecamp.com/3058761/projects/4525325">Basecamp</a> (<a href="https://basecamp.com/help/3/guides/apps">apps</a>)</li>
+        <li><a href="https://github.com/itmd-361-2017">All Course Repos</a></li>
+        <li><a href="https://github.com/itmd-361-2017/itmd-361-pp-2017">Production-Problem Repo</a> (be sure to fork)</li>
+      </ul>
+    </section>
+    <section id="essential-tools">
+      <h4>Essential Tools</h4>
+      <ul>
+        <li><a href="https://validator.w3.org/">HTML Validator</a> (W3.org)</li>
+        <li><a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a> (W3.org)</li>
+        <li><a href="http://jshint.com/">JSHint</a> (Web)</li>
+        <li><a href="http://eslint.org/">ESLint</a> (CLI); <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json">ITMD 361-style .eslintrc.json</a></li>
+        <li><a href="https://github.com/htmllint/htmllint-cli">htmllint</a>; <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8">ITMD 361-style .htmllintrc</a></li>
+        <li>CSS <a href="https://github.com/stylelint/stylelint/blob/master/docs/user-guide/cli.md">stylelint</a>; <a href="https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc">ITMD 361-style .stylelintrc</a></li>
+        <li><a href="http://meyerweb.com/eric/tools/css/reset/reset.css">Eric Meyer Reset CSS</a>; <a href="https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-_reset-min-css">Modified, Minified 361 Reset</a></li>
+      </ul>
+    </section>
+    <section id="essential-references">
+      <h4><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a> (MDN)</h4>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML Reference</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript Reference</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Reference/API">Web APIs/DOM</a></li>
+      </ul>
+      <h4>Technical Specifications</h4>
+      <ul>
+        <li><a href="https://www.w3.org/TR/html51/">HTML 5.1</a> (W3C)</li>
+        <li><a href="http://www.w3.org/TR/html5/">HTML5</a> (W3C)</li>
+        <li><a href="https://developers.whatwg.org">HTML: The Living Standard</a> (WHATWG)</li>
+        <li><a href="http://www.w3.org/Style/CSS/Overview.en.html">CSS</a> (W3C)</li>
+        <li><a href="http://www.ecma-international.org/ecma-262/7.0/index.html">ECMAScript 2016</a> (Ecma)</li>
+        <li><a href="https://tools.ietf.org/html/rfc2616">RFF 2616: HTTP 1.1</a>, 1999 (IETF)</li>
+        <li><a href="http://httpwg.org">RFC 723x Series: HTTP 1.1</a>, 2014 (IETF/HTTPWG)</li>
+        <li><a href="https://tools.ietf.org/html/rfc7540">RFC 7540: HTTP/2</a> (IETF)</li>
+      </ul>
+    </section>
   </aside>
 
-  <aside id="instructor" class="assigned">
-    <h3>Instructor</h3>
+  <aside id="instructor">
+    <header>
+      <h3>Instructor</h3>
+    </header>
     <ul>
       <li>
         <a href="https://karlstolley.com/">Dr. Karl Stolley</a>,
@@ -966,18 +976,12 @@
       </li>
       <li><a href="mailto:karl.stolley@gmail.com">karl.stolley@gmail.com</a></li>
       <li><a href="https://twitter.com/karlstolley">@karlstolley</a> on Twitter</li>
-      <li>karl.stolley on GChat &amp; Skype</li>
+      <li>karl.stolley on Google Hangouts</li>
       <li id="office-hours">
-        <b>Office hours via GChat/Skype on Tuesdays, 2pm to 3pm</b>, or by
-        appointment or chance. I’m always signed into GChat, and closely monitor my Pings on
-        Basecamp. Message me any time—I always make students a priority.
+        Office hours via Google Hangouts on Tuesdays, 2pm to 3pm, or by appointment or chance. I’m
+        always signed into Hangouts and closely monitor my Pings on Basecamp. Message me any time—I
+        make students a priority.
       </li>
-    </ul>
-    <h3>Teaching Assistant</h3>
-    <ul>
-      <li>Tarun Gidwani</li>
-      <li><a href="mailto:tgidwani@hawk.iit.edu">tgidwani@hawk.iit.edu</a></li>
-      <li><b>Walk-in hours on Wednesdays, 11am to 12noon</b>, Perlstein 223</li>
     </ul>
   </aside>
 
@@ -986,13 +990,11 @@
       Course syllabus &amp; site design by <a href="https://karlstolley.com/">Karl Stolley</a>.
       Syllabus licensed under
       <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons</a>.
-      <a href="https://github.com/karlstolley/fwd">Source hosted on GitHub</a>.
+      <a id="github" href="https://github.com/karlstolley/fwd">Source hosted on GitHub</a>.
     </p>
     <p class="fineprint">View the <a href="/fwd-2016/">Fall 2016 version of ITMD 361</a>.</p>
   </footer>
-<!--#page-->
-</div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="site.js"></script>
 </body>
 </html>
