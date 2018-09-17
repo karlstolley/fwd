@@ -210,7 +210,7 @@ h3 + small {
   color: #EEE;
 }
 .assigned {
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0,0,0,0.1);
 }
 .tagline,
 .note,
@@ -269,7 +269,7 @@ h3 + small {
   overflow-y: hidden;
 }
 .js .expandable .nav {
-  transition: height .2s ease-out;
+  transition: height 0.2s ease-out;
 }
 .js .is-expanded .nav {
   height: 15.1578947368em; /* (12 gridlines) 288 / 19 = 15.1578947368em */
