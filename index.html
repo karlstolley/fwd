@@ -413,16 +413,6 @@
           <h4>Wednesday, September 26 <a href="https://youtu.be/TcRr46xB7kw">Video</a></h4>
           <ol>
             <li>Collections: Arrays and object literals</li>
-            <li>
-              Linting with
-              <a href="http://eslint.org/docs/user-guide/command-line-interface">ESLint
-              (CLI)</a>
-            </li>
-            <li>
-              Hinting with
-              <a href="http://jshint.com">JSHint (Web)</a>,
-              <a href="http://jshint.com/install/">JSHint (CLI)</a>
-            </li>
           </ol>
         </li>
       </ol>
@@ -460,7 +450,7 @@
 
     <article id="week-07" class="week" data-expires="2018-10-10T12:00:00-05:00">
       <header>
-        <h3>Site Scoping, Planning, and Construction; Typography</h3>
+        <h3>Site Scoping and Planning; Stylesheet Organization, Media Queries</h3>
         <small>Week&nbsp;Seven</small>
       </header>
       <ol class="agenda">
@@ -468,15 +458,14 @@
           <h4>Monday, October 1</h4>
           <ol>
             <li>Introduce <a href="projects/#project-two">Project Two</a></li>
-            <li>Scoping and planning a site</li>
-            <li>Construction foundations</li>
+            <li>Scoping and planning a site: assets, paths</li>
+            <li>Using a single stylesheet across an entire site</li>
+            <li>Organizing stylesheets (SMACSS)</li>
           </ol>
         </li>
         <li class="meeting">
           <h4>Wednesday, October 3</h4>
           <ol>
-            <li>Using a single stylesheet across an entire site</li>
-            <li>Organizing stylesheets (SMACSS)</li>
             <li>Mobile-first styles and media queries</li>
             <li>
               CSS style &amp; <a href="https://github.com/stylelint/stylelint/blob/master/docs/user-guide/cli.md">linting</a>;
@@ -512,7 +501,7 @@
 
     <article id="week-08" class="week" data-expires="2018-10-15T12:00:00-05:00">
       <header>
-        <h3>JavaScript: Browser APIs, The DOM; HTML Form Elements</h3>
+        <h3>CSS: Introduction to Page Layout</h3>
         <small>Week&nbsp;Eight</small>
       </header>
       <ol class="agenda">
@@ -522,13 +511,14 @@
         <li class="meeting">
           <h4>Wednesday, October 10</h4>
           <ol>
+            <li>Quick introduction to responsive images</li>
             <li>
-              Essential Web APIs:
-              <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window"><code>window</code></a>,
-              <a href="https://developer.mozilla.org/en-US/docs/Web/API/document"><code>document</code></a>
-              objects
+              Old-school page layout with <code>float</code>, <code>position</code>, and frenemies
             </li>
-            <li>HTML form elements</li>
+            <li>
+              Modern page layout with <code>display: flex</code> (Flexbox) and
+              <code>display: grid</code> (CSS Grid)
+            </li>
           </ol>
         </li>
       </ol>
@@ -540,11 +530,8 @@
           <li>
             <h4>To Read</h4>
             <ol>
-              <li>Jeremy Keith &amp; Rachel Andrew, <i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 4</li>
-              <li>
-                Marijn Haverbeke, <i><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>, 3rd ed.</i>,
-                Chapters 13–15, 18
-              </li>
+              <li>Rachel Andrew, <i>The New CSS Layout</i>, Chapters 1–3</li>
+              <li>Rachel Andrew, <a href="https://rachelandrew.co.uk/archives/2017/05/24/a-very-good-time-to-understand-css-layout/">A Very Good Time to Understand CSS Layout</a></li>
             </ol>
           </li>
           <li>
@@ -564,7 +551,7 @@
 
     <article id="week-09" class="week" data-expires="2018-10-22T12:00:00-05:00">
       <header>
-        <h3>CSS: Page Layout (Fluid Grids), Feature Detection</h3>
+        <h3>CSS: Page Layout (Fluid Grids); Web APIs and Feature Detection</h3>
         <small>Week&nbsp;Nine</small>
       </header>
       <ol class="agenda">
@@ -572,11 +559,14 @@
           <h4>Monday, October 15</h4>
           <ol>
             <li>
-              Old-school page layout with <code>float</code>, <code>position</code>, and frenemies
+              Essential Web APIs:
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window"><code>window</code></a>,
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/document"><code>document</code></a>
+              objects
             </li>
+            <li>HTML form elements</li>
             <li>
-              Modern page layout with <code>display: flex</code> (Flexbox) and
-              <code>display: grid</code> (CSS Grid)
+              Feature detection with <a href="https://modernizr.com/">Modernizr</a>, <code>@supports</code>
             </li>
           </ol>
         </li>
@@ -584,7 +574,7 @@
           <h4>Wednesday, October 17</h4>
           <ol>
             <li>
-              Feature detection with <a href="https://modernizr.com/">Modernizr</a>, <code>@supports</code>
+              Deeper into page layout with flexbox and CSS Grid
             </li>
             <li>
               Resetting or overriding old-school layout styles; feature-detection selectors
@@ -600,9 +590,12 @@
           <li>
             <h4>To Read</h4>
             <ol>
-              <li>Rachel Andrew, <i>The New CSS Layout</i>, Chapters 1–3</li>
               <li>Ethan Marcotte, <i>Responsive Web Design, 2nd ed.</i>, Chapter 2</li>
-              <li>Rachel Andrew, <a href="https://rachelandrew.co.uk/archives/2017/05/24/a-very-good-time-to-understand-css-layout/">A Very Good Time to Understand CSS Layout</a></li>
+              <li>Jeremy Keith &amp; Rachel Andrew, <i>HTML5 for Web Designers, 2nd ed.</i>, Chapter 4</li>
+              <li>
+                Marijn Haverbeke, <i><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>, 3rd ed.</i>,
+                Chapters 13–15, 18
+              </li>
               <li>Chris Coyier, <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
               <li>MDN, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">Using CSS Flexible Boxes</a> (browse property list in the subnav)</li>
               <li>MDN, <a href="https://mozilladevelopers.github.io/playground/">Introduction to CSS Grid Layout</a></li>
@@ -718,6 +711,16 @@
           <ol>
             <li>Unobtrusive JavaScript with event listeners</li>
             <li>Inserting JavaScript-dependent HTML into the DOM</li>
+            <li>
+              Linting with
+              <a href="http://eslint.org/docs/user-guide/command-line-interface">ESLint
+              (CLI)</a>
+            </li>
+            <li>
+              Hinting with
+              <a href="http://jshint.com">JSHint (Web)</a>,
+              <a href="http://jshint.com/install/">JSHint (CLI)</a>
+            </li>
           </ol>
         </li>
         <li class="meeting">
