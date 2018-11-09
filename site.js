@@ -159,6 +159,12 @@
         }
       })();
 
+      function escapeHTML(str) {
+        var div = document.createElement('div');
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+      }
+
       if(typeof(github_url) !== "undefined") {
         fetch(github_url)
         .then(function(response) {
@@ -179,7 +185,7 @@
           // Append to footer on calendar
           document.querySelector('#footer p:first-child').innerHTML +=
             ' Course last updated on <time datetime="' + commit.stamp + '">' + commit.time_string +
-            '</time> to <a id="commit-message" href="' + commit.url + '">' + commit.message + '</a>.';
+            '</time> to <a id="commit-message" href="' + commit.url + '">' + escapeHTML(commit.message) + '</a>.';
         });
       }
     }
