@@ -1,4 +1,4 @@
-url: https://courses.stolley.co/fwd
+url: https://courses.stolley.co
 baseurl: /fwd/
 
 timezone: America/Chicago
@@ -9,12 +9,12 @@ course:
   uid: fwd
   tagline: >
     Write a course tagline in `_config.yml`
-  term: 2020
+  term: Fall 2020
   # Set `days: ""` (empty string) for weekly/asynchronous classes
-  days: 
+  days:
     - Monday
     - Wednesday
-    
+
   license:
     name: Creative Commons
     url: https://creativecommons.org/licenses/by/4.0/
@@ -23,9 +23,9 @@ course:
     name: Karl Stolley
     title: Professor
     full_title: Enter a full professional title in `_config.yml`
-    url: https://example.com/instructor/
-    github: https://github.com/example/
-    email: karl.stolley@gmail.com
+    url: https://stolley.co/
+    github: https://github.com/karlstolley/
+    email: kstolley@iit.edu
     office_hours: >
       Detail your office hours in `_config.yml`
   navigation:
