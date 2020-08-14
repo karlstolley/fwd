@@ -1,8 +1,8 @@
 - begins: 2020-08-24T00:00
   expires: &two 2020-08-31T00:00
 - begins: *two
-  expires: &three 2020-09-07T00:00
-- begins: *three
+  expires: 2020-09-09T00:00
+- begins: 2020-09-07T00:00
   expires: &four 2020-09-14T00:00
 - begins: *four
   expires: &five 2020-09-21T00:00
@@ -11,8 +11,8 @@
 - begins: *six
   expires: &seven 2020-10-05T00:00
 - begins: *seven
-  expires: &eight 2020-10-12T00:00
-- begins: *eight
+  expires: 2020-10-14T00:00
+- begins: 2020-10-12T00:00
   expires: &nine 2020-10-19T00:00
 - begins: *nine
   expires: &ten 2020-10-26T00:00
