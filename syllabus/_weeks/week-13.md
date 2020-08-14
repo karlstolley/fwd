@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Thirteen
-meetings: 
+theme: "JavaScript: Progressive Enhancement, Web APIs, and Feature Detection"
+meetings:
   - agenda:
       -
     video:

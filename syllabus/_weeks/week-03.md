@@ -1,9 +1,7 @@
 ---
-theme: Theme for Week Three
-meetings: 
-  - agenda:
-      -
-    video:
+theme: Valid, Well-Formed Semantic HTML
+meetings:
+  - agenda: Labor Day (No Class)
   - agenda:
       -
     video:

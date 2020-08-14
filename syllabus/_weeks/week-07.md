@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Seven
-meetings: 
+theme: Accessible, Responsive Images and Media
+meetings:
   - agenda:
       -
     video:

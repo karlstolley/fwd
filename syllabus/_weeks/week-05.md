@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Five
-meetings: 
+theme: "CSS: Typography Fundamentals; Relative Units"
+meetings:
   - agenda:
       -
     video:

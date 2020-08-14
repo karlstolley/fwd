@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Two
-meetings: 
+theme: Core Web Languages, RWD, & Version Control
+meetings:
   - agenda:
       -
     video:

@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Nine
-meetings: 
+theme: "CSS: Modern Page Layout"
+meetings:
   - agenda:
       -
     video:

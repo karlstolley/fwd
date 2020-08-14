@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Four
-meetings: 
+theme: "From HTML to CSS: Syntax, Mobile-First Approaches"
+meetings:
   - agenda:
       -
     video:

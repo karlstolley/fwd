@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Six
-meetings: 
+theme: Site Scoping and Planning; Stylesheet Organization, Media Queries
+meetings:
   - agenda:
       -
     video:

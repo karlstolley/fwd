@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Twelve
-meetings: 
+theme: "JavaScript: DOM Scripting and Frameworks (or Not)"
+meetings:
   - agenda:
       -
     video:

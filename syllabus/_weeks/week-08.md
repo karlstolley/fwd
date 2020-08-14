@@ -1,9 +1,7 @@
 ---
-theme: Theme for Week Eight
-meetings: 
-  - agenda:
-      -
-    video:
+theme: "CSS: Intro to Page Layout"
+meetings:
+  - agenda: Fall Break (No Class)
   - agenda:
       -
     video:

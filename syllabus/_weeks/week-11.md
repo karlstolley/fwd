@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Eleven
-meetings: 
+theme: Unobtrusive JavaScript with Event Listeners
+meetings:
   - agenda:
       -
     video:

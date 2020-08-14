@@ -1,6 +1,6 @@
 ---
-theme: Theme for Week Ten
-meetings: 
+theme: JavaScript Syntax & Fundamentals
+meetings:
   - agenda:
       -
     video:
