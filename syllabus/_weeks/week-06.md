@@ -12,7 +12,7 @@ meetings:
       - Site-wide typography and type selection
     video:
 readings:
-  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter 4
+  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;4
 tasks:
   - Participate in Week Six reading discussion on Basecamp
 ---

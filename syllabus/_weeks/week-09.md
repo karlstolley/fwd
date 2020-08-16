@@ -8,7 +8,7 @@ meetings:
       - CSS Grid
     video:
 readings:
-  - Rachel Andrew, *The New CSS Layout*, Chapters 6–8
+  - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;6–8
   - >
     Jen Simmons, [Modern Layouts: Getting Out of Our Ruts](https://www.youtube.com/watch?v=jreccgYLfx8)
     [Video, 61 minutes]

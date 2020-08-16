@@ -9,7 +9,7 @@ meetings:
       - Snippets in Atom.io
     video:
 readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapters 5-6
+  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapters&nbsp;5-6
 tasks:
   - Participate in Week Three reading discussion on Basecamp
 ---

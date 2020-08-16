@@ -7,7 +7,7 @@ meetings:
       - CSS approaches to layout, past and present
     video:
 readings:
-  - Rachel Andrew, *The New CSS Layout*, Chapters 3–5
+  - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–5
   - >
     MDN, [Learn CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) (all
     Guides listed in the main column)

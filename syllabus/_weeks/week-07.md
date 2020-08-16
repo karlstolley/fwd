@@ -10,9 +10,9 @@ meetings:
       - Responsive images
     video:
 readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter 3
-  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter 3
-  - Rachel Andrew, *The New CSS Layout*, Foreword, Chapters 1–2
+  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3
+  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;3
+  - Rachel Andrew, *The New CSS Layout*, Foreword, Chapters&nbsp;1–2
   - >
     MDN, [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
   - >

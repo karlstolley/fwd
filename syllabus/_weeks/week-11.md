@@ -8,10 +8,10 @@ meetings:
       - JavaScript events and event listeners
     video:
 readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter 4
+  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
   - >
     Marijn Haverbeke, *[Eloquent JavaScript](https://eloquentjavascript.net/), 3rd ed.*,
-    Introduction; Chapters 5–6
+    Introduction; Chapters&nbsp;5–6
 tasks:
   - Participate in Week Eleven reading discussion on Basecamp
 ---

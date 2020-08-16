@@ -13,7 +13,7 @@ readings:
   - "MDN, [Guide: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)"
   - >
     Marijn Haverbeke, *[Eloquent JavaScript](https://eloquentjavascript.net/), 3rd ed.*,
-    Introduction; Chapters 1–4
+    Introduction; Chapters&nbsp;1–4
 tasks:
   - Participate in Week Ten reading discussion on Basecamp
 ---

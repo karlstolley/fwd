@@ -11,7 +11,7 @@ meetings:
       - The state of the web
     video:
 readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Introduction; Chapters 1-2
+  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Introduction; Chapters&nbsp;1-2
   - Ethan Marcotte, “[Responsive Web Design](http://alistapart.com/article/responsive-web-design)”
   - Jeremy Keith, [The Web is Agreement](https://www.youtube.com/watch?v=F3OpvEX2fhs) [Video, 28 mins]
 tasks:
