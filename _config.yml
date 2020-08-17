@@ -66,13 +66,13 @@ collections:
     # /syllabus/_policies/ directory
     order:
       - description.md
-      - goals.md
       - outcomes.md
       - objectives.md
       - books.md
       - materials.md
       - special-needs.md
       - participation.md
+      - video-meetings.md
       - assignment-submission.md
       - late-work.md
       - grading-policy.md
