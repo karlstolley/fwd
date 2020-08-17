@@ -1,5 +1,5 @@
 ---
-title: Project Title
+title: Responsive, Relative-Unit CSS
 due_date: &deadline 2020-11-19
 preview: true
 goals:

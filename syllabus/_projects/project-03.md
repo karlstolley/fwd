@@ -1,5 +1,5 @@
 ---
-title: Project Title
+title: Substantial Revision of Your Web Presence
 due_date: &deadline 2020-12-10
 preview: true
 goals:
