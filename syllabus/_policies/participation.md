@@ -17,3 +17,6 @@ week, all semester long. Students earning a B will post three to five times, and
 C will post two times, every week. Fewer than an average of two discussion contributions per week
 will result in a failing Participation grade. (While you are certainly encouraged to post to the
 Social Hour Basecamp, that activity does not affect your participation grade.)
+
+Attendance at live class meetings does not impact your participation grade, but I do hope that
+everyone who is able joins those meetings.
