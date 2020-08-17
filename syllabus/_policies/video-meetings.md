@@ -5,7 +5,7 @@ title: Class Meeting Expectations and Etiquette
 If you are able to attend our class meetings on Google Meet, here are just a few simple guidelines:
 
 * **You do not have to broadcast your camera.** For any reason. The choice is yours. It’s helpful
-  for me to be able to glance at faces and see how everyone is reacting, but it's totally up to you
+  for me to be able to glance at faces and see how everyone is reacting, but it’s totally up to you
   whether to broadcast your camera or not.
 * **Please mute your mic if you’re not speaking.** Self-explanatory. Muted mics cut down on ambient
   noise and occasional echo that can be real problems for people who have hearing difficulties. I
