@@ -46,6 +46,9 @@ course:
     - label: Demos
       href: "https://github.com/fwd-2020"
       id: dmo
+    - label: Links
+      href: "links/"
+      id: lnk
     - label: Projects
       href: "projects/#current"
       id: pro
