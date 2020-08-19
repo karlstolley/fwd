@@ -2,11 +2,11 @@
 theme: Work Week
 meetings:
   - agenda:
-      - Open Q & A
+      - Open Q&nbsp;&amp;&nbsp;A
       - Stolley available for one-on-one help
     video:
   - agenda:
-      - Open Q & A
+      - Open Q&nbsp;&amp;&nbsp;A
       - Stolley available for one-on-one help
     video:
 tasks:
