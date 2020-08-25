@@ -5,7 +5,7 @@ meetings:
     - Course overview
     - Course policies
     - Course projects
-    video:
+    video: https://youtu.be/UO3tHhooRVE
   - agenda:
       - Setting up a development environment
       - The state of the web
