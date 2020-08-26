@@ -7,6 +7,7 @@ meetings:
     - Course projects
     video: https://youtu.be/UO3tHhooRVE
   - agenda:
+      - Asking questions publicly on Basecamp
       - Setting up a development environment
       - The state of the web
     video:
