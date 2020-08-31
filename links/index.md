@@ -43,6 +43,14 @@ layout: links
 ### Tools
 
 * [Setup Instructions](https://ks4.us/setup)
+* [Eric Meyer Reset CSS](http://meyerweb.com/eric/tools/css/reset/reset.css); [Modified, Minified 361 Reset](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-reset-min-css)
+* [HTML Validator](https://validator.w3.org/)
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JS Hint](http://jshint.com/)
+* [ESLint](http://eslint.org/) CLI; [ITMD 361-style .eslintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json)
+* [htmllint](https://github.com/htmllint/htmllint-cli); [ITMD 361-style .htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
+* [CSS stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); [ITMD 361-style .stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
+
 </section>
 
 
