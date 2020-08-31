@@ -6,7 +6,7 @@ meetings:
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video:
   - agenda:
-      - Introduce the first Production Problem and turn-in procedure
+      - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
       - "Deeper into Git: working with remotes"
       - The importance of solid Web documentation
     video:
