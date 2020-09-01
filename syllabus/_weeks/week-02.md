@@ -4,7 +4,7 @@ meetings:
   - agenda:
       - File systems and the basics of version control/Git
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
-    video:
+    video: https://youtu.be/B6xOgmX0nsI
   - agenda:
       - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
       - "Deeper into Git: working with remotes"
