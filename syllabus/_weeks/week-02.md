@@ -6,9 +6,9 @@ meetings:
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video: https://youtu.be/B6xOgmX0nsI
   - agenda:
-      - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
+      - Git fundamentals and concepts
       - "Deeper into Git: working with remotes"
-      - The importance of solid Web documentation
+      - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
     video: https://youtu.be/KSIo7LBTBrY
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Introduction; Chapter&nbsp;1

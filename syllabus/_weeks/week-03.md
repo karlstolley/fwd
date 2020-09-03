@@ -3,9 +3,9 @@ theme: Valid, Well-Formed Semantic HTML
 meetings:
   - agenda: Labor Day (No Class)
   - agenda:
-      - Introduce Project One
-      - "[HTML Tags: Past, Present, Proposed](http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html)"
+      - Introduce [Project One](projects/#project-one)
       - Valid, well-formed semantic HTML
+      - The importance of solid Web documentation
       - Snippets in Atom.io
     video:
 readings:
