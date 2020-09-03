@@ -23,6 +23,7 @@ layout: links
 * [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
 * [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 * [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+* [HTML Tags: Past, Present, Proposed](http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html)
 </section>
 
 <section markdown="1">
