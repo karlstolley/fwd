@@ -9,7 +9,7 @@ meetings:
       - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
       - "Deeper into Git: working with remotes"
       - The importance of solid Web documentation
-    video:
+    video: https://youtu.be/KSIo7LBTBrY
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Introduction; Chapter&nbsp;1
   - Chris Beams, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
