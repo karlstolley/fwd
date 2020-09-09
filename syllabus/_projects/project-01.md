@@ -42,16 +42,20 @@ requirements:
     *next project will add in CSS, which will handle all visual design features
   - Your Git repository must contain **only** the files and commits from this project
 deliverables:
-  - action: Post draft project-repository GitHub link to Basecamp.
+  - action: >
+      Post draft project-repository GitHub link-o-rama to the
+      [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/18696459)
     description: >
       Create a new message thread with your name and Project One, something like “Scarlet Hawk:
       Project One.” The post should include:
     details:
       - The https:// link to your project’s GitHub repository
       - A few questions for peer and instructor feedback
-    deadline: 2020-09-10
-  - action: Respond with helpful feedback to at least 3 other student projects on Basecamp.
     deadline: 2020-09-17
+  - action: >
+      Respond with helpful feedback to at least 3 other student projects on the
+      [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/18696459).
+    deadline: 2020-09-21
   - action: Email instructor with final project deliverables.
     description: "The email should contain:"
     details:
