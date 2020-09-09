@@ -17,6 +17,7 @@ meetings:
       - CSS syntax
       - CSS style
       - CSS and Mobile-First Responsive Web Design
+      - Working on a `css` branch during Project One
     video:
 readings:
   - >
