@@ -7,7 +7,7 @@ meetings:
       - Valid, well-formed semantic HTML
       - The importance of solid Web documentation
       - Snippets in Atom.io
-    video:
+    video: https://youtu.be/7w2gQfC9O-g
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapters&nbsp;5-6
 tasks:
