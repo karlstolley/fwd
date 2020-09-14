@@ -2,7 +2,7 @@
 theme: "From HTML to CSS: Syntax, Mobile-First Approaches"
 meetings:
   - agenda:
-      - Setting a better default editor in Git      
+      - "Semantic powerhouses: nested lists"
       - HTML documentation, sectioning elements
       - Developing reusable semantic HTML patterns
       - >
