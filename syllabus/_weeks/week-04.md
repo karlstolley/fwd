@@ -11,7 +11,7 @@ meetings:
       - >
         HTML linting with [htmllint](https://github.com/htmllint/htmllint-cli) (CLI); `.htmllintrc` configuration
       - ITMD 361 house-style [.htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
-    video:
+    video: https://youtu.be/jz2JFPY2sLY
   - agenda:
       - "Foundations: working with reset styles"
       - CSS syntax
