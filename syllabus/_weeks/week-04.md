@@ -20,7 +20,7 @@ meetings:
       - CSS style
       - CSS and Mobile-First Responsive Web Design
       - Working on a `css` branch during Project One
-    video:
+    video: https://youtu.be/kEzQl--trOI
 readings:
   - >
     MDN, [CSS syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) and
