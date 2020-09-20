@@ -2,11 +2,14 @@
 theme: "CSS: Typography Fundamentals; Relative Units"
 meetings:
   - agenda:
+      - Project One feedback overall; the state of the course
+      - "Source formatting: semantic indentation, empty lines"
+      - Working with system and web-available typefaces
+      - "Two key values: `font-size` and `line-height`"
       - Setting text on a baseline grid
-      - Working with modular scales
-      - Working with web-available type
     video:
   - agenda:
+      - Working with modular scales
       - Converting from absolute to relative units
     video:
 readings:
