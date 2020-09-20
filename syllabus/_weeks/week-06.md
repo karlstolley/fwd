@@ -14,5 +14,6 @@ meetings:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;4
 tasks:
+  - Participate in Production Problem 02 discussion on Basecamp
   - Participate in Week Six reading discussion on Basecamp
 ---

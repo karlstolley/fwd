@@ -17,5 +17,6 @@ readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;2
   - Jason Santa Maria, *On Web Typography*, Chapters&nbsp;4–6
 tasks:
+  - "Production Problem 02: HTML Antipatterns, Typographic Grids"
   - Participate in Week Five reading discussion on Basecamp
 ---
