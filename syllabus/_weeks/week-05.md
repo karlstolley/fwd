@@ -7,7 +7,7 @@ meetings:
       - Working with system and web-available typefaces
       - "Two key values: `font-size` and `line-height`"
       - Setting text on a baseline grid
-    video:
+    video: https://youtu.be/VDTfjCvuB34
   - agenda:
       - Working with modular scales
       - Converting from absolute to relative units
