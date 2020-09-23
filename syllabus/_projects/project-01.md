@@ -1,6 +1,6 @@
 ---
 title: Valid, Responsive-Ready HTML
-due_date: &deadline 2020-09-24
+due_date: &deadline 2020-09-28
 preview: false
 goals:
   - Produce modern standards-compliant HTML pages
