@@ -9,7 +9,8 @@ meetings:
       - Setting text on a baseline grid
     video: https://youtu.be/VDTfjCvuB34
   - agenda:
-      - Working with modular scales
+      - Why grid-based design?
+      - Working with [modular scales](https://www.modularscale.com)
       - Converting from absolute to relative units
     video:
 readings:
