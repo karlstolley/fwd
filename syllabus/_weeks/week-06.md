@@ -8,7 +8,7 @@ meetings:
       - Site-wide typography and type selection
       - CSS signatures
       - Selector specificity
-    video:
+    video: https://youtu.be/DD83rIB_V5E
   - agenda:
       - Organizing stylesheets (SMACSS)    
       - Mobile-first styles and media queries
