@@ -8,6 +8,7 @@ meetings:
     video:
   - agenda:
       - Responsive images
+      - CSS style & linting; ITMD 361 style
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3

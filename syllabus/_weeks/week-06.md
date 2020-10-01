@@ -12,7 +12,6 @@ meetings:
   - agenda:
       - Organizing stylesheets (SMACSS)    
       - Mobile-first styles and media queries
-      - CSS style & linting; ITMD 361 style
     video: https://youtu.be/6j9JEOfQr10
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;4
