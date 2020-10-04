@@ -2,9 +2,11 @@
 theme: Accessible, Responsive Images and Media
 meetings:
   - agenda:
+      - Preventing caching problems in Firefox and Chrome
       - Rich media features in HTML
       - The `<figure>` element
       - Accessible images and media
+      - Exploring the accessibility tree in Firefox
     video:
   - agenda:
       - Responsive images
