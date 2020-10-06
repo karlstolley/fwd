@@ -7,7 +7,7 @@ meetings:
       - The `<figure>` element
       - Accessible images and media
       - Exploring the accessibility tree in Firefox
-    video:
+    video: https://youtu.be/ikOzCmB3_mI
   - agenda:
       - Responsive images
       - CSS style & linting; ITMD 361 style
