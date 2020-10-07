@@ -3,6 +3,7 @@ theme: "CSS: Modern Page Layout"
 meetings:
   - agenda:
       - CSS Flexible Boxes (flexbox)
+      - Revisiting responsive images
     video:
   - agenda:
       - CSS Grid

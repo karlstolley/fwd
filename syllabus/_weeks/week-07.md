@@ -11,7 +11,6 @@ meetings:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
       - CSS style & linting; ITMD 361 style
-      - Responsive images
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3
