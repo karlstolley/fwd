@@ -11,7 +11,7 @@ meetings:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
       - CSS linting with [stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); ITMD 361 [.stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
-    video:
+    video: https://youtu.be/DLr6M91sVDE
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;3
