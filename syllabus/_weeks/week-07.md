@@ -9,8 +9,9 @@ meetings:
       - Exploring the accessibility tree in Firefox
     video: https://youtu.be/ikOzCmB3_mI
   - agenda:
-      - Responsive images
+      - Introduce [Project Two](projects/#project-two)
       - CSS style & linting; ITMD 361 style
+      - Responsive images
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3
