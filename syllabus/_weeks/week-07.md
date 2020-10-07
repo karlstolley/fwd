@@ -23,4 +23,7 @@ readings:
   - Marquis, [Responsive Images](https://alistapart.com/article/responsive-images/)
 tasks:
   - Participate in Week Seven reading discussion on Basecamp
+  - >
+    Have a relaxing fall break; at minimum, you are **required** to take at least a couple of hours
+    to do something relaxing and fun for yourself. No exceptions
 ---
