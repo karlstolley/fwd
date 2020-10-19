@@ -2,11 +2,13 @@
 theme: "CSS: Modern Page Layout"
 meetings:
   - agenda:
+      - Revisiting the typographic grid and `line-height`
+      - CSS Grid and `@supports`
       - CSS Flexible Boxes (flexbox)
-      - Revisiting responsive images
     video:
   - agenda:
-      - CSS Grid
+      - More CSS Grid
+      - Revisiting responsive images
     video:
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;6–8
