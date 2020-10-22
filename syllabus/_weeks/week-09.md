@@ -9,7 +9,7 @@ meetings:
   - agenda:
       - More CSS Grid
       - Revisiting responsive images
-    video:
+    video: https://youtu.be/Da53Ul1P-E8
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;6–8
   - >
