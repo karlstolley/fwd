@@ -66,7 +66,7 @@ requirements:
 
 deliverables:
   - action: >
-      Post draft project-repository video and GitHub link to the
+      Post draft project repository, video, and GitHub Pages or other public link to the
       [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/18696459)
     description: >
       Create a new message thread with your name and Project Two, something like “Scarlet Hawk:
