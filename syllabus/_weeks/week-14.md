@@ -6,5 +6,5 @@ meetings:
     video:
   - agenda: Thanksgiving Break (No Class)
 tasks:
-  - TBD
+  - Production Problem 05 Discussion
 ---

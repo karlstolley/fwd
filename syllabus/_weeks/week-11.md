@@ -1,17 +1,12 @@
 ---
-theme: HTML Form Elements; Unobtrusive JavaScript with Event Listeners
+theme: Catch Up and Review Week
 meetings:
   - agenda:
-      - HTML form elements
+      - "**No class.** Stolley finishing draft comments."
     video:
   - agenda:
-      - JavaScript events and event listeners
+      - A big review day, based on recurring Project Two issues and the Week Eleven Q&A thread
     video:
-readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
-  - >
-    Marijn Haverbeke, *[Eloquent JavaScript](https://eloquentjavascript.net/), 3rd ed.*,
-    Introduction; Chapters&nbsp;5–6
 tasks:
-  - Participate in Week Eleven reading discussion on Basecamp
+  - Production Problem 03 (Flexbox Froggy)
 ---
