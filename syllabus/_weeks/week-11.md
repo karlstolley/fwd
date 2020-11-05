@@ -15,7 +15,7 @@ meetings:
       - "Flexbox, especially for navigation"
       - Basic handling of images in different orientations (portrait, landscape)
       - "CSS Grid: rows, columns, and item placement"
-    video:
+    video: https://youtu.be/qKmMYTrIsIs
 tasks:
   - Production Problem 03 (Flexbox Froggy)
 ---
