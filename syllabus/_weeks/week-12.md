@@ -2,11 +2,14 @@
 theme: HTML Form Elements; DOM Manipulation; Unobtrusive JavaScript with Event Listeners
 meetings:
   - agenda:
-      - HTML form elements
-      - Manipulating the DOM
+      - "Flexbox, especially for navigation"
+      - Basic handling of images in different orientations (portrait, landscape)
+      - "CSS Grid: rows, columns, and item placement"
     video:
   - agenda:
+      - HTML form elements
       - JavaScript events and event listeners
+      - Manipulating the DOM
       - "Frameworks: The good, the bad, the ugly"
     video:
 readings:

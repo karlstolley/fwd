@@ -2,6 +2,7 @@
 theme: "JavaScript: Progressive Enhancement, Web APIs, and Feature Detection"
 meetings:
   - agenda:
+      - "Frameworks: The good, the bad, the ugly"
       - Progressive enhancement
     video:
   - agenda:
