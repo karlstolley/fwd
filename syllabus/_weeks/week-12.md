@@ -1,5 +1,5 @@
 ---
-theme: HTML Form Elements; DOM Manipulation; Unobtrusive JavaScript with Event Listeners
+theme: Finish Review; HTML Form Elements; Unobtrusive JavaScript with Event Listeners
 meetings:
   - agenda:
       - "Flexbox, especially for navigation"
