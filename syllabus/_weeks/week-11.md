@@ -12,9 +12,6 @@ meetings:
       - >
         Typographic grids: `font-size` and `line-height` and how everything comes back to those two
         values; modular scales
-      - "Flexbox, especially for navigation"
-      - Basic handling of images in different orientations (portrait, landscape)
-      - "CSS Grid: rows, columns, and item placement"
     video: https://youtu.be/qKmMYTrIsIs
 tasks:
   - Production Problem 03 (Flexbox Froggy)
