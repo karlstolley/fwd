@@ -10,7 +10,6 @@ meetings:
       - HTML form elements
       - JavaScript events and event listeners
       - Manipulating the DOM
-      - "Frameworks: The good, the bad, the ugly"
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
