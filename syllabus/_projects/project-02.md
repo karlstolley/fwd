@@ -1,6 +1,6 @@
 ---
 title: Responsive, Relative-Unit&nbsp;CSS
-due_date: &deadline 2020-11-12
+due_date: &deadline 2020-11-19
 preview: false
 goals:
   - Produce modern standards-compliant, mobile-first CSS
