@@ -7,9 +7,9 @@ meetings:
       - "CSS Grid: rows, columns, and item placement"
     video: https://youtu.be/lFYh1vGx89c
   - agenda:
-      - HTML form elements
       - JavaScript events and event listeners
       - Manipulating the DOM
+      - HTML form elements
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
