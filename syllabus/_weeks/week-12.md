@@ -10,7 +10,7 @@ meetings:
       - JavaScript events and event listeners
       - Manipulating the DOM
       - HTML form elements
-    video:
+    video: https://youtu.be/9p57W9cY1wc
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
   - >
