@@ -1,5 +1,5 @@
 ---
-theme: Finish Review; HTML Form Elements; Unobtrusive JavaScript with Event Listeners
+theme: Finish Review; Unobtrusive JavaScript with Event Listeners
 meetings:
   - agenda:
       - "Flexbox, especially for navigation"
@@ -9,7 +9,6 @@ meetings:
   - agenda:
       - JavaScript events and event listeners
       - Manipulating the DOM
-      - HTML form elements
     video: https://youtu.be/9p57W9cY1wc
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
