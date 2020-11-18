@@ -1,9 +1,11 @@
 ---
-theme: Catch Up and Open Q&nbsp;&amp;&nbsp;A
+theme: Feature Branches, Web APIs; Q&nbsp;&amp;&nbsp;A
 meetings:
   - agenda:
       - Working with feature branches (Project Three/PP-05)
-      - Catch up and Q&nbsp;&amp;&nbsp;A
+      - Web APIs
+      - Feature detection
+      - Q&nbsp;&amp;&nbsp;A
     video:
   - agenda: Thanksgiving Break (No Class)
 tasks:

@@ -1,5 +1,5 @@
 ---
-theme: "HTML Form Elements; JavaScript: Progressive Enhancement, Web APIs, and Feature Detection"
+theme: "HTML Form Elements; JavaScript: Progressive Enhancement"
 meetings:
   - agenda:
       - HTML form elements
@@ -7,8 +7,7 @@ meetings:
       - "Frameworks: The good, the bad, the ugly"
     video:
   - agenda:
-      - Web APIs
-      - Feature detection
+      - No class. Finish projects.
     video:
 readings:
   - >
