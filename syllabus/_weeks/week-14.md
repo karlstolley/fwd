@@ -1,11 +1,11 @@
 ---
-theme: Feature Branches, Web APIs; Q&nbsp;&amp;&nbsp;A
+theme: Feature Branches, Web APIs
 meetings:
   - agenda:
+      - Introduce [Project Three](projects/#project-three)
       - Working with feature branches (Project Three/PP-05)
       - Web APIs
       - Feature detection
-      - Q&nbsp;&amp;&nbsp;A
     video:
   - agenda: Thanksgiving Break (No Class)
 tasks:
