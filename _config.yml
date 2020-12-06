@@ -67,6 +67,7 @@ course:
       id: pol
   css:
     font-url: "https://use.typekit.net/qqk1feg.css"
+    theme: fall
 
 collections_dir: syllabus
 
