@@ -1,5 +1,11 @@
 ---
 title: Books
+comment: >
+  <b>My policy for assigning books:</b> Required books are all required in the edition indicated;
+  the total retail price tag for the entire course should be less than $100 (this one is $56 on the
+  high end); and each book should be worthy of a place on your bookshelf or electronic device of
+  choice long after the class has ended. I want to help you build your professional library while
+  also being sensitive to your personal finances.
 ---
 
 <section class="required" markdown="1">
@@ -16,11 +22,3 @@ title: Books
 - Swicegood, T. <cite>Pragmatic Version Control Using Git</cite>. Pragmatic Bookshelf, $25 (eBook),
   9781934356159
 </section>
-
-<aside class="fine-print" markdown="1">
-  <b>My policy for assigning books:</b> Required books are all required in the edition indicated;
-  the total retail price tag for the entire course should be less than $100 (this one is $56 on the
-  high end); and each book should be worthy of a place on your bookshelf or electronic device of
-  choice long after the class has ended. I want to help you build your professional library while
-  also being sensitive to your personal finances.
-</aside>
