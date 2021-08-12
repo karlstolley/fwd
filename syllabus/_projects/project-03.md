@@ -1,6 +1,6 @@
 ---
 title: Targeted Revision of Your Web Presence
-due_date: &deadline 2020-12-10
+due_date: &deadline 2021-12-09
 preview: false
 goals:
   - >

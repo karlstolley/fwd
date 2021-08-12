@@ -1,6 +1,6 @@
 ---
 title: Responsive, Relative-Unit&nbsp;CSS
-due_date: &deadline 2020-11-19
+due_date: &deadline 2021-11-18
 preview: false
 goals:
   - Produce modern standards-compliant, mobile-first CSS
@@ -78,11 +78,11 @@ deliverables:
         A three- to five-minute video walkthrough of your project where you capture your site
         displayed on your computer and where you speak aloud describing your progress and challenges
       - A few questions for peer and instructor feedback
-    deadline: 2020-10-29
+    deadline: 2021-10-28
   - action: >
       Respond with helpful feedback to at least 3 other student projects on the
       [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/18696459).
-    deadline: 2020-11-05
+    deadline: 2021-11-04
   - action: Email instructor with final project deliverables.
     description: "The email should contain:"
     details:
