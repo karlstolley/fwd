@@ -39,7 +39,7 @@ requirements:
     each set of changes that you make
   - >
     **Do not** attempt any visual design in this project; choose your HTML tags for semantics. The
-    *next project will add in CSS, which will handle all visual design features
+    next project will add in CSS, which will handle all visual design features
   - Your Git repository must contain **only** the files and commits from this project
 deliverables:
   - action: >

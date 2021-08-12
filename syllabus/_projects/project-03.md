@@ -13,18 +13,18 @@ requirements:
   enough to merge the commits from the feature branch into your `main` branch, that's fine, but
   preserve the feature branch for submitting your project.
 - >
-  The feature branch should be descriptive of your targeted revision. If you work on colors, `colors`
-  is a great branch name. Working on layout? Go with `layout`. And so on.
+  The feature branch should be descriptive of your targeted revision. If you work on colors,
+  `colors` is a great branch name. Working on layout? Go with `layout`. And so on.
 - >
   Use JavaScript only for progressive enhancement. All site content and basic functionality (e.g.,
   clicking links, viewing images and other media, and scrolling) must still be available even in the
   absence of JavaScript.
 - >
   **Do not use** `on-` or other deprecated event attributes in your HTML. Handle all events via
-  *event listeners in your JavaScript, with `addEventListener`. The only element of your HTML that
-  *should contain any references to JavaScript should be a `<script>` element that loads your
-  *JavaScript file, and possibly also your DOM-manipulation framework. In other words, keep your
-  *JavaScript unobtrusive to progressively enhance your HTML.
+  event listeners in your JavaScript, with `addEventListener`. The only element of your HTML that
+  should contain any references to JavaScript should be a `<script>` element that loads your
+  JavaScript file, and possibly also your DOM-manipulation framework. In other words, keep your
+  JavaScript unobtrusive to progressively enhance your HTML.
 - >
   Avoid using JavaScript to manipulate CSS whenever possible. Limit JavaScript to manipulating the
   DOM, including adding and removing state classes, and keep style information and transitions where
