@@ -4,7 +4,7 @@ id: links
 layout: links
 ---
 
-<section markdown="1">
+<section class="course-links" markdown="1">
 ### Course-Related
 
 * [Basecamp](https://launchpad.37signals.com/signin)
@@ -15,7 +15,20 @@ layout: links
   (YouTube Playlist)
 </section>
 
-<section markdown="1">
+<section class="tool-links" markdown="1">
+### Tools
+
+* [Setup Instructions](https://ks4.us/setup)
+* [Eric Meyer Reset CSS](http://meyerweb.com/eric/tools/css/reset/reset.css); [Modified, Minified 361 Reset](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-reset-min-css)
+* [HTML Validator](https://validator.w3.org/)
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JS Hint](http://jshint.com/)
+* [ESLint](http://eslint.org/) CLI; [ITMD 361-style .eslintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json)
+* [htmllint](https://github.com/htmllint/htmllint-cli); [ITMD 361-style .htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
+* [CSS stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); [ITMD 361-style .stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
+</section>
+
+<section class="documentation-links" markdown="1">
 ### Documentation
 
 * [DevDocs](https://devdocs.io)
@@ -26,7 +39,7 @@ layout: links
 * [HTML Tags: Past, Present, Proposed](http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html)
 </section>
 
-<section markdown="1">
+<section class="specification-links" markdown="1">
 ### Specifications
 
 * [HTML: The Living Standard](https://html.spec.whatwg.org/dev/) (Developer’s Edition)
@@ -40,19 +53,6 @@ layout: links
 * [RFC 7540: HTTP/2](https://tools.ietf.org/html/rfc7540)
 </section>
 
-<section markdown="1">
-### Tools
-
-* [Setup Instructions](https://ks4.us/setup)
-* [Eric Meyer Reset CSS](http://meyerweb.com/eric/tools/css/reset/reset.css); [Modified, Minified 361 Reset](https://gist.github.com/profstolley/b1f851e061f98fcbc0e41d39adc32847#file-reset-min-css)
-* [HTML Validator](https://validator.w3.org/)
-* [CSS Validator](https://jigsaw.w3.org/css-validator/)
-* [JS Hint](http://jshint.com/)
-* [ESLint](http://eslint.org/) CLI; [ITMD 361-style .eslintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json)
-* [htmllint](https://github.com/htmllint/htmllint-cli); [ITMD 361-style .htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
-* [CSS stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); [ITMD 361-style .stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
-
-</section>
 
 
 <section class="suggestions" markdown="1">
