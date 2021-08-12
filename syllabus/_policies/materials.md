@@ -13,10 +13,10 @@ title: Materials
 - A GitHub account (see note about anonymity in the course technology policy below)
 - A personal computer, Unix-based (Linux, BSD, macOS) or virtualized to run a Unix-like OS, with the
   following software installed:
-  - A plain-text editor capable of Ruby syntax highlighting and configured for UTF-8/Unicode
+  1. A plain-text editor capable of Ruby syntax highlighting and configured for UTF-8/Unicode
     character encoding and Unix-style line endings (LF), entabbed with spaces (two spaces per tab)
-  - Firefox Developer Edition (free)
-  - Git (free)
+  1. Firefox Developer Edition (free)
+  1. Git (free)
 </section>
 
 <section class="recommended" markdown="1">
