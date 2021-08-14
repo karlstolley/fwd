@@ -15,10 +15,11 @@ comment: >
   9781937557249
 - Marcotte, E. <cite>Responsive Web Design, 2nd ed.</cite> A Book Apart, $14 (eBook), 9781937557188
 - Santa Maria, J. <cite>On Web Typography</cite>. A Book Apart, $14 (eBook), 9781937557065
-</section>
 
-<section class="recommended" markdown="1">
+
+<aside class="recommended" markdown="1">
 <h3>Recommended</h3>
 - Swicegood, T. <cite>Pragmatic Version Control Using Git</cite>. Pragmatic Bookshelf, $25 (eBook),
   9781934356159
+</aside>
 </section>

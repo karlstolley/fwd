@@ -17,11 +17,12 @@ title: Materials
     character encoding and Unix-style line endings (LF), entabbed with spaces (two spaces per tab)
   1. Firefox Developer Edition (free)
   1. Git (free)
-</section>
 
-<section class="recommended" markdown="1">
+
+<aside class="recommended" markdown="1">
 <h3>Recommended</h3>
 - A tablet with a pencil/stylus, running a fully featured drawing or illustration program
 - Wide-tipped markers in a variety of colors (shopping hint: try a search for “professional art
   markers” on Amazon)
+</aside>
 </section>
