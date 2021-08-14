@@ -43,7 +43,7 @@ deliverables:
 
 For this project, you will make a targeted revision of or enhancement to your Project Two. You will
 do that work on a feature branch named for the emphasis of your revision. For example, if you want
-to work on your site's colors, you would create and checkout a feature branch called `colors` (`git
-checkout -b colors`) and write all of your commits on that branch. Targeted revisions to your CSS
+to work on your site’s layout, you would create and checkout a feature branch called `layout` (`git
+checkout -b layout`) and write all of your commits on that branch. Targeted revisions to your CSS
 and HTML are acceptable for this project, but you may also elect to write an unobtrusive JavaScript
 component to progressively enhance your site.
