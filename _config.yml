@@ -59,6 +59,15 @@ course:
   css:
     font-url: "https://use.typekit.net/lec4tmb.css"
     theme: fall
+  archives:
+  - label: Fall 2020
+    url: "https://courses.stolley.co/fwd-2020/"
+  - label: Fall 2018
+    url: "https://courses.stolley.co/fwd-2018/"
+  - label: Fall 2017
+    url: "https://courses.stolley.co/fwd-2017/"
+  - label: Fall 2016
+    url: "https://courses.stolley.co/fwd-2016/"
 
 collections_dir: syllabus
 
