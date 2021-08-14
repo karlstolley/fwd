@@ -8,11 +8,11 @@ meetings:
       - Site-wide typography and type selection
       - CSS signatures
       - Selector specificity
-    video: https://youtu.be/DD83rIB_V5E
+    video:
   - agenda:
       - Organizing stylesheets (SMACSS)    
       - Mobile-first styles and media queries
-    video: https://youtu.be/6j9JEOfQr10
+    video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;4
   - Jonathan Snook, [Scalable and Modular Architecture for CSS](http://smacss.com/), Introduction; Chapters&nbsp;3–4

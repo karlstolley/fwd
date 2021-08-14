@@ -5,12 +5,12 @@ meetings:
     - Course overview
     - Course policies
     - Course projects
-    video: https://youtu.be/UO3tHhooRVE
+    video:
   - agenda:
       - Asking questions publicly on Basecamp
       - Setting up a development environment
       - The state of the web
-    video: https://youtu.be/b71M6N8Lk4Q
+    video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Introduction; Chapters&nbsp;1-2
   - Ethan Marcotte, “[Responsive Web Design](http://alistapart.com/article/responsive-web-design)”

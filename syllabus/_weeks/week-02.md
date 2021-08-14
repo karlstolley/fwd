@@ -4,12 +4,12 @@ meetings:
   - agenda:
       - File systems and the basics of version control/Git
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
-    video: https://youtu.be/B6xOgmX0nsI
+    video:
   - agenda:
       - Git fundamentals and concepts
       - "Deeper into Git: working with remotes"
       - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
-    video: https://youtu.be/KSIo7LBTBrY
+    video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Introduction; Chapter&nbsp;1
   - Chris Beams, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)

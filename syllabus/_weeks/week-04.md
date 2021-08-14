@@ -11,7 +11,7 @@ meetings:
       - >
         HTML linting with [htmllint](https://github.com/htmllint/htmllint-cli) (CLI); `.htmllintrc` configuration
       - ITMD 361 house-style [.htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
-    video: https://youtu.be/jz2JFPY2sLY
+    video:
   - agenda:
       - ITMD 361 house-style [.htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
       - From HTML to CSS
@@ -20,7 +20,7 @@ meetings:
       - CSS style
       - CSS and Mobile-First Responsive Web Design
       - Working on a `css` branch during Project One
-    video: https://youtu.be/kEzQl--trOI
+    video:
 readings:
   - >
     MDN, [CSS syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) and

@@ -6,7 +6,7 @@ meetings:
       - Working with feature branches (Project Three/PP-05)
       - Web APIs
       - Feature detection
-    video: https://youtu.be/TopgPgrWbu0
+    video:
   - agenda: Thanksgiving Break (No Class)
 tasks:
   - Production Problem 05

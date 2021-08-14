@@ -5,11 +5,11 @@ meetings:
       - "Flexbox, especially for navigation"
       - Basic handling of images in different orientations (portrait, landscape)
       - "CSS Grid: rows, columns, and item placement"
-    video: https://youtu.be/lFYh1vGx89c
+    video:
   - agenda:
       - JavaScript events and event listeners
       - Manipulating the DOM
-    video: https://youtu.be/9p57W9cY1wc
+    video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
   - >

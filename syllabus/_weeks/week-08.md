@@ -5,7 +5,7 @@ meetings:
   - agenda:
       - The sordid history of layout on the web
       - CSS approaches to layout, past and present
-    video: https://youtu.be/nT-2fBOW0e0
+    video:
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–5
   - >

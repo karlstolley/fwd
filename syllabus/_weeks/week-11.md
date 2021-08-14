@@ -12,7 +12,7 @@ meetings:
       - >
         Typographic grids: `font-size` and `line-height` and how everything comes back to those two
         values; modular scales
-    video: https://youtu.be/qKmMYTrIsIs
+    video:
 tasks:
   - Production Problem 03 (Flexbox Froggy)
 ---

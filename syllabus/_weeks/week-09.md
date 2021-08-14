@@ -5,11 +5,11 @@ meetings:
       - Revisiting the typographic grid and `line-height`
       - CSS Grid and `@supports`
       - CSS Flexible Boxes (flexbox)
-    video: https://youtu.be/9gUH8JSbAAg
+    video:
   - agenda:
       - More CSS Grid
       - Revisiting responsive images
-    video: https://youtu.be/Da53Ul1P-E8
+    video:
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;6–8
   - >
