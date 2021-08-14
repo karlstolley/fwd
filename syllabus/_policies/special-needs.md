@@ -36,3 +36,27 @@ Services unit’s operating hours, may wish to call the
 The Student Health and Wellness Center maintains
 [a list of other emergency resources](https://web.iit.edu/shwc/services/crisis-services/emergency-resources)
 worth bookmarking.
+
+<h3>Illinois Tech’s Policy on Sexual Harassment and Discrimination</h3>
+
+Illinois Tech prohibits all sexual harassment, sexual misconduct, and gender discrimination by any
+member of our community. This includes harassment among students, staff, or faculty. Sexual
+harassment of a student by a faculty member or sexual harassment of an employee by a supervisor is
+particularly serious. Such conduct may easily create an intimidating, hostile, or offensive
+environment.
+
+Illinois Tech encourages anyone experiencing sexual harassment or sexual misconduct to speak with
+the Office of Title IX Compliance for information on support options and the resolution process.
+
+You can report sexual harassment electronically at [iit.edu/incidentreport](iit.edu/incidentreport),
+which may be completed anonymously. You may additionally report by contacting the Title IX
+Coordinator, Virginia Foster at [foster@iit.edu](mailto:foster@iit.edu), or the Deputy Title IX Coordinator, Esther Espeland
+at [eespeland@iit.edu](mailto:eespeland@iit.edu).
+
+For confidential support, you may reach Illinois Tech’s Confidential Advisor at 773-907-1062. You
+can also contact a licensed practitioner in Illinois Tech’s Student Health and Wellness Center at
+[student.health@iit.edu](mailto:student.health@iit.edu) or 312-567-7550
+
+For a comprehensive list of resources regarding counseling services, medical assistance, legal
+assistance and visa and immigration services, you can visit the Office of Title IX Compliance
+website at [https://www.iit.edu/title-ix/resources](https://www.iit.edu/title-ix/resources).
