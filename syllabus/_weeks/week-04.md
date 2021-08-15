@@ -1,6 +1,9 @@
 ---
-theme: "From HTML to CSS: Syntax, Mobile-First Approaches"
+theme: "HTML: Advanced Structures and Linting"
 meetings:
+  - agenda:
+      - "**No class.** Stolley finishing draft comments."
+    video:
   - agenda:
       - "Semantic powerhouses: nested lists"
       - HTML documentation, sectioning elements
@@ -11,15 +14,6 @@ meetings:
       - >
         HTML linting with [htmllint](https://github.com/htmllint/htmllint-cli) (CLI); `.htmllintrc` configuration
       - ITMD 361 house-style [.htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
-    video:
-  - agenda:
-      - ITMD 361 house-style [.htmllintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-htmllintrc)
-      - From HTML to CSS
-      - "Foundations: working with reset styles"
-      - CSS syntax
-      - CSS style
-      - CSS and Mobile-First Responsive Web Design
-      - Working on a `css` branch during Project One
     video:
 readings:
   - >

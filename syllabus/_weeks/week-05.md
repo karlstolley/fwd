@@ -1,16 +1,19 @@
 ---
-theme: "CSS: Typography Fundamentals; Relative Units"
+theme: "CSS Foundations and Typography Fundamentals"
 meetings:
   - agenda:
       - Pulling Production Problem 02
-      - Working with system and web-available typefaces
-      - "Two key values: `font-size` and `line-height`"
-      - Setting text on a baseline grid
+      - "Foundations: working with reset styles"
+      - CSS syntax
+      - CSS style
+      - CSS and Mobile-First Responsive Web Design
     video:
   - agenda:
       - Why grid-based design?
+      - Working with system and web-available typefaces
+      - "Two key values: `font-size` and `line-height`"
+      - Setting text on a baseline grid
       - Working with [modular scales](https://www.modularscale.com)
-      - Converting from absolute to relative units
     video:
 readings:
   - 24 Ways, [Compose to a Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm)
