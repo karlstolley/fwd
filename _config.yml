@@ -8,8 +8,8 @@ course:
   title: Fundamentals of Web Development
   uid: fwd
   tagline: >
-    Foundational, research-based principles and practices of web development and client-server
-    architecture according to current open standards.
+    Foundational principles and practices of web development and client-server architecture
+    according to current open standards.
   term: Fall 2021
   # Set `days: ""` (empty string) for weekly/asynchronous classes
   days:
