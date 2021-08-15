@@ -1,7 +1,7 @@
 ---
 title: Targeted Revision of Your Web Presence
 due_date: &deadline 2021-12-09
-preview: false
+preview: true
 goals:
   - >
     Revise a previous project based on instructor feedback and any additional knowledge that you
