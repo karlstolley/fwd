@@ -3,7 +3,7 @@ theme: Accessible, Responsive Images and Media
 meetings:
   - agenda:
       - Preventing caching problems in Firefox and Chrome
-      - Rich media features in HTML
+      - Rich-media features in HTML
       - The `<figure>` element
       - Accessible images and media
       - Exploring the accessibility tree in Firefox
@@ -19,11 +19,12 @@ readings:
   - >
     MDN, [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
   - >
-    Stolley, [Image Accessibility, Part I](http://www.digitalrhetoriccollaborative.org/2016/06/15/image-accessibility-part-i-beyond-alt-attributes/) and [Part II](https://www.digitalrhetoriccollaborative.org/2016/06/21/image-accessibility-part-ii-beyond-src-attributes/)
+    Stolley, Image Accessibility, Part I and Part II
   - Marquis, [Responsive Images](https://alistapart.com/article/responsive-images/)
 tasks:
+  - Production Problem 03
   - Participate in Week Seven reading discussion on Basecamp
   - >
-    Have a relaxing fall break; at minimum, you are **required** to take at least a couple of hours
-    to do something relaxing and fun for yourself. No exceptions
+    Have a relaxing fall break; you are **required** to take at minimum a couple of hours to do
+    something relaxing and fun for yourself. No exceptions.
 ---

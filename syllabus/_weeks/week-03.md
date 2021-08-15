@@ -11,5 +11,6 @@ meetings:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapters&nbsp;5-6
 tasks:
+  - Participate in Production Problem 01 discussion on Basecamp
   - Participate in Week Three reading discussion on Basecamp
 ---

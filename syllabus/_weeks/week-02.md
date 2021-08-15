@@ -8,7 +8,7 @@ meetings:
   - agenda:
       - Git fundamentals and concepts
       - "Deeper into Git: working with remotes"
-      - Introduce [the first Production Problem](https://github.com/fwd-2020/fwd-production-problems/) and turn-in procedure
+      - Introduce the first Production Problem and turn-in procedure
     video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Introduction; Chapter&nbsp;1

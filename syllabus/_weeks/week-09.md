@@ -19,5 +19,6 @@ readings:
     Jen Simmons, [Videos on CSS Grid](https://www.youtube.com/playlist?list=PLbSquHt1VCf1x_-1ytlVMT0AMwADlWtc1)
     [Playlist of 15 videos; watch as many as you can]
 tasks:
+  - Production Problem 04
   - Participate in Week Nine reading discussion on Basecamp
 ---

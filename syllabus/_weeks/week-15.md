@@ -9,6 +9,4 @@ meetings:
       - Open Q&nbsp;&amp;&nbsp;A
       - Stolley available for one-on-one help
     video:
-tasks:
-  - Production Problem 05 Discussion
 ---

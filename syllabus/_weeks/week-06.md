@@ -2,7 +2,6 @@
 theme: Site Scoping and Planning; Stylesheet Organization, Media Queries
 meetings:
   - agenda:
-      - Pulling Production Problem 02
       - "Scoping and planning a site: assets, paths"
       - Using a single stylesheet across an entire site
       - Site-wide typography and type selection

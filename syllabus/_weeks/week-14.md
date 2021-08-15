@@ -8,6 +8,4 @@ meetings:
       - Feature detection
     video:
   - agenda: Thanksgiving Break (No Class)
-tasks:
-  - Production Problem 05
 ---

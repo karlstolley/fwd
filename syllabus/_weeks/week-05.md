@@ -2,8 +2,7 @@
 theme: "CSS: Typography Fundamentals; Relative Units"
 meetings:
   - agenda:
-      - Project One feedback overall; the state of the course
-      - "Source formatting: semantic indentation, empty lines"
+      - Pulling Production Problem 02
       - Working with system and web-available typefaces
       - "Two key values: `font-size` and `line-height`"
       - Setting text on a baseline grid
@@ -18,6 +17,6 @@ readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;2
   - Jason Santa Maria, *On Web Typography*, Chapters&nbsp;4–6
 tasks:
-  - "Production Problem 02: HTML Antipatterns, Typographic Grids"
+  - Production Problem 02
   - Participate in Week Five reading discussion on Basecamp
 ---

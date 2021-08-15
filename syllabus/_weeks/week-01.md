@@ -1,5 +1,5 @@
 ---
-theme: The Web in 2020; Dev Environment Setup
+theme: The Web in 2021; Dev Environment Setup
 meetings:
   - agenda:
     - Course overview

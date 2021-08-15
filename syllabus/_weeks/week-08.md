@@ -15,5 +15,6 @@ readings:
     Jen Simmons, [Resilient CSS](https://www.youtube.com/watch?v=u00FY9vADfQ&list=PLbSquHt1VCf1kpv9WRGMCA9_Nn4vCLZ9Y)
     (playlist of seven videos; watch them all)
 tasks:
+  - Participate in Production Problem 03 discussion on Basecamp
   - Participate in Week Eight reading discussion on Basecamp
 ---
