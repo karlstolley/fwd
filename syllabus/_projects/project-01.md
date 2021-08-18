@@ -10,9 +10,9 @@ goals:
 requirements:
   - >
     All source files in UTF-8/Unicode character encoding with Unix-style line endings (LF), entabbed
-    with spaces (two spaces per tab)
+    with spaces (two spaces per level of indent)
   - >
-    Well-formed, valid semantic HTML5. Projects whose HTML does not validate with the [W3C HTML
+    Well-formed, valid semantic HTML. Projects whose HTML does not validate with the [W3C HTML
     validator](https://validator.w3.org/) will receive a zero-point, failing grade. In the unlikely
     event that you discover a validation error or warning that is a genuine bug in the validator,
     you must acknowledge that bug in the email that accompanies your final project, and point to the
@@ -32,7 +32,7 @@ requirements:
     Organized, readable source that is hand-written and original (no WYSIWYGs or code-generators, no
     Bootstrap or other off-the-shelf frameworks)
   - >
-    Directory-based URLs with use of the default-served index.html file, so that you can point to,
+    Directory-based URLs with use of the default-served `index.html` file, so that you can point to,
     for example, `example.com/resume/`
   - >
     A Git repository with frequent commits and meaningful commit messages that accurately reflect
@@ -69,3 +69,6 @@ deliverables:
 For this project, you will create at least three well-formed, valid semantic HTML pages that will
 form the foundation of your professional web presence. One of the pages must be your professional
 resume.
+
+**There is no visual-design component to this project.** Focus purely on achieving the strongest,
+most semantic HTML structures for your content that you can.
