@@ -44,7 +44,7 @@ requirements:
 deliverables:
   - action: >
       Post draft project-repository GitHub link to the
-      [Project Showcase Basecamp](#showcase-link-tbd)
+      [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/23650366)
     description: >
       Create a new message thread with your name and Project One, something like “Scarlet Hawk:
       Project One.” The post should include:
@@ -54,7 +54,7 @@ deliverables:
     deadline: 2021-09-09
   - action: >
       Respond with helpful feedback to at least 3 other student projects on the
-      [Project Showcase Basecamp](#showcase-link-tbd).
+      [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/23650366).
     deadline: 2021-09-16
   - action: Email instructor with final project deliverables.
     description: "The email should contain:"
