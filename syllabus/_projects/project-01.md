@@ -1,6 +1,6 @@
 ---
 title: Valid, Responsive-Ready HTML
-due_date: &deadline 2021-09-23
+due_date: &deadline 2021-09-30
 preview: false
 goals:
   - Produce modern standards-compliant HTML pages
@@ -51,11 +51,11 @@ deliverables:
     details:
       - The https:// link to your project’s GitHub repository
       - A few questions for peer and instructor feedback
-    deadline: 2021-09-09
+    deadline: 2021-09-16
   - action: >
       Respond with helpful feedback to at least 3 other student projects on the
       [Project Showcase Basecamp](https://3.basecamp.com/3058761/projects/23650366).
-    deadline: 2021-09-16
+    deadline: 2021-09-23
   - action: Email instructor with final project deliverables.
     description: "The email should contain:"
     details:
