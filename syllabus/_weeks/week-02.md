@@ -11,7 +11,7 @@ meetings:
       - Introduce the first Production Problem and turn-in procedure
     video:
 readings:
-  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Introduction; Chapter&nbsp;1
+  - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;1
   - Chris Beams, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
   - >
     Begin familiarizing yourself with the contents and organization of

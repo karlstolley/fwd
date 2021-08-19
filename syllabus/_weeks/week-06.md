@@ -1,17 +1,18 @@
 ---
-theme: Relative Units; Stylesheet Organization, Media Queries
+theme: Typography Foundations and Relative Units; Stylesheet Organization, Media Queries
 meetings:
   - agenda:
-      - "Scoping and planning a site: assets, paths"
+      - Setting text on a baseline grid
+      - Working with system and web-available typefaces
+      - "Two key values: `font-size` and `line-height`"
+      - Working with [modular scales](https://www.modularscale.com)
+    video:
+  - agenda:
       - Using a single stylesheet across an entire site
       - Site-wide typography and type selection
       - Converting from absolute to relative units
-    video:
-  - agenda:
       - Organizing stylesheets (SMACSS)    
       - Mobile-first styles and media queries
-      - CSS signatures
-      - Selector specificity
     video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;4

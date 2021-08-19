@@ -1,14 +1,14 @@
 ---
-theme: Finish Review; Unobtrusive JavaScript with Event Listeners
+theme: The Document Object Model; Unobtrusive JavaScript with Event Listeners
 meetings:
   - agenda:
-      - "Flexbox, especially for navigation"
-      - Basic handling of images in different orientations (portrait, landscape)
-      - "CSS Grid: rows, columns, and item placement"
+      - The Document Object Model (DOM)
+      - Traversing the DOM
+      - Manipulating the DOM
     video:
   - agenda:
+      - Unobtrusive JavaScript
       - JavaScript events and event listeners
-      - Manipulating the DOM
     video:
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4

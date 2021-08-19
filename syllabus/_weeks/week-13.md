@@ -4,10 +4,9 @@ meetings:
   - agenda:
       - HTML form elements
       - Progressive enhancement
-      - "Frameworks: The good, the bad, the ugly"
     video:
   - agenda:
-      - No class. Finish projects.
+      - "Frameworks: The good, the bad, the ugly"
     video:
 readings:
   - >

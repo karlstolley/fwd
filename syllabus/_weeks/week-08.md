@@ -5,9 +5,11 @@ meetings:
   - agenda:
       - The sordid history of layout on the web
       - CSS approaches to layout, past and present
+      - Selector specificity
     video:
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–5
+  - Jason Santa Maria, *On Web Typography*, Chapter&nbsp;5
   - >
     MDN, [Learn CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) (all
     Guides listed in the main column)
