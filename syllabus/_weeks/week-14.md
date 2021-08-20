@@ -7,5 +7,5 @@ meetings:
       - Web APIs
       - Feature detection
     video:
-  - agenda: Thanksgiving Break (No Class)
+  - agenda: "**No class.** Thanksgiving Break"
 ---

@@ -1,7 +1,7 @@
 ---
 theme: Valid, Well-Formed Semantic HTML
 meetings:
-  - agenda: Labor Day (No Class)
+  - agenda: "**No class.** Labor Day Holiday"
   - agenda:
       - Introduce [Project One](projects/#project-one)
       - Valid, well-formed semantic HTML
