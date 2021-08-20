@@ -1,4 +1,5 @@
-url: https://courses.stolley.co
+url: &live https://courses.stolley.co
+live_url: *live
 baseurl: /fwd/
 
 timezone: America/Chicago
