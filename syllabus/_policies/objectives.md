@@ -5,8 +5,7 @@ title: Course Objectives
 Students completing this course will learn to:
 
 * Explain the client and server architecture of the internet and related web technologies
-* Use a basic text editor and other software tools to create web pages using HTML, CSS, JavaScript,
-  jQuery, and images
+* Use a basic text editor and other software tools to create web pages using HTML, CSS, JavaScript, and images
 * Deploy web pages to a Linux-based web server using sftp and more leading-edge methods, such as
   automated deploys integrated with version control
 * Describe the history and track the ongoing development of web standard specifications from the
