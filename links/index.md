@@ -10,12 +10,11 @@ layout: links
 * [Basecamp](https://launchpad.37signals.com/signin)
 * [Google Meet](https://3.basecamp.com/3058761/buckets/23600576/messages/4053415023)
 * [GitHub Demos](https://github.com/fwd-2021)
-
+* [Class Videos](https://www.youtube.com/playlist?list=PLMr8hpt6mGnuRF-sjuo7SHj-Ryc_4EGpz)
+  (YouTube Playlist)
 
 <!--
 * [Production Problems Repo](https://github.com/fwd-2021/fwd-production-problems)
-* [Class Videos](https://www.youtube.com/playlist?list=PLMr8hpt6mGntyZ87eDsuG8dabiaXhFdOL)
-  (YouTube Playlist)
 -->
 
 </section>
