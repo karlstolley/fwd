@@ -10,7 +10,7 @@ meetings:
       - Asking questions publicly on Basecamp
       - Setting up a development environment
       - The state of the web
-    video:
+    video: https://youtu.be/PNkmNVyLrEY
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Introduction; Chapters&nbsp;1-2
   - Ethan Marcotte, “[Responsive Web Design](http://alistapart.com/article/responsive-web-design)”
