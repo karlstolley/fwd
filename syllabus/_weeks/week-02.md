@@ -3,10 +3,10 @@ theme: Core Web Languages, RWD, & Version Control
 meetings:
   - agenda:
       - File systems and the basics of version control/Git
+      - Git fundamentals and concepts
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video:
   - agenda:
-      - Git fundamentals and concepts
       - "Deeper into Git: working with remotes"
       - Introduce the first Production Problem and turn-in procedure
     video:
