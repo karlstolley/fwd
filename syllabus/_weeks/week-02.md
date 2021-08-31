@@ -5,7 +5,7 @@ meetings:
       - File systems and the basics of version control/Git
       - Git fundamentals and concepts
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
-    video:
+    video: https://youtu.be/Fh4erDUEbeQ
   - agenda:
       - "Deeper into Git: working with remotes"
       - Introduce the first Production Problem and turn-in procedure
