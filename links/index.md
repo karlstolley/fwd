@@ -12,10 +12,7 @@ layout: links
 * [GitHub Demos](https://github.com/fwd-2021)
 * [Class Videos](https://www.youtube.com/playlist?list=PLMr8hpt6mGnuRF-sjuo7SHj-Ryc_4EGpz)
   (YouTube Playlist)
-
-<!--
-* [Production Problems Repo](https://github.com/fwd-2021/fwd-production-problems)
--->
+* [Production Problems Repo](https://github.com/fwd-2021/fwd-production-problems/)
 
 </section>
 

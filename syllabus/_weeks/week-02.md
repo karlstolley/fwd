@@ -7,8 +7,8 @@ meetings:
       - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video: https://youtu.be/Fh4erDUEbeQ
   - agenda:
+      - Introduce the first [Production Problem](https://github.com/fwd-2021/fwd-production-problems/) and walk through turn-in procedure
       - "Deeper into Git: working with remotes"
-      - Introduce the first Production Problem and turn-in procedure
     video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;1
@@ -18,6 +18,7 @@ readings:
     [Mozilla Developer Network’s (MDN)](https://developer.mozilla.org/en-US/)
     [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 tasks:
-  - "Production Problem 01: Cloning and Committing to a Git Repository"
+  - >
+    [Production Problem 01: Cloning and Committing to a Git Repository](https://github.com/fwd-2021/fwd-production-problems/pp-01/)
   - Participate in Week Two reading discussion on Basecamp
 ---
