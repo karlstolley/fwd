@@ -4,11 +4,11 @@ meetings:
   - agenda:
       - File systems and the basics of version control/Git
       - Git fundamentals and concepts
-      - Walking through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video: https://youtu.be/Fh4erDUEbeQ
   - agenda:
       - Introduce the first [Production Problem](https://github.com/fwd-2021/fwd-production-problems/) and walk through turn-in procedure
       - "Deeper into Git: working with remotes"
+      - Speed run through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
     video:
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;1
