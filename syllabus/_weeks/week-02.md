@@ -9,7 +9,7 @@ meetings:
       - Introduce the first [Production Problem](https://github.com/fwd-2021/fwd-production-problems/) and walk through turn-in procedure
       - "Deeper into Git: working with remotes"
       - Speed run through HTML, CSS, and JavaScript syntax & fundamentals, with a Git assist
-    video:
+    video: https://youtu.be/rC9xszvXuEU
 readings:
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;1
   - Chris Beams, [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
