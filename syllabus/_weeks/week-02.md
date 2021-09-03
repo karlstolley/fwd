@@ -19,6 +19,9 @@ readings:
     [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 tasks:
   - >
+    [Set up SSH keys with your GitHub account](https://3.basecamp.com/3058761/buckets/23600576/messages/4119239041)
+    ([Video](https://youtu.be/JazEXE6YSM0))
+  - >
     [Production Problem 01: Cloning and Committing to a Git Repository](https://github.com/fwd-2021/fwd-production-problems/pp-01/)
   - Participate in Week Two reading discussion on Basecamp
 ---
