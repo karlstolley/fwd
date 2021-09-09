@@ -17,5 +17,6 @@ meetings:
 readings:
   - Jason Santa Maria, *On Web Typography*, Introduction; Chapters&nbsp;1–2
 tasks:
+  - Participate in Production Problem 01 discussion on Basecamp
   - Participate in Week Four reading discussion on Basecamp
 ---
