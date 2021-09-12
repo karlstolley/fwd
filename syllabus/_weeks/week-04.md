@@ -8,6 +8,8 @@ meetings:
     - >
       Global structural attributes: [class](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
       and [id](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
+    - >
+      [Microformats](http://microformats.org)
     video:
   - agenda:
     - Snippets in Atom.io
