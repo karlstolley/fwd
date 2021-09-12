@@ -6,7 +6,7 @@ meetings:
       - Introduce [Project One](projects/#project-one)
       - Valid, well-formed semantic HTML
       - The importance of referencing solid Web documentation
-      - Snippets in Atom.io
+      - HTML documentation, sectioning elements
     video: https://youtu.be/DdaT6jN3i0c
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapters&nbsp;5-6
