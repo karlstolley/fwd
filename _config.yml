@@ -34,7 +34,15 @@ course:
       of course do that, too. Just message me first. I’m always signed into Basecamp and closely
       monitor my notifications. Message or email any time—I make students a priority, and I will
       respond as soon as I am able.
-
+  ta:
+    name: Anthea Gonzalez (an-THAY-ah GON-za-lez)
+    full_title: >
+      Co-terminal Student in Information Technology and Management, Cyber Forensics and Security
+    email: agonzalez2@hawk.iit.edu
+    office_hours: >
+      In-person office hours on <b>Thursdays, 10am to 12pm</b> Central Time (America/Chicago). I am
+      always signed into email and Basecamp, so message or email me any time and I will respond as
+      soon as possible.
   navigation:
     - label: Calendar
       href: "#this-week"
