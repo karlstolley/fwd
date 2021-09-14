@@ -10,7 +10,7 @@ meetings:
       and [id](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
     - >
       [Microformats](http://microformats.org)
-    video:
+    video: https://youtu.be/Ji8LA3aiNkw
   - agenda:
     - Snippets in Atom.io
     - >
