@@ -10,6 +10,7 @@ meetings:
     video:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
+      - Snippets in Atom.io
       - CSS linting with [stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); ITMD 361 [.stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
     video:
 readings:
