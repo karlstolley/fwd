@@ -23,7 +23,7 @@ readings:
     Stolley, Image Accessibility, Part I and Part II
   - Marquis, [Responsive Images](https://alistapart.com/article/responsive-images/)
 tasks:
-  - Production Problem 03
+  - Participate in Production Problem 02 discussion on Basecamp
   - Participate in Week Seven reading discussion on Basecamp
   - >
     Have a relaxing fall break; you are **required** to take at minimum a couple of hours to do

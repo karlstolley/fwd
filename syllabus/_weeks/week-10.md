@@ -19,6 +19,6 @@ readings:
     Marijn Haverbeke, *[Eloquent JavaScript](https://eloquentjavascript.net/), 3rd ed.*,
     Introduction; Chapters&nbsp;1–4
 tasks:
-  - Participate in Production Problem 04 discussion on Basecamp
+  - Participate in Production Problem 03 discussion on Basecamp
   - Participate in Week Ten reading discussion on Basecamp
 ---
