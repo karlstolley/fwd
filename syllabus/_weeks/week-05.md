@@ -6,6 +6,7 @@ meetings:
     video:
   - agenda:
       - "**Remote Class**. See Basecamp for details."
+      - Emergency organizational Git/file-system review
       - "Foundations: working with reset styles"
       - "CSS syntax: selectors, properties, and values"
       - CSS style
