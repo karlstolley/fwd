@@ -11,7 +11,7 @@ meetings:
       - "CSS syntax: selectors, properties, and values"
       - CSS style
       - CSS and Mobile-First Responsive Web Design
-    video:
+    video: https://youtu.be/QM-49mY6zgI
 readings:
   - >
     MDN, [CSS syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) and
