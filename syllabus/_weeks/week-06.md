@@ -2,6 +2,7 @@
 theme: Typography Foundations and Relative Units; Stylesheet Organization, Media Queries
 meetings:
   - agenda:
+      - HTML topic: navigation and paths
       - Pulling Production Problem 02
       - Working on a `css` branch in Git
       - Setting text on a baseline grid
