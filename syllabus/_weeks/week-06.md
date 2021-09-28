@@ -9,7 +9,7 @@ meetings:
       - Working with system and web-available typefaces
       - "Two key values: `font-size` and `line-height`"
       - Working with [modular scales](https://www.modularscale.com)
-    video:
+    video: https://youtu.be/kh68GRDTQC0
   - agenda:
       - Using a single stylesheet across an entire site
       - Site-wide typography and type selection
