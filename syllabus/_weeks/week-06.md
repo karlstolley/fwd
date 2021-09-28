@@ -2,20 +2,18 @@
 theme: Typography Foundations and Relative Units; Stylesheet Organization, Media Queries
 meetings:
   - agenda:
-      - "HTML topic: navigation and paths"
       - Pulling Production Problem 02
-      - Working on a `css` branch in Git
-      - Setting text on a baseline grid
-      - Working with system and web-available typefaces
-      - "Two key values: `font-size` and `line-height`"
-      - Working with [modular scales](https://www.modularscale.com)
+      - "HTML topic: navigation and paths"
     video: https://youtu.be/kh68GRDTQC0
   - agenda:
       - Using a single stylesheet across an entire site
-      - Site-wide typography and type selection
+      - "Review: working on a `css` branch in Git"
+      - Setting text on a baseline grid
+      - "Two key values: `font-size` and `line-height`"
+      - Working with [modular scales](https://www.modularscale.com)
+      - Mobile-first styles and media queries
       - Converting from absolute to relative units
       - Organizing stylesheets (SMACSS)    
-      - Mobile-first styles and media queries
     video:
 readings:
   - 24 Ways, [Compose to a Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm)
