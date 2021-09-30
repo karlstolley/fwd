@@ -14,7 +14,7 @@ meetings:
       - Mobile-first styles and media queries
       - Converting from absolute to relative units
       - Organizing stylesheets (SMACSS)    
-    video:
+    video: https://youtu.be/Xdcl5orRlc4
 readings:
   - 24 Ways, [Compose to a Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm)
   - Jason Santa Maria, *On Web Typography*, Chapters&nbsp;3–4
