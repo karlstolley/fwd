@@ -2,6 +2,7 @@
 theme: "CSS: Modern Page Layout"
 meetings:
   - agenda:
+      - Introduce [Project Two](projects/#project-two)
       - Why grid-based design?
       - >
         Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
