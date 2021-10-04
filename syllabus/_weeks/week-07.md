@@ -20,6 +20,8 @@ meetings:
       - CSS linting with [stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); ITMD 361 [.stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
     video:
 readings:
+  - >
+    Stolley, [Project One feedback for everyone](https://3.basecamp.com/3058761/buckets/23600576/messages/4215468260)
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;3
   - Ethan Marcotte, *Responsive Web Design, 2nd ed.*, Chapter&nbsp;3
   - Rachel Andrew, *The New CSS Layout*, Foreword, Chapters&nbsp;1–2
