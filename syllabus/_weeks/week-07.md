@@ -10,7 +10,7 @@ meetings:
       - Mobile-first styles and media queries
       - Converting from absolute to relative units
       - Organizing stylesheets (SMACSS)    
-    video:
+    video: https://youtu.be/AyyRor6sFw0
   - agenda:
       - Rich-media features in HTML
       - The `<figure>` element
