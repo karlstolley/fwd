@@ -2,6 +2,7 @@
 theme: Typographic Grids; Accessible, Responsive Images and Media
 meetings:
   - agenda:
+      - "**Remote class.** [See Basecamp for details](https://3.basecamp.com/3058761/buckets/23600576/messages/4214498945)"
       - Preventing caching problems in Firefox and Chrome
       - Setting text on a baseline grid
       - "Two key values: `font-size` and `line-height`"
