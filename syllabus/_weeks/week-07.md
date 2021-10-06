@@ -7,18 +7,15 @@ meetings:
       - Setting text on a baseline grid
       - "Two key values: `font-size` and `line-height`"
       - Working with [modular scales](https://www.modularscale.com)
-      - Mobile-first styles and media queries
-      - Converting from absolute to relative units
-      - Organizing stylesheets (SMACSS)    
     video: https://youtu.be/AyyRor6sFw0
   - agenda:
-    - "**Remote class.** [See Basecamp for details](https://3.basecamp.com/3058761/buckets/23600576/messages/4224396826)"
+      - "**Remote class.** [See Basecamp for details](https://3.basecamp.com/3058761/buckets/23600576/messages/4224396826)"
       - Rich-media features in HTML
       - The `<figure>` element
       - Accessible images and media
-      - Exploring the accessibility tree in Firefox
-      - Snippets in Atom.io
-      - CSS linting with [stylelint](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/get-started.md); ITMD 361 [.stylelintrc](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-stylelintrc)
+      - Mobile-first styles and media queries
+      - Converting from absolute to relative units
+      - Organizing stylesheets (SMACSS)
     video:
 readings:
   - >
