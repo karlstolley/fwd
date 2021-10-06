@@ -12,6 +12,7 @@ meetings:
       - Organizing stylesheets (SMACSS)    
     video: https://youtu.be/AyyRor6sFw0
   - agenda:
+    - "**Remote class.** [See Basecamp for details](https://3.basecamp.com/3058761/buckets/23600576/messages/4224396826)"
       - Rich-media features in HTML
       - The `<figure>` element
       - Accessible images and media
