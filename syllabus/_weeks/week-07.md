@@ -16,7 +16,7 @@ meetings:
       - Mobile-first styles and media queries
       - Converting from absolute to relative units
       - Organizing stylesheets (SMACSS)
-    video:
+    video: https://youtu.be/IfY8X99oGLE
 readings:
   - >
     Stolley, [Project One feedback for everyone](https://3.basecamp.com/3058761/buckets/23600576/messages/4215468260)
