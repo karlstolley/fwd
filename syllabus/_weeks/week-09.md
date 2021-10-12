@@ -3,18 +3,20 @@ theme: "CSS: Modern Page Layout"
 meetings:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
-      - Why grid-based design?
-      - >
-        Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
-        those two values; modular scales
+      - The sordid history of layout on the web
+      - CSS approaches to layout, past and present
       - CSS Flexible Boxes (flexbox)
     video:
   - agenda:
       - CSS Grid and `@supports`
+      - Why grid-based design?
+      - >
+        Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
+        those two values; modular scales
       - Revisiting responsive images
     video:
 readings:
-  - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;6–8
+  - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–8
   - Jason Santa Maria, *On Web Typography*, Chapter&nbsp;5–6
   - >
     Jen Simmons, [Videos on CSS Grid](https://www.youtube.com/playlist?list=PLbSquHt1VCf1x_-1ytlVMT0AMwADlWtc1)

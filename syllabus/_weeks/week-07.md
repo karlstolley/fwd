@@ -13,9 +13,6 @@ meetings:
       - Rich-media features in HTML
       - The `<figure>` element
       - Accessible images and media
-      - Mobile-first styles and media queries
-      - Converting from absolute to relative units
-      - Organizing stylesheets (SMACSS)
     video: https://youtu.be/IfY8X99oGLE
 readings:
   - >
