@@ -13,5 +13,6 @@ readings:
     Haverbeke, <cite>[Eloquent JavaScript](https://eloquentjavascript.net)</cite> (open access),
     Chapters&nbsp;13, 14, & 15
 tasks:
+  - Participate in Production Problem 04 discussion on Basecamp
   - Participate in Week Thirteen reading discussion on Basecamp
 ---
