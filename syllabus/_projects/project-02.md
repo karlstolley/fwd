@@ -5,7 +5,7 @@ preview: false
 goals:
   - Produce modern standards-compliant, mobile-first CSS
   - Establish site typography with a modular scale, and set type on a consistent baseline grid
-  - Execute responsive design with flexible media and fluid grids, expressed as percentages
+  - Execute responsive design with flexible media and fluid grids, expressed as relative units
   - Continue to write and revise valid, well-formed semantic HTML
   - Effectively comment on and format source code for maximum readability
   - Track the development of a project over time using version control
