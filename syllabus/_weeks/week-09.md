@@ -8,6 +8,7 @@ meetings:
       - CSS Flexible Boxes (flexbox)
     video:
   - agenda:
+      - "**Remote class.**"
       - CSS Grid and `@supports`
       - Why grid-based design?
       - >

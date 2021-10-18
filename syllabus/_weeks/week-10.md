@@ -2,6 +2,7 @@
 theme: JavaScript Syntax & Fundamentals
 meetings:
   - agenda:
+      - "**Remote class.**"
       - JavaScript as a language
       - JavaScript syntax
       - Fundamental data types and structures
