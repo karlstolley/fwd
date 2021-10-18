@@ -47,7 +47,7 @@ requirements:
     (if loading externally hosted typefaces via an `@import` statement, that must be your first line
     of CSS, before the reset styles)
   - >
-    Use only relative units (em, rem, vm, %) in your CSS; no px, pt, or other absolute units are
+    Use only relative units (em, rem, vw, %) in your CSS; no px, pt, or other absolute units are
     permitted in your CSS, **including in media queries**, which should be calculated as 16px ems,
     regardless of what your actual `html` em-value is
   - >
