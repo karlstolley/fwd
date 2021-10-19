@@ -6,7 +6,7 @@ meetings:
       - The sordid history of layout on the web
       - CSS approaches to layout, past and present
       - CSS Flexible Boxes (flexbox)
-    video:
+    video: https://youtu.be/sorywZ7wvr0
   - agenda:
       - "**Remote class.**"
       - CSS Grid and `@supports`
