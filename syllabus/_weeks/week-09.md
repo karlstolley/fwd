@@ -4,11 +4,12 @@ meetings:
   - agenda:
       - Introduce [Project Two](projects/#project-two)
       - The sordid history of layout on the web
-      - CSS approaches to layout, past and present
-      - CSS Flexible Boxes (flexbox)
+      - CSS box models
     video: https://youtu.be/sorywZ7wvr0
   - agenda:
       - "**Remote class.**"
+      - CSS approaches to layout, past and present
+      - CSS Flexible Boxes (flexbox)
       - CSS Grid and `@supports`
       - Why grid-based design?
       - >
