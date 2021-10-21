@@ -16,7 +16,7 @@ meetings:
         Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
         those two values; modular scales
       - Revisiting responsive images
-    video:
+    video: https://youtu.be/pHnGbiSCnTk
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–8
   - Jason Santa Maria, *On Web Typography*, Chapter&nbsp;5–6
