@@ -4,6 +4,7 @@ meetings:
   - agenda:
       - "**Remote class.**"
       - JavaScript as a language
+      - "Language-learning fundamental tech: the REPL"
       - JavaScript syntax
       - Fundamental data types and structures
       - Basic arithmetic and comparison operators
