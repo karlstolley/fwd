@@ -9,7 +9,7 @@ meetings:
       - Fundamental data types and structures
       - Basic arithmetic and comparison operators
       - Truthiness and falsiness in JavaScript
-    video:
+    video: https://youtu.be/E4fDK7nYopE
   - agenda:
       - Fundamental programming structures in JavaScript
       - Function declaration
