@@ -14,7 +14,7 @@ meetings:
       - Fundamental programming structures in JavaScript
       - Function declaration
       - Object creation via constructor functions
-    video:
+    video: https://youtu.be/Lh0B-7Q6RY4
 readings:
   - "MDN, [Guide: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)"
   - >
