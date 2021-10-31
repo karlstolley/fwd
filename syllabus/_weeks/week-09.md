@@ -10,12 +10,6 @@ meetings:
       - "**Remote class.**"
       - CSS approaches to layout, past and present
       - CSS Flexible Boxes (flexbox)
-      - CSS Grid and `@supports`
-      - Why grid-based design?
-      - >
-        Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
-        those two values; modular scales
-      - Revisiting responsive images
     video: https://youtu.be/pHnGbiSCnTk
 readings:
   - Rachel Andrew, *The New CSS Layout*, Chapters&nbsp;3–8

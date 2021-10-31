@@ -1,21 +1,17 @@
 ---
-theme: The Document Object Model; Unobtrusive JavaScript with Event Listeners
+theme: "Return to CSS Layout and Responsive Images"
 meetings:
   - agenda:
-      - The Document Object Model (DOM)
-      - Traversing the DOM
-      - Manipulating the DOM
+      - CSS Grid and `@supports`
+      - Why grid-based design?
+      - >
+        Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
+        those two values
+      - Modular scales for multi-column layouts
     video:
   - agenda:
-      - Unobtrusive JavaScript
-      - JavaScript events and event listeners
+      - Revisiting responsive images in a layout
+      - The `srcset` and `sizes` attributes
+      - The `<picture>` element
     video:
-readings:
-  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
-  - >
-    Marijn Haverbeke, *[Eloquent JavaScript](https://eloquentjavascript.net/), 3rd ed.*,
-    Introduction; Chapters&nbsp;5–6
-tasks:
-  - Production Problem 04
-  - Participate in Week Eleven reading discussion on Basecamp
 ---

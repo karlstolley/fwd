@@ -1,14 +1,20 @@
 ---
-theme: "HTML Form Elements; JavaScript: Progressive Enhancement"
+theme: "The Document Object Model and Unobtrusive JavaScript; HTML Form Elements"
 meetings:
+  - agenda:
+      - The Document Object Model (DOM)
+      - Traversing the DOM
+      - Manipulating the DOM
+      - Unobtrusive JavaScript
+    video:
   - agenda:
       - HTML form elements
       - Progressive enhancement
-    video:
-  - agenda:
+      - JavaScript events and event listeners
       - "Frameworks: The good, the bad, the ugly"
     video:
 readings:
+  - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
   - >
     Haverbeke, <cite>[Eloquent JavaScript](https://eloquentjavascript.net)</cite> (open access),
     Chapters&nbsp;13, 14, & 15
