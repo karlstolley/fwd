@@ -8,7 +8,7 @@ meetings:
         Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
         those two values
       - Modular scales for multi-column layouts
-    video:
+    video: https://youtu.be/BsFBMz1zlXo
   - agenda:
       - Revisiting responsive images in a layout
       - The `srcset` and `sizes` attributes
