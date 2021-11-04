@@ -16,5 +16,5 @@ meetings:
       - Revisiting responsive images in a layout
       - The `srcset` and `sizes` attributes
       - The `<picture>` element
-    video:
+    video: https://youtu.be/0LmIhnmqEJw
 ---
