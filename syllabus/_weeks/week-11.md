@@ -1,5 +1,5 @@
 ---
-theme: "Return to CSS Layout and Responsive Images"
+theme: "Return to CSS Layout: Flexbox vs. Grid"
 meetings:
   - agenda:
       - CSS Grid and `@supports`
@@ -12,9 +12,5 @@ meetings:
       - >
         Typographic grids and layout: `font-size` and `line-height` and how everything comes back to
         those two values
-      - Modular scales for multi-column layouts
-      - Revisiting responsive images in a layout
-      - The `srcset` and `sizes` attributes
-      - The `<picture>` element
     video: https://youtu.be/8SVDWfBMBFg
 ---
