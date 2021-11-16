@@ -6,7 +6,7 @@ meetings:
       - Traversing the DOM
       - Manipulating the DOM
       - Unobtrusive JavaScript
-    video:
+    video: https://youtu.be/_ld9Z_IP5MA
   - agenda:
       - HTML form elements
       - Progressive enhancement
