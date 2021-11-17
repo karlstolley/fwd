@@ -8,6 +8,8 @@ meetings:
       - Unobtrusive JavaScript
     video: https://youtu.be/_ld9Z_IP5MA
   - agenda:
+      - >
+        JavaScript linting with ESLint; [361-style .eslintrc.json](https://gist.github.com/profstolley/559aac5112928c7c24c628c6305b70b8#file-eslintrc-json)
       - HTML form elements
       - Progressive enhancement
       - JavaScript events and event listeners
