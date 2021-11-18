@@ -14,7 +14,7 @@ meetings:
       - Progressive enhancement
       - JavaScript events and event listeners
       - "Frameworks: The good, the bad, the ugly"
-    video:
+    video: https://youtu.be/tSpm5OGyTWw
 readings:
   - Jeremy Keith & Rachel Andrew, *HTML5 for Web Designers, 2nd ed.*, Chapter&nbsp;4
   - >
