@@ -1,7 +1,7 @@
 ---
 title: Targeted Revision of Your Web Presence
 due_date: &deadline 2021-12-09
-preview: true
+preview: false
 goals:
   - >
     Revise a previous project based on instructor feedback and any additional knowledge that you
@@ -44,6 +44,6 @@ deliverables:
 For this project, you will make a targeted revision of or enhancement to your Project Two. You will
 do that work on a feature branch named for the emphasis of your revision. For example, if you want
 to work on your site’s layout, you would create and checkout a feature branch called `layout` (`git
-checkout -b layout`) and write all of your commits on that branch. Targeted revisions to your CSS
+switch -c layout`) and write all of your commits on that branch. Targeted revisions to your CSS
 and HTML are acceptable for this project, but you may also elect to write an unobtrusive JavaScript
 component to progressively enhance your site.
