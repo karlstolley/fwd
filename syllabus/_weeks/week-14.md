@@ -5,8 +5,7 @@ meetings:
       - "**Remote class.**"
       - Introduce [Project Three](projects/#project-three)
       - Working with feature branches (Project Three)
-      - Web APIs
-      - Feature detection
+      - "Enrichment: Web APIs and feature detection"
     video:
   - agenda: "**No class.** Thanksgiving Break"
 ---
