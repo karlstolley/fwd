@@ -6,6 +6,9 @@ timezone: America/Chicago
 
 course:
   number: ITMD 361
+  id:
+    code: ITMD
+    ug: 361
   title: Fundamentals of Web Development
   uid: fwd
   tagline: >
