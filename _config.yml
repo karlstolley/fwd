@@ -72,6 +72,8 @@ course:
     font-url: "https://use.typekit.net/lec4tmb.css"
     theme: fall
   archives:
+  - label: Fall 2021
+    url: "https://courses.stolley.co/fwd-2021/"
   - label: Fall 2020
     url: "https://courses.stolley.co/fwd-2020/"
   - label: Fall 2018
